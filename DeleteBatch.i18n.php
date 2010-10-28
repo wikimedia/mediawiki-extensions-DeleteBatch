@@ -155,6 +155,36 @@ $messages['arz'] = array(
 	'right-deletebatch' => 'حذف باتش الصفحات',
 );
 
+/** Bashkir (Башҡорт)
+ * @author Assele
+ */
+$messages['ba'] = array(
+	'deletebatch' => 'Биттәр йыйынтығын юйыу.',
+	'deletebatch-desc' => '[[Special:DeleteBatch|Биттәр йыйынтығын юйыу]]',
+	'deletebatch-help' => 'Биттәр йыйынтығын юйыу.
+Һеҙ бер битте юя, йәки файлда килтерелгән битәрҙе юя алаһығыҙ.
+Юйыу яҙмалары журналында күрһәтеләсәк ҡатнашыусыны һайлағыҙ.
+Тейәлгән файлдарҙа бит исеме һәм теләк буйынса юйыу сәбәбе һәр юлға "|" бүлгесе аша яҙылған буларға тейеш.',
+	'deletebatch-caption' => 'Биттәр исемлеге:',
+	'deletebatch-title' => 'Йыйынтыҡты юйыу',
+	'deletebatch-link-back' => 'Махсус биткә кире ҡайтырға',
+	'deletebatch-as' => 'Скриптты ошо ҡатнашыусы исеменән ебәрергә:',
+	'deletebatch-both-modes' => 'Зинһар, бер битте йәки бирелгән биттәр исемлеген һайлағыҙ.',
+	'deletebatch-or' => '<b>йәки</b>',
+	'deletebatch-delete' => 'Юйырға',
+	'deletebatch-page' => 'Юйыла торған биттәр:',
+	'deletebatch-processing-from-file' => 'файлдағы исемлектән биттәрҙе юйыу',
+	'deletebatch-processing-from-form' => 'форманан биттәрҙе юйыу',
+	'deletebatch-omitting-nonexistant' => '$1 булмаған битен ҡалдырыу.',
+	'deletebatch-omitting-invalid' => '$1 дөрөҫ булмаған битен ҡалдырыу.',
+	'deletebatch-file-bad-format' => 'Файлда ябай текст булырға тейеш',
+	'deletebatch-file-missing' => 'Был файлды уҡып булмай',
+	'deletebatch-select-script' => 'Биттәрҙе юйыу скрипты',
+	'deletebatch-select-yourself' => 'Һеҙ',
+	'deletebatch-no-page' => 'Зинһар, юйыр өсөн кәмендә бер бит йәки биттәр исемлеге менән файл һайлағыҙ.',
+	'right-deletebatch' => 'Биттәр йыйынтығын юйыу',
+);
+
 /** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
  * @author EugeneZelenko
  * @author Jim-by
