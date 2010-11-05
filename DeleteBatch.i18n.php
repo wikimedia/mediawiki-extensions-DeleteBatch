@@ -353,8 +353,8 @@ $messages['cs'] = array(
  * @author Umherirrender
  */
 $messages['de'] = array(
-	'deletebatch' => 'Massenlöschung bestimmter Seiten',
-	'deletebatch-desc' => 'Ergänzt eine [[Special:DeleteBatch|Spezialseite]] zur Massenlöschung bestimmter Seiten',
+	'deletebatch' => 'Gleichzeitige Löschung vorzugebender Seiten',
+	'deletebatch-desc' => 'Ergänzt eine [[Special:DeleteBatch|Spezialseite]] zur gleichzeitigen Löschung vorzugebender Seiten',
 	'deletebatch-help' => 'Lösche eine Reihe von Seiten. Du kannst einerseits eine einzelne Seite löschen, aber auch mehrere Seiten, die du in einer Datei aufzählst.
 Wähle einen Benutzer, der im Löschlogbuch angezeigt werden soll.
 Die hochzuladende Datei sollte pro Zeile einen Seitentitel und kann optional einen mit einem senkrechten Strich („|“) abgetrennten Löschgrund enthalten.',
