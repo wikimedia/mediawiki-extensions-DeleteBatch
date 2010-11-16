@@ -1168,6 +1168,13 @@ $messages['pdc'] = array(
 	'deletebatch-or' => '<b>odder</b>',
 );
 
+/** Pfälzisch (Pfälzisch)
+ * @author Xqt
+ */
+$messages['pfl'] = array(
+	'deletebatch-delete' => 'Lesche',
+);
+
 /** Polish (Polski)
  * @author Airwolf
  * @author Maikking
