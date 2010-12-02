@@ -145,8 +145,8 @@ class DeleteBatchForm {
 
 		$form .= '</table>';
 
-		$form .= Html::hidden( 'title', $this->title );
-		$form .= Html::hidden( 'wpEditToken', $wgUser->editToken() );
+		$form .= Xml::hidden( 'title', $this->title );
+		$form .= Xml::hidden( 'wpEditToken', $wgUser->editToken() );
 		$form .= '</form>';
 		$wgOut->addHTML( $form );
 	}
