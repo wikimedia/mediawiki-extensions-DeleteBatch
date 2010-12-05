@@ -516,6 +516,13 @@ $messages['eu'] = array(
 	'deletebatch-select-yourself' => 'Zu',
 );
 
+/** Persian (فارسی)
+ * @author Mjbmr
+ */
+$messages['fa'] = array(
+	'deletebatch-caption' => 'فهرست صفحه:',
+);
+
 /** Finnish (Suomi)
  * @author Crt
  * @author Jack Phoenix
