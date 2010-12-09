@@ -1,7 +1,6 @@
 <?php
 
 class DeleteBatch extends SpecialPage {
-
 	/**
 	 * Constructor
 	 */
@@ -34,8 +33,6 @@ class DeleteBatch extends SpecialPage {
 			$wgOut->blockedPage();
 			return;
 		}
-
-		wfLoadExtensionMessages( 'DeleteBatch' );
 
 		$wgOut->setPageTitle( wfMsg( 'deletebatch-title' ) );
 		$cSF = new DeleteBatchForm( $par, $this->getTitle() );
