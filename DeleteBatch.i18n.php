@@ -61,6 +61,7 @@ $messages['qqq'] = array(
  * @author Naudefj
  */
 $messages['af'] = array(
+	'deletebatch-caption' => 'Bladsylys:',
 	'deletebatch-or' => '<b>Of</b>',
 	'deletebatch-delete' => 'Skrap',
 	'deletebatch-select-yourself' => 'u',
