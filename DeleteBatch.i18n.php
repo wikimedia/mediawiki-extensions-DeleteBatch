@@ -254,7 +254,7 @@ Ur restr enporzhiet a c\'hello bezañ ennañ : anv ur bajenn hag un abeg (diret)
 	'deletebatch-omitting-nonexistant' => "Mank ar bajenn $1 ha n'eus ket diouti.",
 	'deletebatch-omitting-invalid' => 'Mank ar bajenn fall $1.',
 	'deletebatch-file-bad-format' => 'Ar restr a zle bezañ testenn blaen',
-	'deletebatch-file-missing' => 'Diposubl eo lenn ar restr roet',
+	'deletebatch-file-missing' => "Ne c'haller ket lenn ar restr roet",
 	'deletebatch-select-script' => 'Skript evit dilemel pajennoù',
 	'deletebatch-select-yourself' => "C'hwi",
 	'deletebatch-no-page' => "Mar plij roit ur bajenn da zilemel d'an nebeutañ PE dibabit ur restr ennañ ur roll pajennoù",
