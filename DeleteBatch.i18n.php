@@ -980,6 +980,7 @@ $messages['lb'] = array(
 	'deletebatch-file-missing' => 'De Fichier deen ukoum konnt net geliest ginn',
 	'deletebatch-select-script' => 'de Script vun der Säit läschen',
 	'deletebatch-select-yourself' => 'Dir',
+	'right-deletebatch' => 'Méi Säiten zesumme läschen',
 );
 
 /** Malagasy (Malagasy)
