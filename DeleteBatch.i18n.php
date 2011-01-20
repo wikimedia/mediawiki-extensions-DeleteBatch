@@ -959,6 +959,13 @@ söök en Datei uß, wo en Leß met Sigge zom Fottschmiiße dren steiht.',
 	'right-deletebatch' => 'En Aanzahl Sigge fottschmiiße',
 );
 
+/** Kurdish (Latin) (Kurdî (Latin))
+ * @author George Animal
+ */
+$messages['ku-latn'] = array(
+	'deletebatch-select-yourself' => 'Tu',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
