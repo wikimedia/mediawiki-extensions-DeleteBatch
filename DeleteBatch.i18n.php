@@ -156,7 +156,7 @@ $messages['arz'] = array(
 	'right-deletebatch' => 'حذف باتش الصفحات',
 );
 
-/** Bashkir (Башҡорт)
+/** Bashkir (Башҡортса)
  * @author Assele
  */
 $messages['ba'] = array(
@@ -186,7 +186,7 @@ $messages['ba'] = array(
 	'right-deletebatch' => 'Биттәр йыйынтығын юйыу',
 );
 
-/** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
+/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -379,7 +379,7 @@ Die hochzuladende Datei sollte pro Zeile einen Seitentitel und kann optional ein
 	'right-deletebatch' => 'Eine Reihe von Seiten löschen',
 );
 
-/** German (formal address) (Deutsch (Sie-Form))
+/** German (formal address) (‪Deutsch (Sie-Form)‬)
  * @author ChrisiPK
  * @author Imre
  */
@@ -1184,7 +1184,7 @@ $messages['pdc'] = array(
 	'deletebatch-or' => '<b>odder</b>',
 );
 
-/** Pfälzisch (Pfälzisch)
+/** Pälzisch (Pälzisch)
  * @author Xqt
  */
 $messages['pfl'] = array(
@@ -1421,7 +1421,7 @@ Nahraný súbor by mal na každom riadku obsahovať názov stránky a nepovinne 
 	'right-deletebatch' => 'Dávkové mazanie stránok',
 );
 
-/** Serbian Cyrillic ekavian (Српски (ћирилица))
+/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
  * @author Жељко Тодоровић
  * @author Михајло Анђелковић
  */
@@ -1441,7 +1441,7 @@ $messages['sr-ec'] = array(
 	'deletebatch-select-yourself' => 'Ви',
 );
 
-/** Serbian Latin ekavian (Srpski (latinica)) */
+/** Serbian Latin ekavian (‪Srpski (latinica)‬) */
 $messages['sr-el'] = array(
 	'deletebatch-caption' => 'Spisak strana:',
 	'deletebatch-link-back' => 'Vrati se na specijalnu stranu',
