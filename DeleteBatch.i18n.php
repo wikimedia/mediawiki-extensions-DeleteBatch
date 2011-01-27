@@ -1422,22 +1422,23 @@ Nahraný súbor by mal na každom riadku obsahovať názov stránky a nepovinne 
 );
 
 /** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+ * @author Rancher
  * @author Жељко Тодоровић
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
-	'deletebatch-caption' => 'Списак страна:',
+	'deletebatch-caption' => 'Списак страница:',
 	'deletebatch-link-back' => 'Врати се на специјалну страну',
 	'deletebatch-as' => 'Покрени скрипт као:',
 	'deletebatch-or' => '<b>или</b>',
 	'deletebatch-delete' => 'Обриши',
-	'deletebatch-page' => 'Стране за брисање:',
+	'deletebatch-page' => 'Странице за брисање:',
 	'deletebatch-processing-from-file' => 'у току је брисање страница са списка',
 	'deletebatch-processing-from-form' => 'брисање страница из форме',
 	'deletebatch-omitting-nonexistant' => 'Сакривање непостојеће стране $1.',
 	'deletebatch-omitting-invalid' => 'Сакривање неисправне стране $1.',
 	'deletebatch-file-bad-format' => 'Фајл би требало да буде обичан текст',
-	'deletebatch-file-missing' => 'Није било могуће прочитати задат фајл',
+	'deletebatch-file-missing' => 'Читање датотеке није успело',
 	'deletebatch-select-yourself' => 'Ви',
 );
 
