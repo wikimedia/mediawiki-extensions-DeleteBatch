@@ -312,7 +312,7 @@ class DeleteBatchForm {
 			$art = new ImagePage( $page );
 			/*this is absolutely required - creating a new ImagePage object does not automatically
 			provide it with image  */
-			$art->img = new Image( $art->mTitle );
+			$art->img = wfFindFile( $art->mTitle );
 		} else {
 			$art = new Article( $page );
 		}
