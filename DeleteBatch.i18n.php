@@ -963,6 +963,8 @@ söök en Datei uß, wo en Leß met Sigge zom Fottschmiiße dren steiht.',
  * @author George Animal
  */
 $messages['ku-latn'] = array(
+	'deletebatch-or' => '<b>an</>',
+	'deletebatch-delete' => 'Jê bibe',
 	'deletebatch-select-yourself' => 'Tu',
 );
 
