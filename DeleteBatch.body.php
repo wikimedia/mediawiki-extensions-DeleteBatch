@@ -1,6 +1,6 @@
 <?php
 
-class DeleteBatch extends SpecialPage {
+class SpecialDeleteBatch extends SpecialPage {
 	/**
 	 * Constructor
 	 */

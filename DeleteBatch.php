@@ -30,8 +30,8 @@ $wgGroupPermissions['bureaucrat']['deletebatch'] = true;
 $dir = dirname( __FILE__ ) . '/';
 $wgExtensionMessagesFiles['DeleteBatch'] = $dir . 'DeleteBatch.i18n.php';
 $wgExtensionAliasesFiles['DeleteBatch'] = $dir . 'DeleteBatch.alias.php';
-$wgAutoloadClasses['DeleteBatch'] = $dir . 'DeleteBatch.body.php';
-$wgSpecialPages['DeleteBatch'] = 'DeleteBatch';
+$wgAutoloadClasses['SpecialDeleteBatch'] = $dir . 'DeleteBatch.body.php';
+$wgSpecialPages['SpecialDeleteBatch'] = 'DeleteBatch';
 // Special page group for MW 1.13+
 $wgSpecialPageGroups['DeleteBatch'] = 'pagetools';
 
