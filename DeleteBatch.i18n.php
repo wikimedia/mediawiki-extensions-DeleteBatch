@@ -302,7 +302,7 @@ El fitxer indicat només pot contenir el títol de la pàgina i el motiu per a e
 	'deletebatch-select-script' => "script d'eliminació de pàgines",
 	'deletebatch-select-yourself' => 'vós',
 	'deletebatch-no-page' => 'Especifiqueu com a mínim una pàgina per esborrar o escolliu un fitxer que contingui una llista de pàgines.',
-	'right-deletebatch' => 'Lot de pàgines a esborrar',
+	'right-deletebatch' => 'Esborrar pàgines en bloc',
 );
 
 /** Chechen (Нохчийн)
