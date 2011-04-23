@@ -778,8 +778,8 @@ $messages['ia'] = array(
 	'deletebatch' => 'Deler lot de paginas',
 	'deletebatch-desc' => '[[Special:DeleteBatch|Deler un lot de paginas]]',
 	'deletebatch-help' => 'Deler un lot de paginas. Tu pote executar un deletion singule, o deler paginas listate in un file.
-Selige un usator que se monstrara in le registro de deletiones.
-Le file cargate debe continer in cata linea un nomine de pagina e un motivo facultative separate per un character "|".',
+Selige le usator que essera monstrate in le registro de deletiones.
+Le file incargate debe continer in cata linea un nomine de pagina e un motivo facultative separate per un character "|".',
 	'deletebatch-caption' => 'Lista de paginas:',
 	'deletebatch-title' => 'Deler in lot',
 	'deletebatch-link-back' => 'Retornar al pagina special',
