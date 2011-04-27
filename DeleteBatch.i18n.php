@@ -468,6 +468,7 @@ Alŝutita dosiero enhavu paĝan nomon kaj nedevigan kialon apartigita de signo "
 /** Spanish (Español)
  * @author Crazymadlover
  * @author Imre
+ * @author Od1n
  * @author Sanbec
  * @author Translationista
  */
@@ -493,7 +494,7 @@ Los archivos subidos deben contener el nombre de la página y el motivo opcional
 	'deletebatch-file-bad-format' => 'El archivo debería ser texto simple',
 	'deletebatch-file-missing' => 'Incapaz de leer archivo dado',
 	'deletebatch-select-script' => 'Borrar el script de la página',
-	'deletebatch-select-yourself' => 'usted',
+	'deletebatch-select-yourself' => 'Usted',
 	'deletebatch-no-page' => 'Por favor especifique al menos una página a borrar O escoja un archivo conteniendo una lista de páginas.',
 	'right-deletebatch' => 'Borrar páginas en lote',
 );
