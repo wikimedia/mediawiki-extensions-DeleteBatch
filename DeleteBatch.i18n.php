@@ -156,6 +156,13 @@ $messages['arz'] = array(
 	'right-deletebatch' => 'حذف باتش الصفحات',
 );
 
+/** Azerbaijani (Azərbaycanca)
+ * @author Cekli829
+ */
+$messages['az'] = array(
+	'deletebatch-delete' => 'Sil',
+);
+
 /** Bashkir (Башҡортса)
  * @author Assele
  */
@@ -456,6 +463,8 @@ Alŝutita dosiero enhavu paĝan nomon kaj nedevigan kialon apartigita de signo "
 	'deletebatch-or' => '<b>AŬ</b>',
 	'deletebatch-delete' => 'Forigi',
 	'deletebatch-page' => 'Forigotaj paĝoj:',
+	'deletebatch-processing-from-file' => 'forigante paĝojn de dosierlisto',
+	'deletebatch-processing-from-form' => 'forigante paĝojn de formularo',
 	'deletebatch-omitting-nonexistant' => 'Pasante neekzistan paĝon $1.',
 	'deletebatch-omitting-invalid' => 'Pasante nevalidan paĝon $1.',
 	'deletebatch-file-bad-format' => 'La dosiero estu norma teksto',
@@ -463,6 +472,7 @@ Alŝutita dosiero enhavu paĝan nomon kaj nedevigan kialon apartigita de signo "
 	'deletebatch-select-script' => 'skripto por forigi paĝon',
 	'deletebatch-select-yourself' => 'vi',
 	'deletebatch-no-page' => 'Bonvolu specifi almenaŭ unu paĝon por forigi AŬ selekti dosieron enhavantan paĝliston.',
+	'right-deletebatch' => 'Amasforigi paĝojn',
 );
 
 /** Spanish (Español)
@@ -558,9 +568,10 @@ $messages['fi'] = array(
  * @author Grondin
  * @author IAlex
  * @author McDutchie
+ * @author Od1n
  */
 $messages['fr'] = array(
-	'deletebatch' => 'Supprimer lot de pages',
+	'deletebatch' => 'Supprimer un lot de pages',
 	'deletebatch-desc' => '[[Special:DeleteBatch|Supprime un lot de pages]]',
 	'deletebatch-help' => 'Supprime un lot de pages. Vous pouvez soit lancer une simple suppression, soit supprimer des pages listées dans un fichier.
 Choisissez un utilisateur qui sera affiché dans le journal des suppressions.
@@ -1150,7 +1161,7 @@ En opplastet fil må inneholde navnet på siden, og kan også ha en valgfri slet
 	'deletebatch-file-bad-format' => 'Filen bør inneholde ren tekst',
 	'deletebatch-file-missing' => 'Kunne ikke lese filen',
 	'deletebatch-select-script' => 'slett sideskript',
-	'deletebatch-select-yourself' => 'du',
+	'deletebatch-select-yourself' => 'Du',
 	'deletebatch-no-page' => 'Vennligst oppgi minst én side å slette eller velg en fil med en liste av sider.',
 	'right-deletebatch' => 'Masseslett sider',
 );
