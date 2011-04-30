@@ -236,6 +236,29 @@ $messages['bg'] = array(
 	'deletebatch-file-missing' => 'Предоставеният файл не може да бъде прочетен',
 );
 
+/** Bengali (বাংলা)
+ * @author Wikitanvir
+ */
+$messages['bn'] = array(
+	'deletebatch' => 'পাতার ব্যাচ অপসারণ',
+	'deletebatch-caption' => 'পাতা তালিকা:',
+	'deletebatch-title' => 'ব্যাচ অপসারণ',
+	'deletebatch-link-back' => 'বিশেষ পাতায় ফিরে যান',
+	'deletebatch-as' => 'যে হিসেবে স্ক্রিপ্ট চালু করবেন:',
+	'deletebatch-or' => '<b>অথবা</b>',
+	'deletebatch-delete' => 'অপসারণ',
+	'deletebatch-page' => 'অপসারিত হবে এমন পাতাসমূহ:',
+	'deletebatch-processing-from-file' => 'ফাইলের তালিকা থেকে পাতা অপসারিত হচ্ছে',
+	'deletebatch-processing-from-form' => 'ফর্ম থেকে পাতা অপসারিত হচ্ছে',
+	'deletebatch-omitting-nonexistant' => 'না থাকা পাতা $1 উপেক্ষা করা হচ্ছে।',
+	'deletebatch-omitting-invalid' => 'অগ্রহণযোগ্য পাতা $1 উপেক্ষা করা হচ্ছে',
+	'deletebatch-file-bad-format' => 'এই ফাইলটি সরল টেক্সট হওয়া উচিত',
+	'deletebatch-file-missing' => 'প্রদত্ত ফাইলটি পাঠ করা সম্ভব নয়',
+	'deletebatch-select-script' => 'পাতা স্ক্রিপ্ট অপসারণ',
+	'deletebatch-select-yourself' => 'আপনি',
+	'right-deletebatch' => 'ব্যাচ আকারে পাতা অপসারণ',
+);
+
 /** Breton (Brezhoneg)
  * @author Fohanno
  * @author Fulup
@@ -594,6 +617,28 @@ Un fichier importé pourra contenir un nom de la page et un motif facultatif sé
 	'deletebatch-select-yourself' => 'vous',
 	'deletebatch-no-page' => 'Veuillez indiquer au moins une page à supprimer OU un fichier donné contenant une liste de pages.',
 	'right-deletebatch' => 'Supprimer des pages en lot',
+);
+
+/** Franco-Provençal (Arpetan)
+ * @author ChrisPtDe
+ */
+$messages['frp'] = array(
+	'deletebatch-caption' => 'Lista de les pâges :',
+	'deletebatch-title' => 'Suprimar en pârts',
+	'deletebatch-link-back' => 'Tornar a la pâge spèciâla',
+	'deletebatch-as' => 'Lanciér lo scripte coment :',
+	'deletebatch-or' => '<b>ou ben</b>',
+	'deletebatch-delete' => 'Suprimar',
+	'deletebatch-page' => 'Pâges a suprimar :',
+	'deletebatch-processing-from-file' => 'suprèssion de les pâges dês una lista de fichiérs',
+	'deletebatch-processing-from-form' => 'suprèssion de les pâges dês lo formulèro',
+	'deletebatch-omitting-nonexistant' => 'Omission de la pâge $1 pas ègzistenta.',
+	'deletebatch-omitting-invalid' => 'Omission de la pâge $1 fôssa.',
+	'deletebatch-file-bad-format' => 'Lo fichiér dêt étre en tèxto simplo',
+	'deletebatch-file-missing' => 'Empossiblo de liére lo fichiér balyê',
+	'deletebatch-select-script' => 'Scripte por suprimar pâges',
+	'deletebatch-select-yourself' => 'Vos',
+	'right-deletebatch' => 'Suprimar des pâges en pârts',
 );
 
 /** Galician (Galego)
