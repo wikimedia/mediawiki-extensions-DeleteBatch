@@ -1039,6 +1039,7 @@ $messages['lb'] = array(
 	'deletebatch-or' => '<b>ODER</b>',
 	'deletebatch-delete' => 'Läschen',
 	'deletebatch-page' => 'Säite fir ze läschen:',
+	'deletebatch-processing-from-file' => 'Säite vun der Fichierslëscht läschen',
 	'deletebatch-processing-from-form' => 'Säiten vum Formulaire aus läschen',
 	'deletebatch-omitting-nonexistant' => "D'Säit $1 déi et net gëtt iwwersprangen.",
 	'deletebatch-omitting-invalid' => 'Déi ongëlteg Säit $1 iwwersprangen.',
