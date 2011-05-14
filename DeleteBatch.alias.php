@@ -8,9 +8,7 @@
 
 $specialPageAliases = array();
 
-/** English
- * @author Jon Harald Søby
- */
+/** English (English) */
 $specialPageAliases['en'] = array(
 	'DeleteBatch' => array( 'DeleteBatch' ),
 );
@@ -57,7 +55,7 @@ $specialPageAliases['frp'] = array(
 
 /** Galician (Galego) */
 $specialPageAliases['gl'] = array(
-	'DeleteBatch' => array( 'Borrar o conxunto' ),
+	'DeleteBatch' => array( 'Borrar_o_conxunto' ),
 );
 
 /** Hebrew (עברית) */
@@ -77,7 +75,7 @@ $specialPageAliases['hsb'] = array(
 
 /** Haitian (Kreyòl ayisyen) */
 $specialPageAliases['ht'] = array(
-	'DeleteBatch' => array( 'SiprimeLo' ),
+	'DeleteBatch' => array( 'EfaseLo' ),
 );
 
 /** Hungarian (Magyar) */
@@ -188,6 +186,11 @@ $specialPageAliases['tl'] = array(
 /** Turkish (Türkçe) */
 $specialPageAliases['tr'] = array(
 	'DeleteBatch' => array( 'TopluSil' ),
+);
+
+/** Simplified Chinese (‪中文(简体)‬) */
+$specialPageAliases['zh-hans'] = array(
+	'DeleteBatch' => array( '批量删除' ),
 );
 
 /**
