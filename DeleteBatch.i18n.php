@@ -623,6 +623,8 @@ Un fichier importé pourra contenir un nom de la page et un motif facultatif sé
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
+	'deletebatch' => 'Suprimar una pârt de pâges',
+	'deletebatch-desc' => '[[Special:DeleteBatch|Suprime una pârt de pâges]].',
 	'deletebatch-caption' => 'Lista de les pâges :',
 	'deletebatch-title' => 'Suprimar en pârts',
 	'deletebatch-link-back' => 'Tornar a la pâge spèciâla',
