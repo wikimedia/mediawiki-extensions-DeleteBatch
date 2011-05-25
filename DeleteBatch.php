@@ -36,4 +36,4 @@ $wgSpecialPages['DeleteBatch'] = 'SpecialDeleteBatch';
 $wgSpecialPageGroups['DeleteBatch'] = 'pagetools';
 
 // Hooks
-$wgHooks['AdminLinks'][] = 'DeleteBatch::addToAdminLinks'; // Admin Links extension
+$wgHooks['AdminLinks'][] = 'SpecialDeleteBatch::addToAdminLinks'; // Admin Links extension
