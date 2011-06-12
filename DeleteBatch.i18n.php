@@ -1760,10 +1760,14 @@ $messages['yi'] = array(
 
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Gzdavidwong
+ * @author Hydra
  * @author Wilsonmess
  */
 $messages['zh-hans'] = array(
+	'deletebatch' => '删除批处理的页面',
+	'deletebatch-desc' => '[[Special:DeleteBatch|删除一批页]]',
 	'deletebatch-caption' => '页面列表：',
+	'deletebatch-title' => '删除批处理',
 	'deletebatch-link-back' => '返回特殊页',
 	'deletebatch-or' => '<b>或</b>',
 	'deletebatch-delete' => '删除',
