@@ -40,7 +40,7 @@ class SpecialDeleteBatch extends SpecialPage {
 		$action = $wgRequest->getVal( 'action' );
 		if ( 'success' == $action ) {
 			/* do something */
-		} else if ( $wgRequest->wasPosted() && 'submit' == $action &&
+		} elseif ( $wgRequest->wasPosted() && 'submit' == $action &&
 			$wgUser->matchEditToken( $wgRequest->getVal( 'wpEditToken' ) ) ) {
 			$cSF->doSubmit();
 		} else {
