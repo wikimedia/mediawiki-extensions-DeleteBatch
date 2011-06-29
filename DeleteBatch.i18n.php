@@ -1108,6 +1108,14 @@ $messages['ml'] = array(
 	'deletebatch-select-yourself' => 'താങ്കൾ',
 );
 
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'deletebatch-or' => '<b>atau</b>',
+	'deletebatch-select-yourself' => 'Anda',
+);
+
 /** Erzya (Эрзянь)
  * @author Botuzhaleny-sodamo
  */
