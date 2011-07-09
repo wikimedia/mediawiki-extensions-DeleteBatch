@@ -1113,6 +1113,7 @@ $messages['ml'] = array(
  */
 $messages['ms'] = array(
 	'deletebatch-or' => '<b>atau</b>',
+	'deletebatch-delete' => 'Hapuskan',
 	'deletebatch-select-yourself' => 'Anda',
 );
 
