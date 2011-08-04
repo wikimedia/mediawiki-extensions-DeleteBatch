@@ -890,9 +890,11 @@ Berkas yang diunggah harus mengandung nama halaman dan alasan opsional, dipisahk
 	'right-deletebatch' => 'Menghapus sekelompok halaman',
 );
 
-/** Igbo (Igbo) */
+/** Igbo (Igbo)
+ * @author Ukabia
+ */
 $messages['ig'] = array(
-	'deletebatch-delete' => 'Gbakashia',
+	'deletebatch-delete' => 'Kàcha',
 );
 
 /** Italian (Italiano)
