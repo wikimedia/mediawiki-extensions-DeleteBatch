@@ -158,9 +158,14 @@ $messages['arz'] = array(
 
 /** Azerbaijani (Azərbaycanca)
  * @author Cekli829
+ * @author Vago
  */
 $messages['az'] = array(
 	'deletebatch-delete' => 'Sil',
+	'deletebatch-processing-from-file' => 'səhifələrin fayl siyahısından silinməsi',
+	'deletebatch-processing-from-form' => 'səhifələrin formadan silinməsi',
+	'deletebatch-select-script' => 'sSəhifə skriptini sil',
+	'deletebatch-select-yourself' => 'Sən',
 );
 
 /** Bashkir (Башҡортса)
