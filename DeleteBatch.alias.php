@@ -193,6 +193,11 @@ $specialPageAliases['zh-hans'] = array(
 	'DeleteBatch' => array( '批量删除' ),
 );
 
+/** Traditional Chinese (‪中文(繁體)‬) */
+$specialPageAliases['zh-hant'] = array(
+	'DeleteBatch' => array( '批量刪除' ),
+);
+
 /**
  * For backwards compatibility with MediaWiki 1.15 and earlier.
  */
