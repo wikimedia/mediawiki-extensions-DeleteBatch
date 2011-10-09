@@ -1503,14 +1503,14 @@ Nahraný súbor by mal na každom riadku obsahovať názov stránky a nepovinne 
 	'right-deletebatch' => 'Dávkové mazanie stránok',
 );
 
-/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
  * @author Rancher
  * @author Жељко Тодоровић
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
 	'deletebatch-caption' => 'Списак страница:',
-	'deletebatch-link-back' => 'Врати се на специјалну страну',
+	'deletebatch-link-back' => 'Назад на посебну страницу',
 	'deletebatch-as' => 'Покрени скрипт као:',
 	'deletebatch-or' => '<b>или</b>',
 	'deletebatch-delete' => 'Обриши',
