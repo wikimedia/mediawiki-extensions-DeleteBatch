@@ -1025,7 +1025,7 @@ söök en Datei uß, wo en Leß met Sigge zom Fottschmiiße dren steiht.',
 	'right-deletebatch' => 'En Aanzahl Sigge fottschmiiße',
 );
 
-/** Kurdish (Latin) (Kurdî (Latin))
+/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -1526,7 +1526,7 @@ $messages['sr-ec'] = array(
 	'deletebatch-select-yourself' => 'Ви',
 );
 
-/** Serbian Latin ekavian (‪Srpski (latinica)‬) */
+/** Serbian (Latin script) (‪Srpski (latinica)‬) */
 $messages['sr-el'] = array(
 	'deletebatch-caption' => 'Spisak strana:',
 	'deletebatch-link-back' => 'Vrati se na specijalnu stranu',
@@ -1597,7 +1597,7 @@ $messages['te'] = array(
 	'deletebatch-select-yourself' => 'మీరు',
 );
 
-/** Tajik (Cyrillic) (Тоҷикӣ (Cyrillic))
+/** Tajik (Cyrillic script) (Тоҷикӣ)
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
@@ -1605,7 +1605,7 @@ $messages['tg-cyrl'] = array(
 	'deletebatch-select-yourself' => 'шумо',
 );
 
-/** Tajik (Latin) (Тоҷикӣ (Latin))
+/** Tajik (Latin script) (tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -1680,7 +1680,7 @@ Yüklenen dosyalar sayfası adını ve isteğe bağlı gerekçeyi içermeli; bu 
 	'right-deletebatch' => 'Sayfaları toplu siler',
 );
 
-/** Tatar (Cyrillic) (Татарча/Tatarça (Cyrillic))
+/** Tatar (Cyrillic script) (Татарча)
  * @author Ильнар
  */
 $messages['tt-cyrl'] = array(
