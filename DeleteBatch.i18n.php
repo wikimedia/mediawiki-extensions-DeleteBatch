@@ -1162,7 +1162,7 @@ Het bestand dat u uploadt moet op iedere regel een paginanaam en een reden bevat
 	'deletebatch-omitting-nonexistant' => 'Niet-bestaande pagina $1 is overgeslagen.',
 	'deletebatch-omitting-invalid' => 'Ongeldige paginanaam $1 is overgeslagen.',
 	'deletebatch-file-bad-format' => 'Het bestand moet platte tekst bevatten',
-	'deletebatch-file-missing' => 'Het bestnad kan niet gelezen worden',
+	'deletebatch-file-missing' => 'Het bestand kan niet gelezen worden',
 	'deletebatch-select-script' => "script pagina's verwijderen",
 	'deletebatch-select-yourself' => 'u',
 	'deletebatch-no-page' => "Geef tenminste één te verwijderen pagina op of kies een bestand dat de lijst met pagina's bevat.",
