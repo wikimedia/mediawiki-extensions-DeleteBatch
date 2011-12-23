@@ -1806,7 +1806,22 @@ $messages['zh-hans'] = array(
  * @author Wrightbus
  */
 $messages['zh-hant'] = array(
-	'deletebatch-caption' => '頁面清單',
+	'deletebatch' => '刪除批處理的頁面',
+	'deletebatch-desc' => '[[Special:DeleteBatch|刪除一批頁]]',
+	'deletebatch-caption' => '頁面列表：',
+	'deletebatch-title' => '刪除批處理',
+	'deletebatch-link-back' => '返回特殊頁',
 	'deletebatch-or' => '<b>或</b>',
+	'deletebatch-delete' => '刪除',
+	'deletebatch-page' => '欲刪除的頁面：',
+	'deletebatch-processing-from-file' => '正在從文件列表中刪除頁面',
+	'deletebatch-processing-from-form' => '正在從表單中刪除頁面',
+	'deletebatch-omitting-nonexistant' => '忽略不存在的頁面 $1 。',
+	'deletebatch-omitting-invalid' => '忽略不合法頁面 $1 。',
+	'deletebatch-file-bad-format' => '該文件應該為純文本',
+	'deletebatch-file-missing' => '無法讀取指定文件',
+	'deletebatch-select-script' => '刪除頁面腳本',
+	'deletebatch-select-yourself' => '閣下',
+	'right-deletebatch' => '批量刪除頁面',
 );
 
