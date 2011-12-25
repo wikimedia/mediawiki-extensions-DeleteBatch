@@ -55,7 +55,7 @@ $specialPageAliases['frp'] = array(
 
 /** Galician (Galego) */
 $specialPageAliases['gl'] = array(
-	'DeleteBatch' => array( 'Borrar_o_conxunto' ),
+	'DeleteBatch' => array( 'Borrar_en_masa' ),
 );
 
 /** Hebrew (עברית) */
@@ -128,6 +128,11 @@ $specialPageAliases['mr'] = array(
 	'DeleteBatch' => array( 'बॅचवगळा' ),
 );
 
+/** Norwegian Bokmål (‪Norsk (bokmål)‬) */
+$specialPageAliases['nb'] = array(
+	'DeleteBatch' => array( 'Slett_en_serie_sider' ),
+);
+
 /** Nedersaksisch (Nedersaksisch) */
 $specialPageAliases['nds-nl'] = array(
 	'DeleteBatch' => array( 'Paginareeks_vortdoon' ),
@@ -136,11 +141,6 @@ $specialPageAliases['nds-nl'] = array(
 /** Dutch (Nederlands) */
 $specialPageAliases['nl'] = array(
 	'DeleteBatch' => array( 'PaginareeksVerwijderen' ),
-);
-
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬) */
-$specialPageAliases['nb'] = array(
-	'DeleteBatch' => array( 'Slett_en_serie_sider' ),
 );
 
 /** Occitan (Occitan) */
@@ -163,7 +163,7 @@ $specialPageAliases['pt-br'] = array(
 	'DeleteBatch' => array( 'Apagar_em_massa' ),
 );
 
-/** Sanskrit (संस्कृत) */
+/** Sanskrit (संस्कृतम्) */
 $specialPageAliases['sa'] = array(
 	'DeleteBatch' => array( 'गणपरित्याग' ),
 );
@@ -197,8 +197,3 @@ $specialPageAliases['zh-hans'] = array(
 $specialPageAliases['zh-hant'] = array(
 	'DeleteBatch' => array( '批量刪除' ),
 );
-
-/**
- * For backwards compatibility with MediaWiki 1.15 and earlier.
- */
-$aliases =& $specialPageAliases;
