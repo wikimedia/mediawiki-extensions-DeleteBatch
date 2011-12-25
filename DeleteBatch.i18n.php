@@ -1204,7 +1204,7 @@ Ei opplasta fil må innehalda namnet på sida, og kan òg ha ei valfri sletteår
  * @author Jon Harald Søby
  * @author Nghtwlkr
  */
-$messages['no'] = array(
+$messages['nb'] = array(
 	'deletebatch' => 'Slett mange sider',
 	'deletebatch-desc' => '[[Special:DeleteBatch|Slett mange sider]]',
 	'deletebatch-help' => 'Slett en serie av sider. Du kan også utføre en enkel sletting, eller slette sider listet opp i en fil.
