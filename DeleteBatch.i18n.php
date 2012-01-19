@@ -1547,6 +1547,7 @@ $messages['sr-el'] = array(
  * @author M.M.S.
  * @author Najami
  * @author Per
+ * @author WikiPhoenix
  */
 $messages['sv'] = array(
 	'deletebatch' => 'Radera serier av sidor',
@@ -1558,7 +1559,7 @@ En uppladdad fil ska innehålla sidnamn och en valfri anledning separerade med e
 	'deletebatch-title' => 'Radera serie',
 	'deletebatch-link-back' => 'Gå tillbaka till specialsidan',
 	'deletebatch-as' => 'Kör skriptet som:',
-	'deletebatch-both-modes' => 'Var god välj antingen en specifierad sida eller en lista över sidor.',
+	'deletebatch-both-modes' => 'Var god välj antingen en specificerad sida eller en lista över sidor.',
 	'deletebatch-or' => '<b>ELLER</b>',
 	'deletebatch-delete' => 'Radera',
 	'deletebatch-page' => 'Sidor som ska raderas:',
