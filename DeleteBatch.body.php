@@ -87,7 +87,7 @@ class DeleteBatchForm {
 	 * @param $err Mixed: error message or null if there's no error
 	 */
 	function showForm( $errorMessage = false ) {
-		global $wgOut, $wgUser, $wgScript;
+		global $wgOut, $wgUser;
 
 		if ( $errorMessage ) {
 			$wgOut->setSubtitle( wfMsgHtml( 'formerror' ) );
