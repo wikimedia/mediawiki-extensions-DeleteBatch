@@ -1264,7 +1264,7 @@ Un fichièr importat poirà conténer un nom de la pagina e un motiu facultatiu 
  */
 $messages['pdc'] = array(
 	'deletebatch-or' => '<b>odder</b>',
-	'deletebatch-delete' => 'Lesche',
+	'deletebatch-delete' => 'Verwische',
 	'deletebatch-select-yourself' => 'du',
 );
 
