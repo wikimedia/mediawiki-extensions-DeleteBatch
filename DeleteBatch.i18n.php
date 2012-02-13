@@ -389,43 +389,44 @@ $messages['cs'] = array(
  * @author Umherirrender
  */
 $messages['de'] = array(
-	'deletebatch' => 'Gleichzeitige Löschung vorzugebender Seiten',
-	'deletebatch-desc' => 'Ergänzt eine [[Special:DeleteBatch|Spezialseite]] zur gleichzeitigen Löschung vorzugebender Seiten',
-	'deletebatch-help' => 'Lösche eine Reihe von Seiten. Du kannst einerseits eine einzelne Seite löschen, aber auch mehrere Seiten, die du in einer Datei aufzählst.
+	'deletebatch' => 'Sammellöschung vorzugebender Seiten',
+	'deletebatch-desc' => 'Ergänzt eine [[Special:DeleteBatch|Spezialseite]] zur gesammelten Löschung vorzugebender Seiten',
+	'deletebatch-help' => 'Lösche eine Reihe von Seiten. Du kannst einerseits eine einzelne Seite löschen, aber auch mehrere Seiten, die du in einer Datei auflistest.
 Wähle einen Benutzer, der im Löschlogbuch angezeigt werden soll.
-Die hochzuladende Datei sollte pro Zeile einen Seitentitel und kann optional einen mit einem senkrechten Strich („|“) abgetrennten Löschgrund enthalten.',
+Die hochzuladende Datei sollte pro Zeile einen Seitennamen und optional einen druch einem senkrechten Strich („|“) getrennten Löschgrund enthalten.',
 	'deletebatch-caption' => 'Seitenliste:',
-	'deletebatch-title' => 'Mehrere Seiten löschen',
+	'deletebatch-title' => 'Mehrere Seiten gesammelt löschen',
 	'deletebatch-link-back' => 'Zurück zur Spezialseite',
 	'deletebatch-as' => 'Skript ausführen als:',
-	'deletebatch-both-modes' => 'Bitte wähle entweder eine spezifische Seite oder eine gegebene Liste von Seiten.',
+	'deletebatch-both-modes' => 'Bitte wähle entweder eine bestimmte Seite oder eine vorgegebene Liste von Seiten.',
 	'deletebatch-or' => '<b>oder</b>',
 	'deletebatch-delete' => 'Löschen',
 	'deletebatch-page' => 'Zu löschende Seiten:',
-	'deletebatch-processing-from-file' => 'Seiten über Dateiliste löschen',
-	'deletebatch-processing-from-form' => 'Seiten über Formular löschen',
-	'deletebatch-omitting-nonexistant' => 'Überspringe nicht vorhandene Seite $1.',
-	'deletebatch-omitting-invalid' => 'Überspringe ungültige Seite $1.',
-	'deletebatch-file-bad-format' => 'Die Datei sollte Klartext enthalten.',
-	'deletebatch-file-missing' => 'Übergebene Datei konnte nicht gelesen werden',
+	'deletebatch-processing-from-file' => 'Seiten aus einer Dateiliste löschen',
+	'deletebatch-processing-from-form' => 'Seiten über das Formular löschen',
+	'deletebatch-omitting-nonexistant' => 'Überspringe die nicht vorhandene Seite $1.',
+	'deletebatch-omitting-invalid' => 'Überspringe die ungültige Seite $1.',
+	'deletebatch-file-bad-format' => 'Die Datei sollte eine reine Textdatei sein',
+	'deletebatch-file-missing' => 'Die Datei kann nicht gelesen werden',
 	'deletebatch-select-script' => 'Seitenlöschskript',
 	'deletebatch-select-yourself' => 'du',
-	'deletebatch-no-page' => 'Bitte gib entweder zumindest eine zu löschende Seite an oder wähle eine Datei, die eine Liste von zu löschenden Seiten enthält.',
-	'right-deletebatch' => 'Eine Reihe von Seiten löschen',
+	'deletebatch-no-page' => 'Bitte gib entweder mindestens eine zu löschende Seite an oder wähle eine Datei, die eine Liste zu löschender Seiten enthält.',
+	'right-deletebatch' => 'Seiten gesammelt löschen',
 );
 
 /** German (formal address) (‪Deutsch (Sie-Form)‬)
  * @author ChrisiPK
  * @author Imre
+ * @author Kghbln
  */
 $messages['de-formal'] = array(
-	'deletebatch-help' => 'Löschen Sie eine Reihe von Seiten. Sie können einerseits eine einzelne Seite löschen, aber auch mehrere Seiten, die Sie in einer Datei aufzählen.
+	'deletebatch-help' => 'Löschen Sie eine Reihe von Seiten. Sie können einerseits eine einzelne Seite löschen, aber auch mehrere Seiten, die Sie in einer Datei auflisten.
 Wählen Sie einen Benutzer, der im Löschlogbuch angezeigt werden soll.
-Die hochzuladende Datei sollte pro Zeile einen Seitentitel und kann optional einen mit einem senkrechten Strich („|“) abgetrennten Löschgrund enthalten.',
+Die hochzuladende Datei sollte pro Zeile einen Seitennamen und optional einen druch einem senkrechten Strich („|“) getrennten Löschgrund enthalten.',
 	'deletebatch-link-back' => 'Sie können zur Erweiterung zurückgehen',
-	'deletebatch-both-modes' => 'Bitte wählen Sie entweder eine spezifische Seite oder eine gegebene Liste von Seiten.',
+	'deletebatch-both-modes' => 'Bitte wählen Sie entweder eine bestimmte Seite oder eine vorgegebene Liste von Seiten.',
 	'deletebatch-select-yourself' => 'Sie',
-	'deletebatch-no-page' => 'Bitte geben Sie entweder zumindest eine zu löschende Seite an oder wählen Sie eine Datei, die eine Liste von zu löschenden Seiten enthält.',
+	'deletebatch-no-page' => 'Bitte geben Sie entweder mindestens eine zu löschende Seite an oder wählen Sie eine Datei, die eine Liste zu löschender Seiten enthält.',
 );
 
 /** Lower Sorbian (Dolnoserbski)
@@ -1519,9 +1520,9 @@ $messages['sr-ec'] = array(
 	'deletebatch-page' => 'Странице за брисање:',
 	'deletebatch-processing-from-file' => 'у току је брисање страница са списка',
 	'deletebatch-processing-from-form' => 'брисање страница из форме',
-	'deletebatch-omitting-nonexistant' => 'Сакривање непостојеће стране $1.',
-	'deletebatch-omitting-invalid' => 'Сакривање неисправне стране $1.',
-	'deletebatch-file-bad-format' => 'Фајл би требало да буде обичан текст',
+	'deletebatch-omitting-nonexistant' => 'Изостављам непостојећу страницу $1.',
+	'deletebatch-omitting-invalid' => 'Изостављам неисправну страницу $1.',
+	'deletebatch-file-bad-format' => 'Датотека би требало да садржи само обичан текст',
 	'deletebatch-file-missing' => 'Читање датотеке није успело',
 	'deletebatch-select-yourself' => 'Ви',
 );
