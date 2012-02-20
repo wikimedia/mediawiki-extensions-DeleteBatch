@@ -381,6 +381,7 @@ $messages['cs'] = array(
 /** German (Deutsch)
  * @author Als-Holder
  * @author ChrisiPK
+ * @author Geitost
  * @author Kghbln
  * @author Leithian
  * @author MF-Warburg
@@ -393,7 +394,7 @@ $messages['de'] = array(
 	'deletebatch-desc' => 'Ergänzt eine [[Special:DeleteBatch|Spezialseite]] zur gesammelten Löschung vorzugebender Seiten',
 	'deletebatch-help' => 'Lösche eine Reihe von Seiten. Du kannst einerseits eine einzelne Seite löschen, aber auch mehrere Seiten, die du in einer Datei auflistest.
 Wähle einen Benutzer, der im Löschlogbuch angezeigt werden soll.
-Die hochzuladende Datei sollte pro Zeile einen Seitennamen und optional einen druch einem senkrechten Strich („|“) getrennten Löschgrund enthalten.',
+Die hochzuladende Datei sollte pro Zeile einen Seitennamen und optional einen durch einen senkrechten Strich („|“) getrennten Löschgrund enthalten.',
 	'deletebatch-caption' => 'Seitenliste:',
 	'deletebatch-title' => 'Mehrere Seiten gesammelt löschen',
 	'deletebatch-link-back' => 'Zurück zur Spezialseite',
@@ -416,13 +417,14 @@ Die hochzuladende Datei sollte pro Zeile einen Seitennamen und optional einen dr
 
 /** German (formal address) (‪Deutsch (Sie-Form)‬)
  * @author ChrisiPK
+ * @author Geitost
  * @author Imre
  * @author Kghbln
  */
 $messages['de-formal'] = array(
 	'deletebatch-help' => 'Löschen Sie eine Reihe von Seiten. Sie können einerseits eine einzelne Seite löschen, aber auch mehrere Seiten, die Sie in einer Datei auflisten.
 Wählen Sie einen Benutzer, der im Löschlogbuch angezeigt werden soll.
-Die hochzuladende Datei sollte pro Zeile einen Seitennamen und optional einen druch einem senkrechten Strich („|“) getrennten Löschgrund enthalten.',
+Die hochzuladende Datei sollte pro Zeile einen Seitennamen und optional einen durch einen senkrechten Strich („|“) getrennten Löschgrund enthalten.',
 	'deletebatch-link-back' => 'Sie können zur Erweiterung zurückgehen',
 	'deletebatch-both-modes' => 'Bitte wählen Sie entweder eine bestimmte Seite oder eine vorgegebene Liste von Seiten.',
 	'deletebatch-select-yourself' => 'Sie',
