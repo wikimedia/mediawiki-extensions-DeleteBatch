@@ -159,13 +159,29 @@ $messages['arz'] = array(
 /** Azerbaijani (Azərbaycanca)
  * @author Cekli829
  * @author Vago
+ * @author Vugar 1981
  */
 $messages['az'] = array(
+	'deletebatch' => 'Silinəcək səhifələr',
+	'deletebatch-desc' => '[[Special:DeleteBatch|Seçilmiş səhifələrin silinməsi]]',
+	'deletebatch-caption' => 'Səhifə siyahısı:',
+	'deletebatch-title' => 'Yığını sil',
+	'deletebatch-link-back' => 'Xüsusi səhifəyə qayıt',
+	'deletebatch-as' => 'Ssenarini işə salmaq:',
+	'deletebatch-both-modes' => 'Zəhmət olmasa bir səhifəni və ya səhifə yığınını seçin',
+	'deletebatch-or' => '<b>və ya</b>',
 	'deletebatch-delete' => 'Sil',
+	'deletebatch-page' => 'Silinəcək səhifələr',
 	'deletebatch-processing-from-file' => 'səhifələrin fayl siyahısından silinməsi',
 	'deletebatch-processing-from-form' => 'səhifələrin formadan silinməsi',
+	'deletebatch-omitting-nonexistant' => 'Mövcud olmayan $1 səhifəsindən başqa.',
+	'deletebatch-omitting-invalid' => 'Yanlış $1 səhifəsindən başqa.',
+	'deletebatch-file-bad-format' => 'Faylın sadə mətni olmalıdır',
+	'deletebatch-file-missing' => 'Faylın oxunması qeyri-mümkündür.',
 	'deletebatch-select-script' => 'sSəhifə skriptini sil',
 	'deletebatch-select-yourself' => 'Sən',
+	'deletebatch-no-page' => 'Zəhmət olmasa, silmək üçün ən azı bir səhifə və ya səhifə yığını olan bir faylı seçin.',
+	'right-deletebatch' => 'Seçilmiş səhifələri sil',
 );
 
 /** Bashkir (Башҡортса)
