@@ -955,9 +955,10 @@ I file caricati dovrebbero contenere il nome della pagina e un motivo opzionale 
  * @author Aotake
  * @author Fievarsty
  * @author Fryed-peach
+ * @author Shirayuki
  */
 $messages['ja'] = array(
-	'deletebatch' => 'ページを一括削除する',
+	'deletebatch' => 'ページを一括削除',
 	'deletebatch-desc' => '[[Special:DeleteBatch|ページを一括削除する]]',
 	'deletebatch-help' => 'ページを一括削除することができます。ページ毎の削除の他に、ファイルに列挙したページ群を削除することができます。削除記録に表示される利用者を選択してください。アップロードされたファイルについては、各行にページ名とパイプ記号 (|) で区切った理由の追加説明を記す必要があります。',
 	'deletebatch-caption' => 'ページ一覧:',
@@ -977,7 +978,7 @@ $messages['ja'] = array(
 	'deletebatch-select-script' => 'ページ削除スクリプト',
 	'deletebatch-select-yourself' => 'あなた',
 	'deletebatch-no-page' => '削除するページを少なくとも1ページ指定するか、ページ一覧を含むファイルを選んでください。',
-	'right-deletebatch' => 'ページ削除を一括して実行する',
+	'right-deletebatch' => 'ページを一括削除',
 );
 
 /** Khmer (ភាសាខ្មែរ)
