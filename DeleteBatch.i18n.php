@@ -1222,6 +1222,7 @@ Het bestand dat u uploadt moet op iedere regel een paginanaam en een reden bevat
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
  * @author Gunnernett
  * @author Harald Khan
+ * @author Njardarlogar
  */
 $messages['nn'] = array(
 	'deletebatch' => 'Masseslett sider',
@@ -1625,7 +1626,7 @@ $messages['tg-cyrl'] = array(
 	'deletebatch-select-yourself' => 'шумо',
 );
 
-/** Tajik (Latin script) (tojikī)
+/** Tajik (Latin script) (Tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -1733,7 +1734,7 @@ $messages['uk'] = array(
 	'deletebatch-select-yourself' => 'ви',
 );
 
-/** Veps (Vepsan kel')
+/** Veps (Vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
