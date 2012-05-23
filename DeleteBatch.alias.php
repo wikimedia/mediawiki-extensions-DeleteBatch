@@ -23,6 +23,11 @@ $specialPageAliases['arz'] = array(
 	'DeleteBatch' => array( 'مشح_الBatch' ),
 );
 
+/** Banjar (Bahasa Banjar) */
+$specialPageAliases['bjn'] = array(
+	'DeleteBatch' => array( 'Hapus_sakaligus' ),
+);
+
 /** Bosnian (Bosanski) */
 $specialPageAliases['bs'] = array(
 	'DeleteBatch' => array( 'BrisanjeBatch' ),
@@ -91,6 +96,11 @@ $specialPageAliases['ia'] = array(
 /** Indonesian (Bahasa Indonesia) */
 $specialPageAliases['id'] = array(
 	'DeleteBatch' => array( 'Hapus_sekaligus', 'HapusSekaligus' ),
+);
+
+/** Italian (Italiano) */
+$specialPageAliases['it'] = array(
+	'DeleteBatch' => array( 'CancellaBatch' ),
 );
 
 /** Japanese (日本語) */
