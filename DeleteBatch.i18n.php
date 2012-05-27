@@ -1714,6 +1714,7 @@ $messages['tt-cyrl'] = array(
  * @author AS
  * @author Ahonc
  * @author Prima klasy4na
+ * @author Vox
  */
 $messages['uk'] = array(
 	'deletebatch' => 'Вилучення сторінок групами',
@@ -1729,9 +1730,13 @@ $messages['uk'] = array(
 	'deletebatch-or' => '<b>або</b>',
 	'deletebatch-delete' => 'Вилучити',
 	'deletebatch-page' => 'Сторінки до вилучення:',
+	'deletebatch-processing-from-file' => 'вилучення сторінок зі списку в файлі',
+	'deletebatch-processing-from-form' => 'вилучення сторінок з форми',
 	'deletebatch-omitting-nonexistant' => 'Пропускання неіснуючої сторінки $1.',
 	'deletebatch-file-missing' => 'Не в змозі прочитати наданий файл',
+	'deletebatch-select-script' => 'Скрипт для видалення сторінок',
 	'deletebatch-select-yourself' => 'ви',
+	'deletebatch-no-page' => 'Будь ласка, вкажіть принаймні одну сторінку для вилучення, або файл, що містить список сторінок.',
 );
 
 /** Veps (Vepsän kel’)
