@@ -1011,6 +1011,36 @@ $messages['kn'] = array(
 	'deletebatch-delete' => 'ಅಳಿಸು',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'deletebatch' => '문서 일괄 삭제',
+	'deletebatch-desc' => '[[Special:DeleteBatch|문서 일괄 삭제]]',
+	'deletebatch-help' => '문서를 일괄 삭제합니다.
+당신은 하나를 삭제를 수행하거나 파일에 나열한 문서를 삭제할 수 있습니다.
+삭제 기록에 보여줄 사용자를 선택하세요.
+올린 파일은 각 라인의 문자에 "|"로 구분하여 문서 이름과 선택적인 이유가 있어야 합니다.',
+	'deletebatch-caption' => '문서 목록:',
+	'deletebatch-title' => '일괄 삭제',
+	'deletebatch-link-back' => '특수 문서로 돌아가기',
+	'deletebatch-as' => '스크립트 실행:',
+	'deletebatch-both-modes' => '특정한 문서나 문서의 주어진 목록을 선택하세요.',
+	'deletebatch-or' => '<b>또는</b>',
+	'deletebatch-delete' => '삭제',
+	'deletebatch-page' => '페이지가 삭제될 수 있음:',
+	'deletebatch-processing-from-file' => '파일 목록에서 문서를 삭제함',
+	'deletebatch-processing-from-form' => '양식에서 문서를 삭제함',
+	'deletebatch-omitting-nonexistant' => '기존이 아닌 $1(을)를 생략함.',
+	'deletebatch-omitting-invalid' => '잘못된 $1 페이지를 생략함.',
+	'deletebatch-file-bad-format' => '파일은 일반 텍스트이여야 합니다',
+	'deletebatch-file-missing' => '주어진 파일을 읽을 수 없음',
+	'deletebatch-select-script' => '문서 스크립트 삭제',
+	'deletebatch-select-yourself' => '당신',
+	'deletebatch-no-page' => '문서 목록이 포함된 파일을 삭제하거나 선택할 수 있는 적어도 하나의 문서를 지정하세요.',
+	'right-deletebatch' => '일괄적인 삭제 문서',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
