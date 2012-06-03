@@ -1038,7 +1038,7 @@ $messages['ko'] = array(
 	'deletebatch-select-script' => '문서 스크립트 삭제',
 	'deletebatch-select-yourself' => '당신',
 	'deletebatch-no-page' => '문서 목록이 포함된 파일을 삭제하거나 선택할 수 있는 적어도 하나의 문서를 지정하세요.',
-	'right-deletebatch' => '일괄적인 삭제 문서',
+	'right-deletebatch' => '일괄 삭제 문서',
 );
 
 /** Colognian (Ripoarisch)
