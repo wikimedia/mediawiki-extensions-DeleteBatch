@@ -1740,9 +1740,10 @@ $messages['tt-cyrl'] = array(
 	'deletebatch-select-yourself' => 'сез',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author AS
  * @author Ahonc
+ * @author Olvin
  * @author Prima klasy4na
  * @author Vox
  */
@@ -1766,7 +1767,7 @@ $messages['uk'] = array(
 	'deletebatch-file-missing' => 'Не в змозі прочитати наданий файл',
 	'deletebatch-select-script' => 'Скрипт для видалення сторінок',
 	'deletebatch-select-yourself' => 'ви',
-	'deletebatch-no-page' => 'Будь ласка, вкажіть принаймні одну сторінку для вилучення, або файл, що містить список сторінок.',
+	'deletebatch-no-page' => 'Будь ласка, вкажіть принаймні одну сторінку для вилучення або виберіть файл, що містить перелік сторінок.',
 );
 
 /** Veps (Vepsän kel’)
