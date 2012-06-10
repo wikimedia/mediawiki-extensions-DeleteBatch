@@ -977,7 +977,7 @@ $messages['ja'] = array(
 	'deletebatch-file-missing' => '与えられたファイルを読み込むことができません。',
 	'deletebatch-select-script' => 'ページ削除スクリプト',
 	'deletebatch-select-yourself' => 'あなた',
-	'deletebatch-no-page' => '削除するページを少なくとも1ページ指定するか、ページ一覧を含むファイルを選んでください。',
+	'deletebatch-no-page' => '削除するページを少なくとも1つ指定するか、ページ一覧を含むファイルを選択してください。',
 	'right-deletebatch' => 'ページを一括削除',
 );
 
@@ -1012,6 +1012,7 @@ $messages['kn'] = array(
 );
 
 /** Korean (한국어)
+ * @author Idh0854
  * @author 아라
  */
 $messages['ko'] = array(
@@ -1031,7 +1032,7 @@ $messages['ko'] = array(
 	'deletebatch-page' => '페이지가 삭제될 수 있음:',
 	'deletebatch-processing-from-file' => '파일 목록에서 문서를 삭제함',
 	'deletebatch-processing-from-form' => '양식에서 문서를 삭제함',
-	'deletebatch-omitting-nonexistant' => '기존이 아닌 $1(을)를 생략함.',
+	'deletebatch-omitting-nonexistant' => '존재하지 않는 $1 생략.',
 	'deletebatch-omitting-invalid' => '잘못된 $1 페이지를 생략함.',
 	'deletebatch-file-bad-format' => '파일은 일반 텍스트이여야 합니다',
 	'deletebatch-file-missing' => '주어진 파일을 읽을 수 없음',
@@ -1765,7 +1766,7 @@ $messages['uk'] = array(
 	'deletebatch-processing-from-form' => 'вилучення сторінок з форми',
 	'deletebatch-omitting-nonexistant' => 'Пропускання неіснуючої сторінки $1.',
 	'deletebatch-file-missing' => 'Не в змозі прочитати наданий файл',
-	'deletebatch-select-script' => 'Скрипт для видалення сторінок',
+	'deletebatch-select-script' => 'Скрипт для вилучення сторінок',
 	'deletebatch-select-yourself' => 'ви',
 	'deletebatch-no-page' => 'Будь ласка, вкажіть принаймні одну сторінку для вилучення або виберіть файл, що містить перелік сторінок.',
 );
