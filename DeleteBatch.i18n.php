@@ -156,7 +156,7 @@ $messages['arz'] = array(
 	'right-deletebatch' => 'حذف باتش الصفحات',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Cekli829
  * @author Vago
  * @author Vugar 1981
@@ -244,7 +244,7 @@ $messages['be-tarask'] = array(
 	'right-deletebatch' => 'выдаленьне групы старонак',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
@@ -280,7 +280,7 @@ $messages['bn'] = array(
 	'right-deletebatch' => 'ব্যাচ আকারে পাতা অপসারণ',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fohanno
  * @author Fulup
  * @author Y-M D
@@ -312,7 +312,7 @@ Ur restr enporzhiet a c\'hello bezañ ennañ : anv ur bajenn hag un abeg (diret)
 	'right-deletebatch' => 'Dilemel pajennoù dre strolladoù',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -329,7 +329,7 @@ $messages['bs'] = array(
 	'deletebatch-select-yourself' => 'vi',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author Aleator
  * @author SMP
  */
@@ -363,12 +363,12 @@ $messages['ce'] = array(
 	'deletebatch-delete' => 'Дlадайá',
 );
 
-/** Sorani (کوردی) */
+/** Sorani Kurdish (کوردی) */
 $messages['ckb'] = array(
 	'deletebatch-delete' => 'سڕینەوە',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Jkjk
  */
 $messages['cs'] = array(
@@ -475,7 +475,7 @@ Nagrata dataja by měła mě boka a opcionelnu pśicynu wopśimjeś, kótarejž 
 	'right-deletebatch' => 'Někotare boki wulašowaś',
 );
 
-/** Ewe (Eʋegbe) */
+/** Ewe (eʋegbe) */
 $messages['ee'] = array(
 	'deletebatch-delete' => 'Tutui',
 );
@@ -521,7 +521,7 @@ Alŝutita dosiero enhavu paĝan nomon kaj nedevigan kialon apartigita de signo "
 	'right-deletebatch' => 'Amasforigi paĝojn',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Crazymadlover
  * @author Imre
  * @author Od1n
@@ -555,7 +555,7 @@ Los archivos subidos deben contener el nombre de la página y el motivo opcional
 	'right-deletebatch' => 'Borrar páginas en lote',
 );
 
-/** Estonian (Eesti)
+/** Estonian (eesti)
  * @author Avjoska
  */
 $messages['et'] = array(
@@ -563,7 +563,7 @@ $messages['et'] = array(
 	'deletebatch-delete' => 'Kustuta',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author Kobazulo
  */
 $messages['eu'] = array(
@@ -581,7 +581,7 @@ $messages['fa'] = array(
 	'deletebatch-caption' => 'فهرست صفحه:',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Crt
  * @author Jack Phoenix
  * @author Mobe
@@ -609,7 +609,7 @@ $messages['fi'] = array(
 	'right-deletebatch' => 'Poistaa sivuja erissä',
 );
 
-/** French (Français)
+/** French (français)
  * @author Crochet.david
  * @author Grondin
  * @author IAlex
@@ -642,7 +642,7 @@ Un fichier importé pourra contenir un nom de la page et un motif facultatif sé
 	'right-deletebatch' => 'Supprimer des pages en lot',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -769,7 +769,7 @@ $messages['he'] = array(
 	'right-deletebatch' => 'מחיקה של דפים רבים ביחד',
 );
 
-/** Croatian (Hrvatski)
+/** Croatian (hrvatski)
  * @author Dalibor Bosits
  * @author Ex13
  */
@@ -823,7 +823,7 @@ Nahrata dataja měła mjeno strony a opcionalnu přičinu wobsahować, kotrejž 
 	'right-deletebatch' => 'Wjacore strony wušmórnyć',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  * @author Glanthor Reviol
  */
@@ -853,7 +853,7 @@ A feltöltött fájl minden sora tartalmazhat „|” karakterrel elválasztva e
 	'right-deletebatch' => 'Lapok kötegelt törlése',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -920,7 +920,7 @@ $messages['ig'] = array(
 	'deletebatch-delete' => 'Kàcha',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Darth Kule
  * @author Melos
  * @author Pietrodn
@@ -1116,7 +1116,7 @@ $messages['mg'] = array(
 	'right-deletebatch' => "Mamafa pejy maro anatin'ny tao iray",
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -1250,7 +1250,7 @@ Het bestand dat u uploadt moet op iedere regel een paginanaam en een reden bevat
 	'right-deletebatch' => "Pagina's in batch verwijderen",
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Gunnernett
  * @author Harald Khan
  * @author Njardarlogar
@@ -1281,7 +1281,7 @@ Ei opplasta fil må innehalda namnet på sida, og kan òg ha ei valfri sletteår
 	'right-deletebatch' => 'Massesletta sider',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
@@ -1326,7 +1326,7 @@ $messages['pfl'] = array(
 	'deletebatch-delete' => 'Lesche',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Airwolf
  * @author Maikking
  * @author Matma Rex
@@ -1399,7 +1399,7 @@ $messages['ps'] = array(
 	'deletebatch-select-yourself' => 'تاسې',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  * @author Malafaya
  * @author Waldir
@@ -1431,7 +1431,7 @@ O ficheiro carregado deverá conter o nome da página e um motivo opcional, sepa
 	'right-deletebatch' => 'Apagar páginas em bloco',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Eduardo.mps
  */
 $messages['pt-br'] = array(
@@ -1460,7 +1460,7 @@ O arquivo carregado deverá conter o nome da página e um motivo opcional, separ
 	'right-deletebatch' => 'Apagar páginas em bloco',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author Firilacroco
  * @author KlaudiuMihaila
  * @author Minisarm
@@ -1479,7 +1479,7 @@ $messages['ro'] = array(
 	'deletebatch-select-yourself' => 'Dumneavoastră',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -1488,7 +1488,7 @@ $messages['roa-tara'] = array(
 	'deletebatch-select-yourself' => 'tu',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Ferrer
  * @author Innv
  * @author Lockal
@@ -1520,14 +1520,14 @@ $messages['ru'] = array(
 	'right-deletebatch' => 'удаление набора страниц',
 );
 
-/** Sicilian (Sicilianu)
+/** Sicilian (sicilianu)
  * @author Aushulz
  */
 $messages['scn'] = array(
 	'deletebatch-select-yourself' => 'tu',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
@@ -1556,7 +1556,7 @@ Nahraný súbor by mal na každom riadku obsahovať názov stránky a nepovinne 
 	'right-deletebatch' => 'Dávkové mazanie stránok',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  * @author Жељко Тодоровић
  * @author Михајло Анђелковић
@@ -1577,7 +1577,7 @@ $messages['sr-ec'] = array(
 	'deletebatch-select-yourself' => 'Ви',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬) */
+/** Serbian (Latin script) (‪srpski (latinica)‬) */
 $messages['sr-el'] = array(
 	'deletebatch-caption' => 'Spisak strana:',
 	'deletebatch-link-back' => 'Vrati se na specijalnu stranu',
@@ -1594,7 +1594,7 @@ $messages['sr-el'] = array(
 	'deletebatch-select-yourself' => 'Vi',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author M.M.S.
  * @author Najami
  * @author Per
@@ -1649,7 +1649,7 @@ $messages['te'] = array(
 	'deletebatch-select-yourself' => 'మీరు',
 );
 
-/** Tajik (Cyrillic script) (Тоҷикӣ)
+/** Tajik (Cyrillic script) (тоҷикӣ)
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
@@ -1657,7 +1657,7 @@ $messages['tg-cyrl'] = array(
 	'deletebatch-select-yourself' => 'шумо',
 );
 
-/** Tajik (Latin script) (Tojikī)
+/** Tajik (Latin script) (tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -1732,7 +1732,7 @@ Yüklenen dosyalar sayfası adını ve isteğe bağlı gerekçeyi içermeli; bu 
 	'right-deletebatch' => 'Sayfaları toplu siler',
 );
 
-/** Tatar (Cyrillic script) (Татарча)
+/** Tatar (Cyrillic script) (татарча)
  * @author Ильнар
  */
 $messages['tt-cyrl'] = array(
@@ -1834,7 +1834,7 @@ $messages['yi'] = array(
 	'deletebatch-delete' => 'אויסמעקן',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Gzdavidwong
  * @author Hydra
  * @author Wilsonmess
@@ -1859,7 +1859,7 @@ $messages['zh-hans'] = array(
 	'right-deletebatch' => '批量删除页面',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Gzdavidwong
  * @author Wrightbus
  */
