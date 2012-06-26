@@ -157,14 +157,7 @@ class DeleteBatchForm {
 		$select = new XmlSelect( $name, $name );
 		$select->setDefault( $this->mMode );
 		$select->setAttribute( 'tabindex', $tabindex );
-		// 'addOptions' method was added in MW 1.15
-		if ( method_exists( $select, 'addOptions' ) ) {
-			$select->addOptions( $options );
-		} else {
-			foreach ( $options as $option ) {
-				$select->addOption( $option );
-			}
-		}
+		$select->addOptions( $options );
 		return $select;
 	}
 
@@ -266,12 +259,7 @@ class DeleteBatchForm {
 			$wgUser = $OldUser;
 		}
 
-		$sk = $wgUser->getSkin();
-		// 'linkKnown' method was added in MW 1.15
-		if ( method_exists( $sk, 'linkKnown' ) )
-			$link_back = $sk->linkKnown( $this->title, wfMsgHtml( 'deletebatch-link-back' ) );
-		else
-			$link_back = $sk->makeKnownLinkObj( $this->title, wfMsgHtml( 'deletebatch-link-back' ) );
+		$link_back = Linker::linkKnown( $this->title, wfMsgHtml( 'deletebatch-link-back' ) );
 		$wgOut->addHTML( "<br /><b>" . $link_back . "</b>" );
 	}
 
