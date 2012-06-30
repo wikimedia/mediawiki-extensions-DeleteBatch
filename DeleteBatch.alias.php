@@ -43,7 +43,7 @@ $specialPageAliases['diq'] = array(
 	'DeleteBatch' => array( 'ZafınBesternayış' ),
 );
 
-/** Lower Sorbian (Dolnoserbski) */
+/** Lower Sorbian (dolnoserbski) */
 $specialPageAliases['dsb'] = array(
 	'DeleteBatch' => array( 'Skład_lašowaś' ),
 );
@@ -63,7 +63,7 @@ $specialPageAliases['frp'] = array(
 	'DeleteBatch' => array( 'Suprèssion_en_sèria', 'SuprèssionEnSèria' ),
 );
 
-/** Galician (Galego) */
+/** Galician (galego) */
 $specialPageAliases['gl'] = array(
 	'DeleteBatch' => array( 'Borrar_en_masa' ),
 );
@@ -78,7 +78,7 @@ $specialPageAliases['hr'] = array(
 	'DeleteBatch' => array( 'Skupno_brisanje' ),
 );
 
-/** Upper Sorbian (Hornjoserbsce) */
+/** Upper Sorbian (hornjoserbsce) */
 $specialPageAliases['hsb'] = array(
 	'DeleteBatch' => array( 'Stapl_wušmórnyć' ),
 );
