@@ -214,7 +214,7 @@ $messages['ba'] = array(
 	'right-deletebatch' => 'Биттәр йыйынтығын юйыу',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -446,7 +446,7 @@ Die hochzuladende Datei sollte pro Zeile einen Seitennamen und optional einen du
 	'deletebatch-no-page' => 'Bitte geben Sie entweder mindestens eine zu löschende Seite an oder wählen Sie eine Datei, die eine Liste zu löschender Seiten enthält.',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -666,7 +666,7 @@ $messages['frp'] = array(
 	'right-deletebatch' => 'Suprimar des pâges en pârts',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -795,7 +795,7 @@ Postavljena datoteka treba sadržavati nazive stranica, a dodatno razlog odvojen
 	'deletebatch-no-page' => 'Molimo vas odredite barem jednu stranicu za brisanje ILI odaberite datoteku koja sadrži popis.',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
