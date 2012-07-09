@@ -1109,6 +1109,16 @@ $messages['lb'] = array(
 	'right-deletebatch' => 'Méi Säiten zesumme läschen',
 );
 
+/** Lithuanian (lietuvių)
+ * @author Eitvys200
+ */
+$messages['lt'] = array(
+	'deletebatch-caption' => 'Puslapių sąrašas:',
+	'deletebatch-or' => '<b>arba</b>',
+	'deletebatch-delete' => 'Ištrinti',
+	'deletebatch-select-yourself' => 'Jūs',
+);
+
 /** Malagasy (Malagasy)
  * @author Jagwar
  */

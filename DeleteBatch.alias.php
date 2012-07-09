@@ -200,7 +200,7 @@ $specialPageAliases['sw'] = array(
 
 /** Tagalog (Tagalog) */
 $specialPageAliases['tl'] = array(
-	'DeleteBatch' => array( 'Burahin ang bungkos' ),
+	'DeleteBatch' => array( 'Burahin_ang_bungkos' ),
 );
 
 /** Turkish (Türkçe) */
