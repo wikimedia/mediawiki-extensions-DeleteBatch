@@ -184,7 +184,7 @@ $messages['az'] = array(
 	'right-deletebatch' => 'Seçilmiş səhifələri sil',
 );
 
-/** Bashkir (Башҡортса)
+/** Bashkir (башҡортса)
  * @author Assele
  */
 $messages['ba'] = array(
@@ -356,7 +356,7 @@ El fitxer indicat només pot contenir el títol de la pàgina i el motiu per a e
 	'right-deletebatch' => 'Esborrar pàgines en bloc',
 );
 
-/** Chechen (Нохчийн)
+/** Chechen (нохчийн)
  * @author Sasan700
  */
 $messages['ce'] = array(
@@ -1184,7 +1184,7 @@ $messages['ms'] = array(
 	'deletebatch-select-yourself' => 'Anda',
 );
 
-/** Erzya (Эрзянь)
+/** Erzya (эрзянь)
  * @author Botuzhaleny-sodamo
  */
 $messages['myv'] = array(
@@ -1198,9 +1198,8 @@ $messages['nah'] = array(
 	'deletebatch-select-yourself' => 'teh',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Harald Khan
- * @author Jon Harald Søby
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -1781,7 +1780,7 @@ $messages['uk'] = array(
 	'deletebatch-no-page' => 'Будь ласка, вкажіть принаймні одну сторінку для вилучення або виберіть файл, що містить перелік сторінок.',
 );
 
-/** Veps (Vepsän kel’)
+/** Veps (vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
