@@ -579,6 +579,7 @@ $messages['eu'] = array(
  */
 $messages['fa'] = array(
 	'deletebatch-caption' => 'فهرست صفحه:',
+	'deletebatch-select-yourself' => 'شما',
 );
 
 /** Finnish (suomi)
@@ -1534,6 +1535,15 @@ $messages['ru'] = array(
  */
 $messages['scn'] = array(
 	'deletebatch-select-yourself' => 'tu',
+);
+
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'deletebatch-or' => '<b>හෝ</b>',
+	'deletebatch-delete' => 'මකන්න',
+	'deletebatch-select-yourself' => 'ඔබ',
 );
 
 /** Slovak (slovenčina)
