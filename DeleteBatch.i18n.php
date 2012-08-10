@@ -982,6 +982,15 @@ $messages['ja'] = array(
 	'right-deletebatch' => 'ページを一括削除',
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'deletebatch-or' => '<b>ან</b>',
+	'deletebatch-delete' => 'წაშლა',
+	'deletebatch-select-yourself' => 'თქვენ',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author Lovekhmer
  * @author Thearith
