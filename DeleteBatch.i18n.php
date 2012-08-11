@@ -105,7 +105,7 @@ $messages['ar'] = array(
 	'deletebatch-as' => 'تشغيل السكريبت ك:',
 	'deletebatch-both-modes' => 'من فضلك اختر إما صفحة واحدة أو قائمة معطاة من الصفحات.',
 	'deletebatch-or' => '<b>أو</b>',
-	'deletebatch-delete' => 'احذف',
+	'deletebatch-delete' => 'حذف',
 	'deletebatch-page' => 'الصفحات للحذف:',
 	'deletebatch-processing-from-file' => 'جاري حذف الصفحات من قائمة الملف',
 	'deletebatch-processing-from-form' => 'جاري حذف الصفحات من الاستمارة',
@@ -1550,6 +1550,7 @@ $messages['scn'] = array(
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
+	'deletebatch-caption' => 'පිටු ලැයිස්තුව:',
 	'deletebatch-or' => '<b>හෝ</b>',
 	'deletebatch-delete' => 'මකන්න',
 	'deletebatch-select-yourself' => 'ඔබ',
@@ -1655,12 +1656,22 @@ En uppladdad fil ska innehålla sidnamn och en valfri anledning separerade med e
 );
 
 /** Tamil (தமிழ்)
+ * @author Shanmugamp7
  * @author TRYPPN
  */
 $messages['ta'] = array(
 	'deletebatch-caption' => 'பக்கப்பட்டியல்:',
+	'deletebatch-link-back' => 'சிறப்பு பக்கத்திற்குத் திரும்பு',
+	'deletebatch-both-modes' => 'தயவுசெய்து ஒரு குறிப்பிட்ட பக்கத்தை அல்லது கொடுக்கப்பட்ட பக்கங்களின் பட்டியலைத் தேர்ந்தெடுக்கவும்.',
+	'deletebatch-or' => '<b>அல்லது</b>',
 	'deletebatch-delete' => 'நீக்கவும்',
 	'deletebatch-page' => 'நீக்க வேண்டிய பக்கங்கள்:',
+	'deletebatch-processing-from-file' => 'கோப்பு பட்டியலிருந்து பக்கங்கள் நீக்கப்படுகிறது',
+	'deletebatch-processing-from-form' => 'படிவத்திலிருந்து பக்கங்கள் நீக்கப்படுகிறது',
+	'deletebatch-omitting-nonexistant' => 'இல்லாத பக்கம் $1 புறக்கணிக்கப்படுகிறது.',
+	'deletebatch-omitting-invalid' => 'செல்லாத பக்கம் $1 புறக்கணிக்கப்படுகிறது.',
+	'deletebatch-file-bad-format' => 'கோப்பு எளிய உரையாக இருக்க வேண்டும்.',
+	'deletebatch-file-missing' => 'கொடுக்கப்பட்ட கோப்பை படிக்க இயலவில்லை',
 	'deletebatch-select-yourself' => 'தாங்கள்',
 );
 
