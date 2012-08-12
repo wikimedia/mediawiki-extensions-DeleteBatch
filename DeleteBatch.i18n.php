@@ -1194,6 +1194,25 @@ $messages['ms'] = array(
 	'deletebatch-select-yourself' => 'Anda',
 );
 
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'deletebatch-caption' => "Lista ta' paġni:",
+	'deletebatch-title' => 'Ħassar il-grupp',
+	'deletebatch-link-back' => 'Mur lura għall-paġna speċjali',
+	'deletebatch-as' => 'Esegwixxi l-iskript bħala:',
+	'deletebatch-both-modes' => "Jekk jogħġbok agħżel paġna speċifika jew lista ta' paġni.",
+	'deletebatch-or' => '<b>jew</b>',
+	'deletebatch-delete' => 'Ħassar',
+	'deletebatch-page' => "Paġni x'jitħassru:",
+	'deletebatch-processing-from-file' => "tħassir ta' paġni minn fajl ta' lista",
+	'deletebatch-processing-from-form' => "tħassir ta' paġni mill-formola",
+	'deletebatch-select-yourself' => 'Inti',
+	'deletebatch-no-page' => "Jekk jogħġbok speċifika tal-anqas paġna sabiex tħassar jew agħżel fajl b'lista ta' paġni.",
+	'right-deletebatch' => 'Iħassar paġni bil-lott',
+);
+
 /** Erzya (эрзянь)
  * @author Botuzhaleny-sodamo
  */
