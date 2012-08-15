@@ -667,6 +667,13 @@ $messages['frp'] = array(
 	'right-deletebatch' => 'Suprimar des pâges en pârts',
 );
 
+/** Irish (Gaeilge)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ga'] = array(
+	'deletebatch-delete' => 'Scrios',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
@@ -1039,7 +1046,7 @@ $messages['ko'] = array(
 	'deletebatch-both-modes' => '특정한 문서나 문서의 주어진 목록을 선택하세요.',
 	'deletebatch-or' => '<b>또는</b>',
 	'deletebatch-delete' => '삭제',
-	'deletebatch-page' => '페이지가 삭제될 수 있음:',
+	'deletebatch-page' => '문서가 삭제될 수 있음:',
 	'deletebatch-processing-from-file' => '파일 목록에서 문서를 삭제함',
 	'deletebatch-processing-from-form' => '양식에서 문서를 삭제함',
 	'deletebatch-omitting-nonexistant' => '존재하지 않는 $1 생략.',
