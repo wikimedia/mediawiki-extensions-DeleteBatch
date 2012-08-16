@@ -1851,6 +1851,7 @@ $messages['vep'] = array(
 
 /** Vietnamese (Tiếng Việt)
  * @author Vinhtantran
+ * @author පසිඳු කාවින්ද
  */
 $messages['vi'] = array(
 	'deletebatch' => 'Xóa một nhóm trang',
@@ -1864,6 +1865,7 @@ Tập tin đã tải nên có chứa tên trang và lý do tùy chọn phân tá
 	'deletebatch-as' => 'Chạy script với tên:',
 	'deletebatch-both-modes' => 'Xin hãy chọn một trang hoặc một danh sách trang cho trước.',
 	'deletebatch-or' => '<b>hoặc</b>',
+	'deletebatch-delete' => 'Xóa',
 	'deletebatch-page' => 'Các trang sẽ bị xóa:',
 	'deletebatch-omitting-nonexistant' => 'Đang bỏ trang $1 không tồn tại.',
 	'deletebatch-omitting-invalid' => 'Đang bỏ trang $1 không hợp lệ.',
