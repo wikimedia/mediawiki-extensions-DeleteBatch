@@ -1205,6 +1205,12 @@ $messages['ms'] = array(
  * @author Chrisportelli
  */
 $messages['mt'] = array(
+	'deletebatch' => "Ħassar grupp ta' paġni",
+	'deletebatch-desc' => "[[Special:DeleteBatch|Tħassar grupp ta' paġni]]",
+	'deletebatch-help' => "Tħassir ta' grupp ta' paġni.
+Tista' jew tagħmel tħassira waħda, jew tħassar paġni mniżżla f'fajl.
+Agħżel utent li jiġi jidher fir-reġistru tat-tħassir.
+Fajls imtella' għandhom ikollhom l-isem tal-paġna u raġuni opzjonali, separati bil-karattru \"|\" f'kull linja.",
 	'deletebatch-caption' => "Lista ta' paġni:",
 	'deletebatch-title' => 'Ħassar il-grupp',
 	'deletebatch-link-back' => 'Mur lura għall-paġna speċjali',
@@ -1215,6 +1221,11 @@ $messages['mt'] = array(
 	'deletebatch-page' => "Paġni x'jitħassru:",
 	'deletebatch-processing-from-file' => "tħassir ta' paġni minn fajl ta' lista",
 	'deletebatch-processing-from-form' => "tħassir ta' paġni mill-formola",
+	'deletebatch-omitting-nonexistant' => 'Il-paġna li ma teżistix $1 tħalliet barra.',
+	'deletebatch-omitting-invalid' => 'Il-paġna invalida $1 tħalliet barra.',
+	'deletebatch-file-bad-format' => 'Il-fajl għandu jkollu test biss.',
+	'deletebatch-file-missing' => 'Il-fajl mogħti ma setax jinqara',
+	'deletebatch-select-script' => 'Skrip għat-tħassir tal-paġna',
 	'deletebatch-select-yourself' => 'Inti',
 	'deletebatch-no-page' => "Jekk jogħġbok speċifika tal-anqas paġna sabiex tħassar jew agħżel fajl b'lista ta' paġni.",
 	'right-deletebatch' => 'Iħassar paġni bil-lott',
@@ -1834,6 +1845,16 @@ $messages['uk'] = array(
 	'deletebatch-select-script' => 'Скрипт для вилучення сторінок',
 	'deletebatch-select-yourself' => 'ви',
 	'deletebatch-no-page' => 'Будь ласка, вкажіть принаймні одну сторінку для вилучення або виберіть файл, що містить перелік сторінок.',
+);
+
+/** Urdu (اردو)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ur'] = array(
+	'deletebatch-caption' => 'صفحہ کی فہرست:',
+	'deletebatch-title' => 'بیچ کو خارج',
+	'deletebatch-delete' => 'حذف کریں',
+	'deletebatch-select-yourself' => 'آپ',
 );
 
 /** Veps (vepsän kel’)
