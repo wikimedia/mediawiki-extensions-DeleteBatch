@@ -1871,6 +1871,7 @@ $messages['vep'] = array(
 );
 
 /** Vietnamese (Tiếng Việt)
+ * @author Minh Nguyen
  * @author Vinhtantran
  * @author පසිඳු කාවින්ද
  */
@@ -1883,7 +1884,7 @@ Tập tin đã tải nên có chứa tên trang và lý do tùy chọn phân tá
 	'deletebatch-caption' => 'Danh sách trang:',
 	'deletebatch-title' => 'Xóa nhóm',
 	'deletebatch-link-back' => 'Trở lại trang đặc biệt',
-	'deletebatch-as' => 'Chạy script với tên:',
+	'deletebatch-as' => 'Chạy kịch bản với tên:',
 	'deletebatch-both-modes' => 'Xin hãy chọn một trang hoặc một danh sách trang cho trước.',
 	'deletebatch-or' => '<b>hoặc</b>',
 	'deletebatch-delete' => 'Xóa',
@@ -1892,7 +1893,7 @@ Tập tin đã tải nên có chứa tên trang và lý do tùy chọn phân tá
 	'deletebatch-omitting-invalid' => 'Đang bỏ trang $1 không hợp lệ.',
 	'deletebatch-file-bad-format' => 'Tập tin nên ở dạng thuần ký tự',
 	'deletebatch-file-missing' => 'Không thể đọc tập tin có sẵn',
-	'deletebatch-select-script' => 'xóa script của trang',
+	'deletebatch-select-script' => 'xóa kịch bản của trang',
 	'deletebatch-select-yourself' => 'bạn',
 	'deletebatch-no-page' => 'Xin hãy chỉ định ít nhất một trang để xóa HOẶC chọn một tập tin có chứa danh sách các trang.',
 	'right-deletebatch' => 'Xóa nhóm trang',
