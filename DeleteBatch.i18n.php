@@ -446,6 +446,14 @@ Die hochzuladende Datei sollte pro Zeile einen Seitennamen und optional einen du
 	'deletebatch-no-page' => 'Bitte geben Sie entweder mindestens eine zu löschende Seite an oder wählen Sie eine Datei, die eine Liste zu löschender Seiten enthält.',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'deletebatch-delete' => 'Besterne',
+	'deletebatch-select-yourself' => 'Tı',
+);
+
 /** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
