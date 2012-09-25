@@ -148,7 +148,7 @@ $specialPageAliases['mr'] = array(
 	'DeleteBatch' => array( 'बॅचवगळा' ),
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬) */
+/** Norwegian Bokmål (norsk (bokmål)‎) */
 $specialPageAliases['nb'] = array(
 	'DeleteBatch' => array( 'Slett_en_serie_sider' ),
 );
@@ -208,12 +208,12 @@ $specialPageAliases['tr'] = array(
 	'DeleteBatch' => array( 'TopluSil' ),
 );
 
-/** Simplified Chinese (‪中文（简体）‬) */
+/** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'DeleteBatch' => array( '批量删除' ),
 );
 
-/** Traditional Chinese (‪中文（繁體）‬) */
+/** Traditional Chinese (中文（繁體）‎) */
 $specialPageAliases['zh-hant'] = array(
 	'DeleteBatch' => array( '批量刪除' ),
 );
