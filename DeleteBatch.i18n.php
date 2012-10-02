@@ -214,7 +214,7 @@ $messages['ba'] = array(
 	'right-deletebatch' => 'Биттәр йыйынтығын юйыу',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -431,7 +431,7 @@ Die hochzuladende Datei sollte pro Zeile einen Seitennamen und optional einen du
 	'right-deletebatch' => 'Seiten gesammelt löschen',
 );
 
-/** German (formal address) (‪Deutsch (Sie-Form)‬)
+/** German (formal address) (Deutsch (Sie-Form)‎)
  * @author ChrisiPK
  * @author Geitost
  * @author Imre
@@ -750,7 +750,7 @@ D Datei, wu soll uffeglade wäre, sott pro Zyyle ei Sytetitel haa un s cha optio
 	'right-deletebatch' => 'E Zyylete vu Syte lesche',
 );
 
-/** Hausa (هَوُسَ) */
+/** Hausa (Hausa) */
 $messages['ha'] = array(
 	'deletebatch-delete' => 'Soke',
 );
@@ -1100,7 +1100,7 @@ söök en Datei uß, wo en Leß met Sigge zom Fottschmiiße dren steiht.',
 	'right-deletebatch' => 'En Aanzahl Sigge fottschmiiße',
 );
 
-/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -1253,7 +1253,7 @@ $messages['nah'] = array(
 	'deletebatch-select-yourself' => 'teh',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Harald Khan
  * @author Nghtwlkr
  */
@@ -1314,7 +1314,7 @@ Het bestand dat u uploadt moet op iedere regel een paginanaam en een reden bevat
 	'right-deletebatch' => "Pagina's in batch verwijderen",
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Gunnernett
  * @author Harald Khan
  * @author Njardarlogar
@@ -1630,7 +1630,7 @@ Nahraný súbor by mal na každom riadku obsahovať názov stránky a nepovinne 
 	'right-deletebatch' => 'Dávkové mazanie stránok',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  * @author Жељко Тодоровић
  * @author Михајло Анђелковић
@@ -1651,7 +1651,7 @@ $messages['sr-ec'] = array(
 	'deletebatch-select-yourself' => 'Ви',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬) */
+/** Serbian (Latin script) (srpski (latinica)‎) */
 $messages['sr-el'] = array(
 	'deletebatch-caption' => 'Spisak strana:',
 	'deletebatch-link-back' => 'Vrati se na specijalnu stranu',
@@ -1931,7 +1931,7 @@ $messages['yi'] = array(
 	'deletebatch-delete' => 'אויסמעקן',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Gzdavidwong
  * @author Hydra
  * @author Wilsonmess
@@ -1956,7 +1956,7 @@ $messages['zh-hans'] = array(
 	'right-deletebatch' => '批量删除页面',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Gzdavidwong
  * @author Wrightbus
  */
