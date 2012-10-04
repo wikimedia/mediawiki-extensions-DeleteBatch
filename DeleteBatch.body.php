@@ -35,7 +35,7 @@ class SpecialDeleteBatch extends SpecialPage {
 		}
 
 		$this->getOutput()->setPageTitle( $this->msg( 'deletebatch-title' ) );
-		$cSF = new DeleteBatchForm( $par, $this->getTitle() );
+		$cSF = new DeleteBatchForm( $par, $this->getTitle(), $this->getContext() );
 
 		$request = $this->getRequest();
 		$action = $request->getVal( 'action' );
@@ -70,19 +70,30 @@ class DeleteBatchForm {
 	var $mUser, $mPage, $mFile, $mFileTemp;
 
 	/**
+	 * @var IContextSource|RequestContext
+	 */
+	protected $context;
+
+	/**
 	 * @var Title
 	 */
 	protected $title;
 
-	/* constructor */
-	function __construct( $par, $title ) {
-		global $wgRequest;
+	/**
+	 * @param $par
+	 * @param $title
+	 * @param $context IContextSource|RequestContext
+	 */
+	function __construct( $par, $title, $context ) {
+		$this->context = $context;
+		$request = $context->getRequest();
+
 		$this->title = $title;
-		$this->mMode = $wgRequest->getText( 'wpMode' );
-		$this->mPage = $wgRequest->getText( 'wpPage' );
-		$this->mReason = $wgRequest->getText( 'wpReason' );
-		$this->mFile = $wgRequest->getFileName( 'wpFile' );
-		$this->mFileTemp = $wgRequest->getFileTempName( 'wpFile' );
+		$this->mMode = $request->getText( 'wpMode' );
+		$this->mPage = $request->getText( 'wpPage' );
+		$this->mReason = $request->getText( 'wpReason' );
+		$this->mFile = $request->getFileName( 'wpFile' );
+		$this->mFileTemp = $request->getFileTempName( 'wpFile' );
 	}
 
 	/**
@@ -91,33 +102,33 @@ class DeleteBatchForm {
 	 * @param $errorMessage mixed: error message or null if there's no error
 	 */
 	function showForm( $errorMessage = false ) {
-		global $wgOut, $wgUser;
+		$out = $this->context->getOutput();
 
 		if ( $errorMessage ) {
-			$wgOut->setSubtitle( wfMessage( 'formerror' ) );
-			$wgOut->wrapWikiMsg( "<p class='error'>$1</p>\n", $errorMessage );
+			$out->setSubtitle( $this->context->msg( 'formerror' ) );
+			$out->wrapWikiMsg( "<p class='error'>$1</p>\n", $errorMessage );
 		}
 
-		$wgOut->addWikiMsg( 'deletebatch-help' );
+		$out->addWikiMsg( 'deletebatch-help' );
 
 		$tabindex = 1;
 
 		$rows = array(
 
 		array(
-			Xml::label( wfMessage( 'deletebatch-as' )->text(), 'wpMode' ),
+			Xml::label( $this->context->msg( 'deletebatch-as' )->text(), 'wpMode' ),
 			$this->userSelect( 'wpMode', ++$tabindex )->getHtml()
 		),
 		array(
-			Xml::label( wfMessage( 'deletebatch-page' )->text(), 'wpPage' ),
+			Xml::label( $this->context->msg( 'deletebatch-page' )->text(), 'wpPage' ),
 			$this->pagelistInput( 'wpPage', ++$tabindex )
 		),
 		array(
-			wfMessage( 'deletebatch-or' )->parse(),
+			$this->context->msg( 'deletebatch-or' )->parse(),
 			'&#160;'
 		),
 		array(
-			Xml::label( wfMessage( 'deletebatch-caption' )->text(), 'wpFile' ),
+			Xml::label( $this->context->msg( 'deletebatch-caption' )->text(), 'wpFile' ),
 			$this->fileInput( 'wpFile', ++$tabindex )
 		),
 		array(
@@ -147,21 +158,22 @@ class DeleteBatchForm {
 		$form .= '</table>';
 
 		$form .= Html::Hidden( 'title', $this->title );
-		$form .= Html::Hidden( 'wpEditToken', $wgUser->getEditToken() );
+		$form .= Html::Hidden( 'wpEditToken', $this->context->getUser()->getEditToken() );
 		$form .= '</form>';
-		$wgOut->addHTML( $form );
+		$out->addHTML( $form );
 	}
 
 	function userSelect( $name, $tabindex ) {
 		$options = array(
-			wfMessage( 'deletebatch-select-script' )->text() => 'script',
-			wfMessage( 'deletebatch-select-yourself' )->text() => 'you'
+			$this->context->msg( 'deletebatch-select-script' )->text() => 'script',
+			$this->context->msg( 'deletebatch-select-yourself' )->text() => 'you'
 		);
 
 		$select = new XmlSelect( $name, $name );
 		$select->setDefault( $this->mMode );
 		$select->setAttribute( 'tabindex', $tabindex );
 		$select->addOptions( $options );
+
 		return $select;
 	}
 
@@ -195,12 +207,12 @@ class DeleteBatchForm {
 			'name' => $name,
 		);
 
-		return Xml::submitButton( wfMessage( 'deletebatch-delete' )->text(), $params );
+		return Xml::submitButton( $this->context->msg( 'deletebatch-delete' )->text(), $params );
 	}
 
 	/* wraps up multi deletes */
 	function deleteBatch( $user = false, $line = '', $filename = null ) {
-		global $wgUser, $wgOut;
+		global $wgUser;
 
 		/* first, check the file if given */
 		if ( $filename ) {
@@ -230,7 +242,7 @@ class DeleteBatchForm {
 			}
 		}
 
-		/* todo run tests - run many tests */
+		/* @todo run tests - run many tests */
 		$dbw = wfGetDB( DB_MASTER );
 		if ( $filename ) { /* if from filename, delete from filename */
 			for ( $linenum = 1; !feof( $file ); $linenum++ ) {
@@ -265,9 +277,9 @@ class DeleteBatchForm {
 
 		$link_back = Linker::linkKnown(
 			$this->title,
-			wfMessage( 'deletebatch-link-back' )->escaped()
+			$this->context->msg( 'deletebatch-link-back' )->escaped()
 		);
-		$wgOut->addHTML( "<br /><b>" . $link_back . "</b>" );
+		$this->context->getOutput()->addHTML( "<br /><b>" . $link_back . "</b>" );
 	}
 
 	/**
@@ -283,10 +295,10 @@ class DeleteBatchForm {
 	 * @return bool
 	 */
 	function deletePage( $line, $reason = '', &$db, $multi = false, $linenum = 0, $user = null ) {
-		global $wgOut, $wgUser;
+		global $wgUser;
 		$page = Title::newFromText( $line );
 			if ( is_null( $page ) ) { /* invalid title? */
-				$wgOut->addWikiMsg( 'deletebatch-omitting-invalid', $line );
+				$this->context->getOutput()->addWikiMsg( 'deletebatch-omitting-invalid', $line );
 			if ( !$multi ) {
 				if ( !is_null( $user ) ) {
 					$wgUser = $user;
@@ -295,7 +307,7 @@ class DeleteBatchForm {
 			return false;
 		}
 		if ( !$page->exists() ) { /* no such page? */
-				$wgOut->addWikiMsg( 'deletebatch-omitting-nonexistant', $line );
+				$this->context->getOutput()->addWikiMsg( 'deletebatch-omitting-nonexistant', $line );
 			if ( !$multi ) {
 				if ( !is_null( $user ) ) {
 					$wgUser = $user;
@@ -309,34 +321,32 @@ class DeleteBatchForm {
 			$page = Title::makeTitle( NS_FILE, $page->getDBkey() );
 		}
 
-		/* this stuff goes like articleFromTitle in Wiki.php */
-		if ( $page->getNamespace() == NS_FILE ) {
-			$art = new ImagePage( $page );
-		} else {
-			$art = new Article( $page );
-		}
+		$art = WikiPage::factory( $page );
 
 		/* what is the generic reason for page deletion?
 		   something about the content, I guess...
 		*/
-		$art->doDelete( $reason );
+		$art->doDeleteArticle( $reason );
 		$db->commit();
 		return true;
 	}
 
 	/* on submit */
 	function doSubmit() {
-		global $wgOut;
-		$wgOut->setPageTitle( wfMessage( 'deletebatch-title' ) );
+		$out = $this->context->getOutput();
+
+		$out->setPageTitle( $this->context->msg( 'deletebatch-title' ) );
 		if ( !$this->mPage && !$this->mFileTemp ) {
 			$this->showForm( 'deletebatch-no-page' );
 			return;
 		}
+
 		if ( $this->mPage ) {
-			$wgOut->setSubTitle( wfMessage( 'deletebatch-processing-from-form' ) );
+			$out->setSubTitle( $this->context->msg( 'deletebatch-processing-from-form' ) );
 		} else {
-			$wgOut->setSubTitle( wfMessage( 'deletebatch-processing-from-file' ) );
+			$out->setSubTitle( $this->context->msg( 'deletebatch-processing-from-file' ) );
 		}
+
 		$this->deleteBatch( $this->mUser, $this->mPage, $this->mFileTemp );
 	}
 }

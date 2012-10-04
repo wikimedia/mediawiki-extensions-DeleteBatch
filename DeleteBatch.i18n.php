@@ -23,7 +23,7 @@ Uploaded files should contain page name and optional reason, separated by a "|" 
 	'deletebatch-link-back' => 'Go back to the special page',
 	'deletebatch-as' => 'Run the script as:',
 	'deletebatch-both-modes' => 'Please choose either one specified page or a given list of pages.',
-	'deletebatch-or' => '<b>or</b>',
+	'deletebatch-or' => '<strong>or</strong>',
 	'deletebatch-delete' => 'Delete',
 	'deletebatch-page' => 'Pages to be deleted:',
 	'deletebatch-processing-from-file' => 'deleting pages from file list',
