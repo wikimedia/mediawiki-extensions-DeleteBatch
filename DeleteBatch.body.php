@@ -306,27 +306,54 @@ class DeleteBatchForm {
 			}
 			return false;
 		}
-		if ( !$page->exists() ) { /* no such page? */
-				$this->context->getOutput()->addWikiMsg( 'deletebatch-omitting-nonexistant', $line );
-			if ( !$multi ) {
-				if ( !is_null( $user ) ) {
-					$wgUser = $user;
-				}
-			}
-			return false;
-		}
 
-		$db->begin();
+		// Check page existence
+		$pageExists = $page->exists();
+
+		// If it's a file, check file existence
 		if ( NS_MEDIA == $page->getNamespace() ) {
 			$page = Title::makeTitle( NS_FILE, $page->getDBkey() );
 		}
+		$localFile = null;
+		$localFileExists = null;
+		if ( $page->getNamespace() == NS_FILE ) {
+			$localFile = wfLocalFile ( $page );
+			$localFileExists = $localFile->exists();
+		}
 
-		$art = WikiPage::factory( $page );
+		if ( !$pageExists ) { /* no such page? */
+			if ( !$localFileExists ) { /* no such file either? */
+				$wgOut->addWikiMsg( 'deletebatch-omitting-nonexistent', $line );
+				if ( !$multi ) {
+					if ( !is_null( $user ) ) {
+						$wgUser = $user;
+					}
+				}
+				return false;
+			} else { /* no such page, but there is such a file? */
+				$wgOut->addWikiMsg( 'deletebatch-deleting-file-only', $line );
+			}
+		}
 
-		/* what is the generic reason for page deletion?
-		   something about the content, I guess...
-		*/
-		$art->doDeleteArticle( $reason );
+		$db->begin();
+		/* this stuff goes like articleFromTitle in Wiki.php */
+		// Delete the page; in the case of a file, this would be the File: description page
+		if ( $pageExists ) {
+			$art = WikiPage::factory( $page );
+			/* what is the generic reason for page deletion?
+			   something about the content, I guess...
+			*/
+			$art->doDeleteArticle( $reason );
+		}
+		// Delete the actual file, if applicable
+		if ( $localFileExists ) {
+			// This deletes all versions of the file. This does not create a
+			// log entry to note the file's deletion. It's assumed that the log
+			// entry was already created when the file's description page was
+			// deleted, and now we are just cleaning up after a deletion script
+			// that didn't finish the job by deleting the file too.
+			$localFile->delete( $reason );
+		}
 		$db->commit();
 		return true;
 	}

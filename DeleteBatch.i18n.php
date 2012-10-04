@@ -28,7 +28,7 @@ Uploaded files should contain page name and optional reason, separated by a "|" 
 	'deletebatch-page' => 'Pages to be deleted:',
 	'deletebatch-processing-from-file' => 'deleting pages from file list',
 	'deletebatch-processing-from-form' => 'deleting pages from form',
-	'deletebatch-omitting-nonexistant' => 'Omitting non-existing page $1.',
+	'deletebatch-omitting-nonexistent' => 'Omitting non-existing page $1.',
 	'deletebatch-omitting-invalid' => 'Omitting invalid page $1.',
 	'deletebatch-file-bad-format' => 'The file should be plain text',
 	'deletebatch-file-missing' => 'Unable to read given file',
@@ -36,6 +36,8 @@ Uploaded files should contain page name and optional reason, separated by a "|" 
 	'deletebatch-select-yourself' => 'You',
 	'deletebatch-no-page' => 'Please specify at least one page to delete or choose a file containing page list.',
 	'right-deletebatch' => 'Batch delete pages',
+	'deletebatch-deleting-file-only' => 'File description page $1 is non-existent; deleting the'.
+            'actual file only. This action will not be logged.',
 );
 
 /** Message documentation (Message documentation)
@@ -55,6 +57,10 @@ $messages['qqq'] = array(
 	'deletebatch-select-script' => 'User name. Entry in dropdown for user that should execute the deletions',
 	'deletebatch-select-yourself' => 'Entry in dropdown for user that should execute the deletions',
 	'right-deletebatch' => '{{doc-right|deletebatch}}',
+        'deletebatch-deleting-file-only' => 'Message the user gets when the file description page '
+            .'he entered does not exist, but the actual file does. In this case, the file will be '
+            .'deleted but this action will not be logged because a log entry was presumably '
+            .'already created when the description page was deleted by some other script.',
 );
 
 /** Afrikaans (Afrikaans)
@@ -1983,4 +1989,3 @@ $messages['zh-hant'] = array(
 	'deletebatch-select-yourself' => '閣下',
 	'right-deletebatch' => '批量刪除頁面',
 );
-
