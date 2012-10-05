@@ -605,7 +605,7 @@ $messages['fi'] = array(
 	'deletebatch-link-back' => 'Palaa takaisin toimintosivulle',
 	'deletebatch-as' => 'Poiston suorittaja',
 	'deletebatch-both-modes' => 'Valitse joko määritelty sivu tai annettu lista sivuista.',
-	'deletebatch-or' => '<strong>TAI</strong>',
+	'deletebatch-or' => '<strong>tai</strong>',
 	'deletebatch-delete' => 'Poista',
 	'deletebatch-page' => 'Poistettavat sivut',
 	'deletebatch-omitting-nonexistant' => 'Ohitetaan olematon sivu $1.',
@@ -614,7 +614,7 @@ $messages['fi'] = array(
 	'deletebatch-file-missing' => 'Ei voi lukea annettua tiedostoa',
 	'deletebatch-select-script' => 'yleinen sivunpoistotunnus',
 	'deletebatch-select-yourself' => 'oma tunnus',
-	'deletebatch-no-page' => 'Määrittele ainakin yksi poistettava sivu TAI valitse tiedosto, joka sisältää sivulistan.',
+	'deletebatch-no-page' => 'Määrittele ainakin yksi poistettava sivu tai valitse tiedosto, joka sisältää sivulistan.',
 	'right-deletebatch' => 'Poistaa sivuja erissä',
 );
 
