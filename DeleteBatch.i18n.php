@@ -450,6 +450,8 @@ Die hochzuladende Datei sollte pro Zeile einen Seitennamen und optional einen du
  * @author Erdemaslancan
  */
 $messages['diq'] = array(
+	'deletebatch-caption' => 'Listeya pelan:',
+	'deletebatch-or' => '<strong>yana</strong>',
 	'deletebatch-delete' => 'Besterne',
 	'deletebatch-select-yourself' => 'Tı',
 );
