@@ -690,26 +690,27 @@ $messages['ga'] = array(
 $messages['gl'] = array(
 	'deletebatch' => 'Borrar un conxunto de páxinas',
 	'deletebatch-desc' => '[[Special:DeleteBatch|Borrar un conxunto de páxinas]]',
-	'deletebatch-help' => 'Borrar un conxunto de páxinas. Pode levar a cabo un borrado único ou borrar as páxinas listadas nun ficheiro.
-Escolla o usuario que será amosado nos rexistros de borrado.
-O ficheiro cargado debería conter o nome da páxina e unha razón opcional separados por un carácter de barra vertical ("|") en cada liña.',
+	'deletebatch-help' => 'Borrar un conxunto de páxinas.
+Pode levar a cabo un borrado único ou borrar as páxinas listadas nun ficheiro.
+Escolla o usuario que se mostrará nos rexistros de borrado.
+Os ficheiros cargados deberían conter o nome da páxina e un motivo opcional, separados por un carácter de barra vertical ("|") en cada liña.',
 	'deletebatch-caption' => 'Lista de páxinas:',
 	'deletebatch-title' => 'Borrar un conxunto',
 	'deletebatch-link-back' => 'Volver á páxina especial',
 	'deletebatch-as' => 'Executar a escritura como:',
 	'deletebatch-both-modes' => 'Por favor, escolla unha páxina específica ou unha lista de páxinas dadas.',
-	'deletebatch-or' => '<strong>OU</strong>',
+	'deletebatch-or' => '<strong>ou</strong>',
 	'deletebatch-delete' => 'Borrar',
-	'deletebatch-page' => 'Páxinas a ser borradas:',
+	'deletebatch-page' => 'Páxinas a borrar:',
 	'deletebatch-processing-from-file' => 'borrando as páxinas da lista de ficheiros',
 	'deletebatch-processing-from-form' => 'borrando as páxinas do formulario',
-	'deletebatch-omitting-nonexistant' => 'Omitindo a páxina $1, que non existe.',
-	'deletebatch-omitting-invalid' => 'Omitindo a páxina inválida $1.',
-	'deletebatch-file-bad-format' => 'O ficheiro debería ser un texto sinxelo',
-	'deletebatch-file-missing' => 'Non se pode ler o ficheiro dado',
-	'deletebatch-select-script' => 'borrar o guión dunha páxina',
-	'deletebatch-select-yourself' => 'vostede',
-	'deletebatch-no-page' => 'Por favor, especifique, polo menos, unha páxina para borrar OU escolla un ficheiro que conteña unha lista de páxinas.',
+	'deletebatch-omitting-nonexistant' => 'Omitindo a páxina inexistente "$1".',
+	'deletebatch-omitting-invalid' => 'Omitindo a páxina inválida "$1".',
+	'deletebatch-file-bad-format' => 'O ficheiro debería ser de texto',
+	'deletebatch-file-missing' => 'Non se puido ler o ficheiro dado',
+	'deletebatch-select-script' => 'Borrar a escritura dunha páxina',
+	'deletebatch-select-yourself' => 'Vostede',
+	'deletebatch-no-page' => 'Por favor, especifique, polo menos, unha páxina para borrar ou escolla un ficheiro que conteña unha lista de páxinas.',
 	'right-deletebatch' => 'Borrar conxuntos de páxinas',
 );
 
