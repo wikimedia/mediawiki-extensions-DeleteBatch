@@ -123,7 +123,7 @@ $messages['ar'] = array(
  * @author Basharh
  */
 $messages['arc'] = array(
-	'deletebatch-caption' => 'ܡܟܬܒܘܬܐ ܕܕܦܐ:',
+	'deletebatch-caption' => 'ܡܟܬܒܘܬܐ ܕܦܐܬܐ:',
 	'deletebatch-or' => '<strong>ܐܘ</strong>',
 	'deletebatch-delete' => 'ܫܘܦ',
 );
