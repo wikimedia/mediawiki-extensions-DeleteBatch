@@ -57,7 +57,7 @@ $messages['qqq'] = array(
 	'deletebatch-select-script' => 'User name. Entry in dropdown for user that should execute the deletions',
 	'deletebatch-select-yourself' => 'Entry in dropdown for user that should execute the deletions',
 	'right-deletebatch' => '{{doc-right|deletebatch}}',
-        'deletebatch-deleting-file-only' => 'Message the user gets when the file description page he entered does not exist, but the actual file does.
+	'deletebatch-deleting-file-only' => 'Message the user gets when the file description page he entered does not exist, but the actual file does.
 In this case, the file will be deleted but this action will not be logged because a log entry was presumably already created when the description page was deleted by some other script.',
 );
 
@@ -350,7 +350,7 @@ El fitxer indicat només pot contenir el títol de la pàgina i el motiu per a e
 	'deletebatch-both-modes' => 'Escolliu una pàgina especificada o una llista de pàgines donada.',
 	'deletebatch-or' => '<strong>o</strong>',
 	'deletebatch-page' => 'Pàgines a esborrar:',
-	'deletebatch-omitting-nonexistant' => "S'ha omès la pàgina inexistent $1.",
+	'deletebatch-omitting-nonexistent' => "S'ha omès la pàgina inexistent $1.",
 	'deletebatch-omitting-invalid' => "S'ha omès la pàgina no vàlida $1.",
 	'deletebatch-file-bad-format' => 'El fitxer ha de ser de text pla',
 	'deletebatch-file-missing' => "No s'ha pogut llegir el fitxer",
@@ -405,6 +405,7 @@ $messages['cs'] = array(
  * @author Kghbln
  * @author Leithian
  * @author MF-Warburg
+ * @author Metalhead64
  * @author Purodha
  * @author Revolus
  * @author Umherirrender
@@ -425,7 +426,7 @@ Die hochzuladende Datei sollte pro Zeile einen Seitennamen und optional einen du
 	'deletebatch-page' => 'Zu löschende Seiten:',
 	'deletebatch-processing-from-file' => 'Seiten aus einer Dateiliste löschen',
 	'deletebatch-processing-from-form' => 'Seiten über das Formular löschen',
-	'deletebatch-omitting-nonexistant' => 'Überspringe die nicht vorhandene Seite $1.',
+	'deletebatch-omitting-nonexistent' => 'Überspringe die nicht vorhandene Seite $1.',
 	'deletebatch-omitting-invalid' => 'Überspringe die ungültige Seite $1.',
 	'deletebatch-file-bad-format' => 'Die Datei sollte eine reine Textdatei sein',
 	'deletebatch-file-missing' => 'Die Datei kann nicht gelesen werden',
@@ -433,6 +434,7 @@ Die hochzuladende Datei sollte pro Zeile einen Seitennamen und optional einen du
 	'deletebatch-select-yourself' => 'du',
 	'deletebatch-no-page' => 'Bitte gib entweder mindestens eine zu löschende Seite an oder wähle eine Datei, die eine Liste zu löschender Seiten enthält.',
 	'right-deletebatch' => 'Seiten gesammelt löschen',
+	'deletebatch-deleting-file-only' => 'Die Dateibeschreibungsseite $1 ist nicht vorhanden. Es wird nur die eigentliche Datei gelöscht. Diese Aktion wird nicht protokolliert.',
 );
 
 /** German (formal address) (Deutsch (Sie-Form)‎)
@@ -944,6 +946,7 @@ $messages['ig'] = array(
 );
 
 /** Italian (italiano)
+ * @author Beta16
  * @author Darth Kule
  * @author Melos
  * @author Pietrodn
@@ -964,7 +967,7 @@ I file caricati dovrebbero contenere il nome della pagina e un motivo opzionale 
 	'deletebatch-page' => 'Pagine da cancellare:',
 	'deletebatch-processing-from-file' => 'eliminazione di pagine da un file di elenco',
 	'deletebatch-processing-from-form' => 'eliminazione di pagine da modulo',
-	'deletebatch-omitting-nonexistant' => 'Tralascio la pagina non esistente $1.',
+	'deletebatch-omitting-nonexistent' => 'Tralascio la pagina non esistente $1.',
 	'deletebatch-omitting-invalid' => 'Tralascio la pagina non valida $1.',
 	'deletebatch-file-bad-format' => 'Il file dovrebbe essere di solo testo',
 	'deletebatch-file-missing' => 'Impossibile leggere il file dato',
@@ -972,6 +975,7 @@ I file caricati dovrebbero contenere il nome della pagina e un motivo opzionale 
 	'deletebatch-select-yourself' => 'tu',
 	'deletebatch-no-page' => "Per favore specifica almeno una pagina da eliminare O scegli un file contenente l'elenco delle pagine.",
 	'right-deletebatch' => 'Elimina le pagine in massa',
+	'deletebatch-deleting-file-only' => 'La pagina di descrizione del file $1 è inesistente; verrà cancellato solo il file vero e proprio. Questa azione non verrà registrata.',
 );
 
 /** Japanese (日本語)
@@ -994,14 +998,15 @@ $messages['ja'] = array(
 	'deletebatch-page' => '削除するページ:',
 	'deletebatch-processing-from-file' => 'ファイル一覧からページを削除',
 	'deletebatch-processing-from-form' => 'フォームからページを削除',
-	'deletebatch-omitting-nonexistant' => '存在しないページ $1 は省略しました。',
-	'deletebatch-omitting-invalid' => '無効なページ $1 は省略しました。',
+	'deletebatch-omitting-nonexistent' => '存在しないページ $1 を省略しました。',
+	'deletebatch-omitting-invalid' => '無効なページ $1 を省略しました。',
 	'deletebatch-file-bad-format' => 'ファイルは、プレーンテキストであるべきです',
 	'deletebatch-file-missing' => '与えられたファイルを読み込むことができません。',
 	'deletebatch-select-script' => 'ページ削除スクリプト',
 	'deletebatch-select-yourself' => 'あなた',
 	'deletebatch-no-page' => '削除するページを少なくとも1つ指定するか、ページ一覧を含むファイルを選択してください。',
 	'right-deletebatch' => 'ページを一括削除',
+	'deletebatch-deleting-file-only' => 'ファイル解説ページ $1 は存在しません。本体ファイルのみを削除しています。この操作は記録されません。',
 );
 
 /** Georgian (ქართული)
@@ -1132,7 +1137,7 @@ $messages['lb'] = array(
 	'deletebatch-page' => 'Säite fir ze läschen:',
 	'deletebatch-processing-from-file' => 'Säite vun der Fichierslëscht läschen',
 	'deletebatch-processing-from-form' => 'Säiten vum Formulaire aus läschen',
-	'deletebatch-omitting-nonexistant' => "D'Säit $1 déi et net gëtt iwwersprangen.",
+	'deletebatch-omitting-nonexistent' => "D'Säit $1 déi et net gëtt iwwersprangen.",
 	'deletebatch-omitting-invalid' => 'Déi ongëlteg Säit $1 iwwersprangen.',
 	'deletebatch-file-bad-format' => 'De Fichier sollt als textfile virleien',
 	'deletebatch-file-missing' => 'De Fichier deen ukoum konnt net geliest ginn',
@@ -1987,3 +1992,4 @@ $messages['zh-hant'] = array(
 	'deletebatch-select-yourself' => '閣下',
 	'right-deletebatch' => '批量刪除頁面',
 );
+
