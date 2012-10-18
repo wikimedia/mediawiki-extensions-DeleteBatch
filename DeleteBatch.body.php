@@ -298,7 +298,8 @@ class DeleteBatchForm {
 		global $wgUser;
 		$page = Title::newFromText( $line );
 			if ( is_null( $page ) ) { /* invalid title? */
-				$this->context->getOutput()->addWikiMsg( 'deletebatch-omitting-invalid', $line );
+				$this->context->getOutput()->addWikiMsg(
+					'deletebatch-omitting-invalid', $line );
 			if ( !$multi ) {
 				if ( !is_null( $user ) ) {
 					$wgUser = $user;
@@ -323,7 +324,8 @@ class DeleteBatchForm {
 
 		if ( !$pageExists ) { /* no such page? */
 			if ( !$localFileExists ) { /* no such file either? */
-				$wgOut->addWikiMsg( 'deletebatch-omitting-nonexistent', $line );
+				$this->context->getOutput()->addWikiMsg(
+					'deletebatch-omitting-nonexistent', $line );
 				if ( !$multi ) {
 					if ( !is_null( $user ) ) {
 						$wgUser = $user;
@@ -331,7 +333,8 @@ class DeleteBatchForm {
 				}
 				return false;
 			} else { /* no such page, but there is such a file? */
-				$wgOut->addWikiMsg( 'deletebatch-deleting-file-only', $line );
+				$this->context->getOutput()->addWikiMsg(
+					'deletebatch-deleting-file-only', $line );
 			}
 		}
 

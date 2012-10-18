@@ -36,8 +36,8 @@ Uploaded files should contain page name and optional reason, separated by a "|" 
 	'deletebatch-select-yourself' => 'You',
 	'deletebatch-no-page' => 'Please specify at least one page to delete or choose a file containing page list.',
 	'right-deletebatch' => 'Batch delete pages',
-	'deletebatch-deleting-file-only' => 'File description page $1 is non-existent; deleting the'.
-            'actual file only. This action will not be logged.',
+	'deletebatch-deleting-file-only' => 'File description page $1 does not exist; deleting the actual file only.
+This action will not be logged.',
 );
 
 /** Message documentation (Message documentation)
@@ -57,10 +57,8 @@ $messages['qqq'] = array(
 	'deletebatch-select-script' => 'User name. Entry in dropdown for user that should execute the deletions',
 	'deletebatch-select-yourself' => 'Entry in dropdown for user that should execute the deletions',
 	'right-deletebatch' => '{{doc-right|deletebatch}}',
-        'deletebatch-deleting-file-only' => 'Message the user gets when the file description page '
-            .'he entered does not exist, but the actual file does. In this case, the file will be '
-            .'deleted but this action will not be logged because a log entry was presumably '
-            .'already created when the description page was deleted by some other script.',
+        'deletebatch-deleting-file-only' => 'Message the user gets when the file description page he entered does not exist, but the actual file does.
+In this case, the file will be deleted but this action will not be logged because a log entry was presumably already created when the description page was deleted by some other script.',
 );
 
 /** Afrikaans (Afrikaans)
