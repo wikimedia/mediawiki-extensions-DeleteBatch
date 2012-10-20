@@ -1113,7 +1113,7 @@ dohenger kann ene „|“ stonn, un dann dohenger ene Jrond för et Fottschmiiß
 	'deletebatch-page' => 'Sigge zom Fottschmiiße:',
 	'deletebatch-processing-from-file' => 'Sigge per Datei-Leß fott am schmiiße',
 	'deletebatch-processing-from-form' => 'Sigge per Fommulaa fott am schmiiße',
-	'deletebatch-omitting-nonexistant' => 'Donn de Sigg $1 övverjonn, weil et se nit jit.',
+	'deletebatch-omitting-nonexistent' => 'Donn de Sigg $1 övverjonn, weil et se nit jit.',
 	'deletebatch-omitting-invalid' => 'Donn dä Tittel $1 övverjonn, weil hä onjöltesh eß.',
 	'deletebatch-file-bad-format' => 'En dä Datei sullt nommaale Täx stonn.',
 	'deletebatch-file-missing' => 'Die aanjejovve Datei kunnte mer nit lesse.',
@@ -1122,6 +1122,7 @@ dohenger kann ene „|“ stonn, un dann dohenger ene Jrond för et Fottschmiiß
 	'deletebatch-no-page' => 'Beß esu joot, un jif winnischstens ein Sigg zom Fottschmiiße aan, udder
 söök en Datei uß, wo en Leß met Sigge zom Fottschmiiße dren steiht.',
 	'right-deletebatch' => 'En Aanzahl Sigge fottschmiiße',
+	'deletebatch-deleting-file-only' => 'En Sigg, woh di Dattei „$1“ beschrevve wöhr, hammer nit. Dröm schmiiße mer bloß di Dattei sellver fott. Dat kütt nit en de Logbööscher.',
 );
 
 /** Kurdish (Latin script) (Kurdî (latînî)‎)
@@ -1330,7 +1331,7 @@ Het bestand dat u uploadt moet op iedere regel een paginanaam en een reden bevat
 	'deletebatch-page' => "Te verwijderen pagina's:",
 	'deletebatch-processing-from-file' => "bezig met het verwijderen van pagina's uit een bestandslijst",
 	'deletebatch-processing-from-form' => "bezig met het verwijderen van pagina's uit het formulier",
-	'deletebatch-omitting-nonexistant' => 'Niet-bestaande pagina $1 is overgeslagen.',
+	'deletebatch-omitting-nonexistent' => 'Niet-bestaande pagina $1 is overgeslagen.',
 	'deletebatch-omitting-invalid' => 'Ongeldige paginanaam $1 is overgeslagen.',
 	'deletebatch-file-bad-format' => 'Het bestand moet platte tekst bevatten',
 	'deletebatch-file-missing' => 'Het bestand kan niet gelezen worden',
@@ -1338,6 +1339,9 @@ Het bestand dat u uploadt moet op iedere regel een paginanaam en een reden bevat
 	'deletebatch-select-yourself' => 'u',
 	'deletebatch-no-page' => "Geef tenminste één te verwijderen pagina op of kies een bestand dat de lijst met pagina's bevat.",
 	'right-deletebatch' => "Pagina's in batch verwijderen",
+	'deletebatch-deleting-file-only' => 'De bestandsbeschrijvingspagina $1 bestaat niet.
+Alleen het bestand wordt verwijderd.
+Deze handeling wordt niet opgenomen in het logboek.',
 );
 
 /** Norwegian Nynorsk (norsk (nynorsk)‎)
