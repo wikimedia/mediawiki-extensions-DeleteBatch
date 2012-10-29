@@ -637,6 +637,7 @@ $messages['fi'] = array(
 
 /** French (français)
  * @author Crochet.david
+ * @author Gomoko
  * @author Grondin
  * @author IAlex
  * @author McDutchie
@@ -666,6 +667,8 @@ Un fichier importé pourra contenir un nom de la page et un motif facultatif sé
 	'deletebatch-select-yourself' => 'vous',
 	'deletebatch-no-page' => 'Veuillez indiquer au moins une page à supprimer OU un fichier donné contenant une liste de pages.',
 	'right-deletebatch' => 'Supprimer des pages en lot',
+	'deletebatch-deleting-file-only' => "La page de description du fichier $1 n'existe pas; supprime uniquement le fichier réel.
+Cette action ne sera pas tracée.",
 );
 
 /** Franco-Provençal (arpetan)
