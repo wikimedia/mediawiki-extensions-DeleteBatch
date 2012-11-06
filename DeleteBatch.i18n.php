@@ -780,6 +780,7 @@ $messages['ha'] = array(
 );
 
 /** Hebrew (עברית)
+ * @author Amire80
  * @author Rotemliss
  * @author YaronSh
  */
@@ -807,6 +808,8 @@ $messages['he'] = array(
 	'deletebatch-select-yourself' => 'אתם',
 	'deletebatch-no-page' => 'אנא ציינו לפחות דף אחד למחיקה או בחרו קובץ המכיל רשימת דפים.',
 	'right-deletebatch' => 'מחיקה של דפים רבים ביחד',
+	'deletebatch-deleting-file-only' => 'דך תיאור הקובץ $1 אינו קיים; יימחק רק הקובץ.
+הפעולה הזאת לא תירשם ביומן.',
 );
 
 /** Croatian (hrvatski)
