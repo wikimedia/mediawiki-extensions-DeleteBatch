@@ -494,6 +494,8 @@ Nagrata dataja by měła mě boka a opcionelnu pśicynu wopśimjeś, kótarejž 
 	'deletebatch-select-yourself' => 'ty',
 	'deletebatch-no-page' => 'Pšosym pódaj nanejmjenjej jaden bok za wulašowanje ABO wujeŕ dataju, kótaraž wopśimujo lisćinu bokow.',
 	'right-deletebatch' => 'Někotare boki wulašowaś',
+	'deletebatch-deleting-file-only' => 'Bok datajowego wopisanja $1 njeeksistěrujo; popšawna dataja lašujo se jano.
+Toś ta akcija njebuźo se protokolěrowaś.',
 );
 
 /** Ewe (eʋegbe)
