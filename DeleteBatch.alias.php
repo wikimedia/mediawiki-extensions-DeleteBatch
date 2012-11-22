@@ -188,6 +188,11 @@ $specialPageAliases['sa'] = array(
 	'DeleteBatch' => array( 'गणपरित्याग' ),
 );
 
+/** Sicilian (sicilianu) */
+$specialPageAliases['scn'] = array(
+	'DeleteBatch' => array( 'CancellaBatch' ),
+);
+
 /** Slovak (slovenčina) */
 $specialPageAliases['sk'] = array(
 	'DeleteBatch' => array( 'DávkovéMazanie' ),
