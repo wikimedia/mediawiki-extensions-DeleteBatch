@@ -1740,7 +1740,7 @@ En uppladdad fil ska innehålla sidnamn och en valfri anledning separerade med e
 	'deletebatch-file-missing' => 'Kan inte läsa filen',
 	'deletebatch-select-script' => 'radera sidskript',
 	'deletebatch-select-yourself' => 'du',
-	'deletebatch-no-page' => 'Var god specifiera minst en sida för att radera ELLER välj en fil innehållande en sidlista.',
+	'deletebatch-no-page' => 'Var god specificera minst en sida för att radera ELLER välj en fil som innehåller en sidlista.',
 	'right-deletebatch' => 'Massradera sidor',
 );
 
