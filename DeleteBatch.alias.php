@@ -153,7 +153,7 @@ $specialPageAliases['nb'] = array(
 	'DeleteBatch' => array( 'Slett_en_serie_sider' ),
 );
 
-/** Nedersaksisch (Nedersaksisch) */
+/** Nedersaksies (Nedersaksies) */
 $specialPageAliases['nds-nl'] = array(
 	'DeleteBatch' => array( 'Paginareeks_vortdoon' ),
 );
