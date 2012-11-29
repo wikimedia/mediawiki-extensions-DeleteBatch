@@ -613,6 +613,7 @@ $messages['fa'] = array(
  * @author Crt
  * @author Jack Phoenix
  * @author Mobe
+ * @author Nedergard
  * @author Nike
  */
 $messages['fi'] = array(
@@ -627,6 +628,8 @@ $messages['fi'] = array(
 	'deletebatch-or' => '<strong>tai</strong>',
 	'deletebatch-delete' => 'Poista',
 	'deletebatch-page' => 'Poistettavat sivut',
+	'deletebatch-processing-from-file' => 'poistetaan sivuja tiedostoluettelosta',
+	'deletebatch-processing-from-form' => 'poistetaan sivuja lomakkeesta',
 	'deletebatch-omitting-nonexistent' => 'Ohitetaan olematon sivu $1.',
 	'deletebatch-omitting-invalid' => 'Ohitetaan kelpaamaton sivu $1.',
 	'deletebatch-file-bad-format' => 'Tiedoston tulisi olla raakatekstiä',
@@ -635,6 +638,8 @@ $messages['fi'] = array(
 	'deletebatch-select-yourself' => 'oma tunnus',
 	'deletebatch-no-page' => 'Määrittele ainakin yksi poistettava sivu tai valitse tiedosto, joka sisältää sivulistan.',
 	'right-deletebatch' => 'Poistaa sivuja erissä',
+	'deletebatch-deleting-file-only' => 'Tiedoston kuvaussivua $1 ei ole, pelkkä tiedosto poistetaan.
+Toiminnosta ei tehdä lokimerkintää.',
 );
 
 /** French (français)
