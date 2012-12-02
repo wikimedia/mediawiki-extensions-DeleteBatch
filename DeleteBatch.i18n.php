@@ -402,6 +402,20 @@ $messages['cs'] = array(
 	'right-deletebatch' => 'Hromadné (dávkové) mazání stránek',
 );
 
+/** Danish (dansk)
+ * @author Christian List
+ * @author Sarrus
+ */
+$messages['da'] = array(
+	'deletebatch-caption' => 'Sideliste:',
+	'deletebatch-link-back' => 'Gå tilbage til specialsiden',
+	'deletebatch-as' => 'Kør scriptet som:',
+	'deletebatch-or' => '<strong>eller</strong>',
+	'deletebatch-delete' => 'Slet',
+	'deletebatch-page' => 'Sider, der skal slettes:',
+	'deletebatch-select-yourself' => 'Dig',
+);
+
 /** German (Deutsch)
  * @author Als-Holder
  * @author ChrisiPK

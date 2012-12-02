@@ -123,6 +123,11 @@ $specialPageAliases['ksh'] = array(
 	'DeleteBatch' => array( 'SiggePöngelFottschmiiße' ),
 );
 
+/** Cornish (kernowek) */
+$specialPageAliases['kw'] = array(
+	'DeleteBatch' => array( 'DileaBagas' ),
+);
+
 /** Ladino (Ladino) */
 $specialPageAliases['lad'] = array(
 	'DeleteBatch' => array( 'EfassarBatch' ),
