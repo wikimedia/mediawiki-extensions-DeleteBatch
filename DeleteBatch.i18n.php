@@ -600,8 +600,10 @@ Esta acción no se registrará.',
  * @author Avjoska
  */
 $messages['et'] = array(
+	'deletebatch-caption' => 'Lehekülgede loend:',
 	'deletebatch-or' => '<strong>või</strong>',
 	'deletebatch-delete' => 'Kustuta',
+	'deletebatch-select-yourself' => 'Sina',
 );
 
 /** Basque (euskara)
@@ -620,6 +622,10 @@ $messages['eu'] = array(
  */
 $messages['fa'] = array(
 	'deletebatch-caption' => 'فهرست صفحه:',
+	'deletebatch-title' => 'حذف انبوه',
+	'deletebatch-or' => '<strong>یا</strong>',
+	'deletebatch-delete' => 'حذف',
+	'deletebatch-page' => 'صفحه‌هایی که باید حذف شوند:',
 	'deletebatch-select-yourself' => 'شما',
 );
 
@@ -1054,8 +1060,11 @@ $messages['ja'] = array(
  * @author David1010
  */
 $messages['ka'] = array(
+	'deletebatch-caption' => 'გვერდების სია:',
+	'deletebatch-link-back' => 'სპეციალურ გვერდზე დაბრუნება',
 	'deletebatch-or' => '<strong>ან</strong>',
 	'deletebatch-delete' => 'წაშლა',
+	'deletebatch-page' => 'წასაშლელი გვერდები:',
 	'deletebatch-select-yourself' => 'თქვენ',
 );
 
@@ -1512,6 +1521,7 @@ J'archivi carià a dovrìo conten-e ël nòm dla pàgina e na rason opsional, se
 	'deletebatch-select-yourself' => 'Ti',
 	'deletebatch-no-page' => "Për piasì specìfica almanch na pàgina da scancelé o sern n'archivi ch'a conten-a na lista ëd pàgine.",
 	'right-deletebatch' => 'Scancela le pàgine an partìa',
+	'deletebatch-deleting-file-only' => "La pàgina $1 ëd descrission dl'archivi a esist pa; scancelassion mach ëd l'archivi atual. St'assion a sarà pa registrà.",
 );
 
 /** Pashto (پښتو)
