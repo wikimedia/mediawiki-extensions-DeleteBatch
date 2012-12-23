@@ -253,6 +253,7 @@ $messages['be-tarask'] = array(
 
 /** Bulgarian (български)
  * @author DCLXVI
+ * @author පසිඳු කාවින්ද
  */
 $messages['bg'] = array(
 	'deletebatch-link-back' => 'Връщане към специалната страница',
@@ -262,6 +263,7 @@ $messages['bg'] = array(
 	'deletebatch-page' => 'Страници за изтриване:',
 	'deletebatch-file-bad-format' => 'Необходимо е файлът да съдържа само текст',
 	'deletebatch-file-missing' => 'Предоставеният файл не може да бъде прочетен',
+	'deletebatch-select-yourself' => 'Вие',
 );
 
 /** Bengali (বাংলা)
@@ -990,6 +992,13 @@ Berkas yang diunggah harus mengandung nama halaman dan alasan opsional, dipisahk
  */
 $messages['ig'] = array(
 	'deletebatch-delete' => 'Kàcha',
+);
+
+/** Icelandic (íslenska)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['is'] = array(
+	'deletebatch-delete' => 'Eyða',
 );
 
 /** Italian (italiano)
