@@ -1135,7 +1135,7 @@ $messages['ko'] = array(
 	'deletebatch-select-script' => '문서 스크립트 삭제',
 	'deletebatch-select-yourself' => '당신',
 	'deletebatch-no-page' => '문서 목록이 포함된 파일을 삭제하거나 선택할 수 있는 적어도 하나의 문서를 지정하세요.',
-	'right-deletebatch' => '일괄 삭제 문서',
+	'right-deletebatch' => '문서 일괄 삭제',
 	'deletebatch-deleting-file-only' => '$1 파일 설명 문서가 존재하지 않아서 실제 파일만 삭제합니다.
 이 행동은 기록하지 않습니다.',
 );
@@ -1677,9 +1677,12 @@ $messages['scn'] = array(
  */
 $messages['si'] = array(
 	'deletebatch-caption' => 'පිටු ලැයිස්තුව:',
+	'deletebatch-title' => 'කාණ්ඩය මකන්න',
 	'deletebatch-or' => '<strong>හෝ</strong>',
 	'deletebatch-delete' => 'මකන්න',
+	'deletebatch-select-script' => 'පිටු කොටස්කරය මකන්න',
 	'deletebatch-select-yourself' => 'ඔබ',
+	'right-deletebatch' => 'පිටු කාණ්ඩ වශයෙන් මැකීම',
 );
 
 /** Slovak (slovenčina)
@@ -1913,6 +1916,7 @@ $messages['tt-cyrl'] = array(
  * @author Olvin
  * @author Prima klasy4na
  * @author Vox
+ * @author Ата
  */
 $messages['uk'] = array(
 	'deletebatch' => 'Вилучення сторінок групами',
@@ -1931,10 +1935,15 @@ $messages['uk'] = array(
 	'deletebatch-processing-from-file' => 'вилучення сторінок зі списку в файлі',
 	'deletebatch-processing-from-form' => 'вилучення сторінок з форми',
 	'deletebatch-omitting-nonexistent' => 'Пропускання неіснуючої сторінки $1.',
+	'deletebatch-omitting-invalid' => 'Окрім неприпустимої сторінки $1.',
+	'deletebatch-file-bad-format' => 'Файл повинен містити звичайний текст',
 	'deletebatch-file-missing' => 'Не в змозі прочитати наданий файл',
 	'deletebatch-select-script' => 'Скрипт для вилучення сторінок',
 	'deletebatch-select-yourself' => 'ви',
 	'deletebatch-no-page' => 'Будь ласка, вкажіть принаймні одну сторінку для вилучення або виберіть файл, що містить перелік сторінок.',
+	'right-deletebatch' => 'Видалення сторінок групами',
+	'deletebatch-deleting-file-only' => 'Сторінка опису файлу $1 не існує; видалення лише даного файлу.
+Ця дія не буде записана у журнал.',
 );
 
 /** Urdu (اردو)
