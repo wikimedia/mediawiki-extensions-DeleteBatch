@@ -605,6 +605,7 @@ $messages['et'] = array(
 	'deletebatch-caption' => 'Lehekülgede loend:',
 	'deletebatch-or' => '<strong>või</strong>',
 	'deletebatch-delete' => 'Kustuta',
+	'deletebatch-page' => 'Leheküljed kustutamiseks:',
 	'deletebatch-select-yourself' => 'Sina',
 );
 
@@ -992,6 +993,7 @@ Berkas yang diunggah harus mengandung nama halaman dan alasan opsional, dipisahk
  */
 $messages['ig'] = array(
 	'deletebatch-delete' => 'Kàcha',
+	'deletebatch-select-yourself' => 'Gị',
 );
 
 /** Icelandic (íslenska)
@@ -1636,6 +1638,7 @@ $messages['roa-tara'] = array(
 /** Russian (русский)
  * @author Ferrer
  * @author Innv
+ * @author KPu3uC B Poccuu
  * @author Lockal
  * @author Александр Сигачёв
  */
@@ -1663,6 +1666,8 @@ $messages['ru'] = array(
 	'deletebatch-select-yourself' => 'вы',
 	'deletebatch-no-page' => 'Пожалуйста, выберите минимум одну страницу для удаления ИЛИ выберите файл, содержащий список страниц.',
 	'right-deletebatch' => 'удаление набора страниц',
+	'deletebatch-deleting-file-only' => 'Страница описания файла $1 не существует; удаление только самого файла.
+Это действие не будет отражено в журнале.',
 );
 
 /** Sicilian (sicilianu)
@@ -1676,10 +1681,19 @@ $messages['scn'] = array(
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
+	'deletebatch' => 'පිටු කාණ්ඩ මකා දමන්න',
+	'deletebatch-desc' => '[[Special:DeleteBatch|පිටු කාණ්ඩ මකා දමන්න]]',
 	'deletebatch-caption' => 'පිටු ලැයිස්තුව:',
 	'deletebatch-title' => 'කාණ්ඩය මකන්න',
+	'deletebatch-link-back' => 'විශේෂ පිටුව වෙත ආපසු යන්න',
+	'deletebatch-as' => 'කොටස්කරය මෙලෙස ධාවනය කරන්න:',
 	'deletebatch-or' => '<strong>හෝ</strong>',
 	'deletebatch-delete' => 'මකන්න',
+	'deletebatch-page' => 'මකා දැමීමට ඇති පිටු:',
+	'deletebatch-processing-from-file' => 'ගොනු ලැයිස්තුවෙන් පිටු මකා දැමීම',
+	'deletebatch-processing-from-form' => 'සිට පිටු මකා දැමීම',
+	'deletebatch-file-bad-format' => 'ගොනුව සාමාන්‍ය පාඨයෙන් විය යුතුය',
+	'deletebatch-file-missing' => 'ලබා දුන් ගොනුව කියවිය නොහැක',
 	'deletebatch-select-script' => 'පිටු කොටස්කරය මකන්න',
 	'deletebatch-select-yourself' => 'ඔබ',
 	'right-deletebatch' => 'පිටු කාණ්ඩ වශයෙන් මැකීම',
