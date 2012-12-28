@@ -188,6 +188,13 @@ $messages['az'] = array(
 	'right-deletebatch' => 'Seçilmiş səhifələri sil',
 );
 
+/** South Azerbaijani (تورکجه)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['azb'] = array(
+	'deletebatch-delete' => 'سیل',
+);
+
 /** Bashkir (башҡортса)
  * @author Assele
  */
@@ -900,6 +907,7 @@ Tuta akcija njebudźe so protokolować.',
 
 /** Hungarian (magyar)
  * @author Dani
+ * @author Dj
  * @author Glanthor Reviol
  */
 $messages['hu'] = array(
@@ -926,6 +934,8 @@ A feltöltött fájl minden sora tartalmazhat „|” karakterrel elválasztva e
 	'deletebatch-select-yourself' => 'te',
 	'deletebatch-no-page' => 'Kérlek adj meg legalább egy törlendő lapot, vagy válassz egy lapok listáját tartalmazó fájlt.',
 	'right-deletebatch' => 'Lapok kötegelt törlése',
+	'deletebatch-deleting-file-only' => 'A $1 fájlleíró lap nem található; csak az aktuális fájl kerül törlésre.
+Ez a tevékenység nem kerül naplózásra.',
 );
 
 /** Interlingua (interlingua)
@@ -1542,6 +1552,7 @@ $messages['ps'] = array(
 	'deletebatch-caption' => 'د مخ لړليک:',
 	'deletebatch-or' => '<strong>يا</strong>',
 	'deletebatch-delete' => 'ړنګول',
+	'deletebatch-page' => 'د ړنګېدو مخونه:',
 	'deletebatch-select-yourself' => 'تاسې',
 );
 
