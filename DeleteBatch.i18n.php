@@ -529,12 +529,18 @@ $messages['ee'] = array(
 
 /** Greek (Ελληνικά)
  * @author Omnipaedista
+ * @author ZaDiak
  */
 $messages['el'] = array(
 	'deletebatch-caption' => 'Λίστα σελίδων:',
+	'deletebatch-title' => 'Διαγραφή δέσμης',
+	'deletebatch-link-back' => 'Επιστροφή στην ειδική σελίδα',
 	'deletebatch-as' => 'Τρέξιμο του σκριπτ ως:',
 	'deletebatch-or' => '<strong>ή</strong>',
 	'deletebatch-delete' => 'Διαγραφή',
+	'deletebatch-page' => 'Σελίδες που θα διαγραφούν:',
+	'deletebatch-processing-from-file' => 'Διαγραφή σελίδων από τη λίστα αρχείων',
+	'deletebatch-file-missing' => 'Δεν είναι δυνατή η ανάγνωση του αρχείου',
 	'deletebatch-select-yourself' => 'Εσείς',
 );
 
