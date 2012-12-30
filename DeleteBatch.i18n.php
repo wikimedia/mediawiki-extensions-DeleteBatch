@@ -347,6 +347,7 @@ $messages['bs'] = array(
 
 /** Catalan (català)
  * @author Aleator
+ * @author Arnaugir
  * @author SMP
  */
 $messages['ca'] = array(
@@ -361,7 +362,10 @@ El fitxer indicat només pot contenir el títol de la pàgina i el motiu per a e
 	'deletebatch-as' => 'Executa el script com a:',
 	'deletebatch-both-modes' => 'Escolliu una pàgina especificada o una llista de pàgines donada.',
 	'deletebatch-or' => '<strong>o</strong>',
+	'deletebatch-delete' => 'Esborra',
 	'deletebatch-page' => 'Pàgines a esborrar:',
+	'deletebatch-processing-from-file' => "s'estan suprimint les pàgines de la llista d'arxius",
+	'deletebatch-processing-from-form' => "s'estan suprimint les pàgines des del formulari",
 	'deletebatch-omitting-nonexistent' => "S'ha omès la pàgina inexistent $1.",
 	'deletebatch-omitting-invalid' => "S'ha omès la pàgina no vàlida $1.",
 	'deletebatch-file-bad-format' => 'El fitxer ha de ser de text pla',
@@ -1411,6 +1415,17 @@ Alleen het bestand wordt verwijderd.
 Deze handeling wordt niet opgenomen in het logboek.',
 );
 
+/** Nederlands (informeel)‎ (Nederlands (informeel)‎)
+ * @author Siebrand
+ */
+$messages['nl-informal'] = array(
+	'deletebatch-help' => 'Een lijst pagina\'s verwijderen.
+Je kunt een enkele pagina verwijderen of een lijst van pagina\'s in een bestand.
+Kies een gebruiker die in het verwijderlogboek wordt genoemd.
+Het bestand dat je uploadt moet op iedere regel een paginanaam en een reden bevatten (optioneel), gescheiden door het karakter "|".',
+	'deletebatch-select-yourself' => 'jij',
+);
+
 /** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Gunnernett
  * @author Harald Khan
@@ -1709,6 +1724,8 @@ $messages['si'] = array(
 	'deletebatch-page' => 'මකා දැමීමට ඇති පිටු:',
 	'deletebatch-processing-from-file' => 'ගොනු ලැයිස්තුවෙන් පිටු මකා දැමීම',
 	'deletebatch-processing-from-form' => 'සිට පිටු මකා දැමීම',
+	'deletebatch-omitting-nonexistent' => '$1 නො-පවත්නා පිටුව අත් හරිමින්.',
+	'deletebatch-omitting-invalid' => '$1 වලංගු නොවන පිටුව අත් හරිමින්.',
 	'deletebatch-file-bad-format' => 'ගොනුව සාමාන්‍ය පාඨයෙන් විය යුතුය',
 	'deletebatch-file-missing' => 'ලබා දුන් ගොනුව කියවිය නොහැක',
 	'deletebatch-select-script' => 'පිටු කොටස්කරය මකන්න',
