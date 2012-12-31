@@ -859,6 +859,16 @@ $messages['he'] = array(
 הפעולה הזאת לא תירשם ביומן.',
 );
 
+/** Hindi (हिन्दी)
+ * @author Ansumang
+ */
+$messages['hi'] = array(
+	'deletebatch-caption' => 'पृष्ठ सूची:',
+	'deletebatch-or' => '<strong>या</strong>',
+	'deletebatch-delete' => 'मिटाएँ',
+	'deletebatch-select-yourself' => 'तुम',
+);
+
 /** Croatian (hrvatski)
  * @author Dalibor Bosits
  * @author Ex13
@@ -1302,9 +1312,32 @@ $messages['ml'] = array(
  * @author Anakmalaysia
  */
 $messages['ms'] = array(
+	'deletebatch' => 'Hapuskan kelompok halaman',
+	'deletebatch-desc' => '[[Special:DeleteBatch|Hapuskan kelompok halaman]]',
+	'deletebatch-help' => 'Hapuskan sekelompok halaman.
+Anda boleh melakukan sekali penghapusan atau menghapuskan halaman-halaman yang tersenarai dalam sesebuah fail.
+Pilih pengguna yang hendak dipaparkan dalam log penghapusan.
+Fail-fail yang dimuat naik harus mengandungi nama halaman dan sebab (tidak wajib) yang dipisahkan dengan aksara "|" dalam setiap baris.',
+	'deletebatch-caption' => 'Senarai halaman:',
+	'deletebatch-title' => 'Hapuskan kelompok',
+	'deletebatch-link-back' => 'Kembali ke halaman khas',
+	'deletebatch-as' => 'Jalankan skrip sebagai:',
+	'deletebatch-both-modes' => 'Sila pilih salah satu halaman yang tertentu atau senarai halaman yang disediakan.',
 	'deletebatch-or' => '<strong>atau</strong>',
 	'deletebatch-delete' => 'Hapuskan',
+	'deletebatch-page' => 'Halaman yang hendak dihapuskan:',
+	'deletebatch-processing-from-file' => 'menghapuskan halaman-halaman dari senarai fail',
+	'deletebatch-processing-from-form' => 'menghapuskan halaman-halaman dari borang',
+	'deletebatch-omitting-nonexistent' => 'Halaman tak wujud $1 tidak diambil kira.',
+	'deletebatch-omitting-invalid' => 'Halaman tak sah $1 tidak diambil kira.',
+	'deletebatch-file-bad-format' => 'Fail harus berbentuk teks biasa',
+	'deletebatch-file-missing' => 'Fail yang diberikan tidak dapat dibaca',
+	'deletebatch-select-script' => 'Skrip penghapus halaman',
 	'deletebatch-select-yourself' => 'Anda',
+	'deletebatch-no-page' => 'Sila nyatakan sekurang-kurangnya satu halaman untuk dihapuskan atau pilih satu fail yang mengandungi senarai halaman.',
+	'right-deletebatch' => 'Menghapuskan halaman secara berkelompok',
+	'deletebatch-deleting-file-only' => 'Halaman keterangan fail $1 tidak wujud; hanya failnya yang dihapuskan.
+Tindakan ini tidak akan dilogkan.',
 );
 
 /** Maltese (Malti)
@@ -1484,6 +1517,15 @@ Un fichièr importat poirà conténer un nom de la pagina e un motiu facultatiu 
 	'deletebatch-select-yourself' => 'vos',
 	'deletebatch-no-page' => 'Indicatz al mens una pagina de suprimir O un fichièr donat que conten una tièra de paginas.',
 	'right-deletebatch' => 'Suprimir de paginas en lòt',
+);
+
+/** Oriya (ଓଡ଼ିଆ)
+ * @author Ansumang
+ */
+$messages['or'] = array(
+	'deletebatch-caption' => 'ପୃଷ୍ଠା ସୂଚୀ:',
+	'deletebatch-delete' => 'ଲିଭାଇବେ',
+	'deletebatch-select-yourself' => 'ଆପଣ',
 );
 
 /** Deitsch (Deitsch)
