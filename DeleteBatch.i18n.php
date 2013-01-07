@@ -861,12 +861,13 @@ $messages['he'] = array(
 
 /** Hindi (हिन्दी)
  * @author Ansumang
+ * @author Siddhartha Ghai
  */
 $messages['hi'] = array(
 	'deletebatch-caption' => 'पृष्ठ सूची:',
 	'deletebatch-or' => '<strong>या</strong>',
-	'deletebatch-delete' => 'मिटाएँ',
-	'deletebatch-select-yourself' => 'तुम',
+	'deletebatch-delete' => 'हटाएँ',
+	'deletebatch-select-yourself' => 'आप',
 );
 
 /** Croatian (hrvatski)
