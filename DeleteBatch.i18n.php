@@ -1148,7 +1148,7 @@ $messages['ko'] = array(
 	'deletebatch' => '문서 일괄 삭제',
 	'deletebatch-desc' => '[[Special:DeleteBatch|문서 일괄 삭제]]',
 	'deletebatch-help' => '문서를 일괄 삭제합니다.
-당신은 하나를 삭제를 수행하거나 파일에 나열한 문서를 삭제할 수 있습니다.
+하나를 삭제를 수행하거나 파일에 나열한 문서를 삭제할 수 있습니다.
 삭제 기록에 보여줄 사용자를 선택하세요.
 올린 파일은 각 라인의 문자에 "|"로 구분하여 문서 이름과 선택적인 이유가 있어야 합니다.',
 	'deletebatch-caption' => '문서 목록:',
