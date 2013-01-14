@@ -2140,14 +2140,21 @@ $messages['zh-hans'] = array(
 
 /** Traditional Chinese (中文（繁體）‎)
  * @author Gzdavidwong
+ * @author Simon Shek
  * @author Wrightbus
  */
 $messages['zh-hant'] = array(
 	'deletebatch' => '刪除批處理的頁面',
 	'deletebatch-desc' => '[[Special:DeleteBatch|刪除一批頁]]',
+	'deletebatch-help' => '刪除一批頁。
+你可以處理單一頁的刪除，或刪除檔案包含的頁面列表上的頁面。
+選擇一位用戶顯示在刪除日誌。
+上載檔案包含要刪除的頁面的列表和其原因，每行以"|"分隔。',
 	'deletebatch-caption' => '頁面列表：',
 	'deletebatch-title' => '刪除批處理',
 	'deletebatch-link-back' => '返回特殊頁',
+	'deletebatch-as' => '運行腳本為：',
+	'deletebatch-both-modes' => '請選擇指定的頁面或頁面列表。',
 	'deletebatch-or' => '<strong>或</strong>',
 	'deletebatch-delete' => '刪除',
 	'deletebatch-page' => '欲刪除的頁面：',
@@ -2159,5 +2166,8 @@ $messages['zh-hant'] = array(
 	'deletebatch-file-missing' => '無法讀取指定文件',
 	'deletebatch-select-script' => '刪除頁面腳本',
 	'deletebatch-select-yourself' => '閣下',
+	'deletebatch-no-page' => '請指定至少一頁要刪除的頁面或選擇包含頁面列表的檔案。',
 	'right-deletebatch' => '批量刪除頁面',
+	'deletebatch-deleting-file-only' => '不存在檔描述頁面$1；只刪去實際的檔案。
+此操作不會記錄。',
 );
