@@ -2117,25 +2117,35 @@ $messages['yi'] = array(
  * @author Gzdavidwong
  * @author Hydra
  * @author Wilsonmess
+ * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
-	'deletebatch' => '删除批处理的页面',
-	'deletebatch-desc' => '[[Special:DeleteBatch|删除一批页]]',
+	'deletebatch' => '删除一批页面',
+	'deletebatch-desc' => '[[Special:DeleteBatch|删除一批页面]]',
+	'deletebatch-help' => '删除一批页面。
+您可以执行单条删除，或删除在一个文件中列出的页面。
+选择一个将显示删除日志中的用户。
+上传的文件应该包含页面名称和可选的原因，每行用一个“|”符号分隔。',
 	'deletebatch-caption' => '页面列表：',
-	'deletebatch-title' => '删除批处理',
-	'deletebatch-link-back' => '返回特殊页',
+	'deletebatch-title' => '批量删除',
+	'deletebatch-link-back' => '返回特殊页面',
+	'deletebatch-as' => '运行脚本为：',
+	'deletebatch-both-modes' => '请选择指定的页面或提供一个页面列表。',
 	'deletebatch-or' => '<strong>或</strong>',
 	'deletebatch-delete' => '删除',
 	'deletebatch-page' => '欲删除的页面：',
-	'deletebatch-processing-from-file' => '正在从文件列表中删除页面',
-	'deletebatch-processing-from-form' => '正在从表单中删除页面',
-	'deletebatch-omitting-nonexistent' => '忽略不存在的页面 $1 。',
-	'deletebatch-omitting-invalid' => '忽略不合法页面 $1 。',
+	'deletebatch-processing-from-file' => '正在依照列表文件删除页面',
+	'deletebatch-processing-from-form' => '正在依照表单删除页面',
+	'deletebatch-omitting-nonexistent' => '忽略不存在的页面 $1。',
+	'deletebatch-omitting-invalid' => '忽略无效的页面 $1。',
 	'deletebatch-file-bad-format' => '该文件应该为纯文本',
-	'deletebatch-file-missing' => '无法读取指定文件',
+	'deletebatch-file-missing' => '无法读取提供的文件',
 	'deletebatch-select-script' => '删除页面脚本',
 	'deletebatch-select-yourself' => '阁下',
+	'deletebatch-no-page' => '请指定至少一个要删除的页面或选择一个包含页面列表的文件。',
 	'right-deletebatch' => '批量删除页面',
+	'deletebatch-deleting-file-only' => '文件描述页 $1 不存在；只删除了实际存在的文件。
+此操作不会被记录。',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
