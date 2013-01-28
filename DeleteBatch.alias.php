@@ -158,7 +158,7 @@ $specialPageAliases['nb'] = array(
 	'DeleteBatch' => array( 'Slett_en_serie_sider' ),
 );
 
-/** Nedersaksies (Nedersaksies) */
+/** Low Saxon (Netherlands) (Nedersaksies) */
 $specialPageAliases['nds-nl'] = array(
 	'DeleteBatch' => array( 'Paginareeks_vortdoon' ),
 );
