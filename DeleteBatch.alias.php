@@ -50,7 +50,7 @@ $specialPageAliases['dsb'] = array(
 
 /** Persian (فارسی) */
 $specialPageAliases['fa'] = array(
-	'DeleteBatch' => array( 'پاک‌کردن_دسته' ),
+	'DeleteBatch' => array( 'پاک‌کردن_دسته‌ای' ),
 );
 
 /** French (français) */
