@@ -153,7 +153,7 @@ $specialPageAliases['mr'] = array(
 	'DeleteBatch' => array( 'बॅचवगळा' ),
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎) */
+/** Norwegian Bokmål (norsk bokmål) */
 $specialPageAliases['nb'] = array(
 	'DeleteBatch' => array( 'Slett_en_serie_sider' ),
 );
