@@ -1107,6 +1107,8 @@ $messages['ka'] = array(
 	'deletebatch-or' => '<strong>ან</strong>',
 	'deletebatch-delete' => 'წაშლა',
 	'deletebatch-page' => 'წასაშლელი გვერდები:',
+	'deletebatch-file-missing' => 'აღნიშნული ფაილის წაკითხვა შეუძლებელია',
+	'deletebatch-select-script' => 'გვერდის წაშლის სკრიპტი',
 	'deletebatch-select-yourself' => 'თქვენ',
 );
 
