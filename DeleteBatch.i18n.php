@@ -47,11 +47,12 @@ This action will not be logged.',
  * @author Jon Harald Søby
  * @author Malafaya
  * @author Purodha
+ * @author Shirayuki
  * @author The Evil IP address
  * @author Umherirrender
  */
 $messages['qqq'] = array(
-	'deletebatch-desc' => '{{desc}}',
+	'deletebatch-desc' => '{{desc|name=Delete Batch|url=http://www.mediawiki.org/wiki/Extension:DeleteBatch}}',
 	'deletebatch-or' => '{{Identical|Or}}',
 	'deletebatch-delete' => '{{Identical|Delete}}',
 	'deletebatch-select-script' => 'User name. Entry in dropdown for user that should execute the deletions',
