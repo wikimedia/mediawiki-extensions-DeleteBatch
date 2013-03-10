@@ -385,9 +385,13 @@ $messages['ce'] = array(
 );
 
 /** Sorani Kurdish (کوردی)
+ * @author Calak
  */
 $messages['ckb'] = array(
+	'deletebatch-caption' => 'پێرستی پەڕە:',
+	'deletebatch-or' => '<strong>یان</strong>',
 	'deletebatch-delete' => 'سڕینەوە',
+	'deletebatch-select-yourself' => 'تۆ',
 );
 
 /** Czech (česky)
