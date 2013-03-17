@@ -55,6 +55,10 @@ $messages['qqq'] = array(
 	'deletebatch-desc' => '{{desc|name=Delete Batch|url=http://www.mediawiki.org/wiki/Extension:DeleteBatch}}',
 	'deletebatch-or' => '{{Identical|Or}}',
 	'deletebatch-delete' => '{{Identical|Delete}}',
+	'deletebatch-omitting-nonexistent' => 'Parameters:
+* $1 - page title',
+	'deletebatch-omitting-invalid' => 'Parameters:
+* $1 - page title',
 	'deletebatch-select-script' => 'User name. Entry in dropdown for user that should execute the deletions',
 	'deletebatch-select-yourself' => 'Entry in dropdown for user that should execute the deletions',
 	'right-deletebatch' => '{{doc-right|deletebatch}}',
