@@ -52,6 +52,7 @@ This action will not be logged.',
  * @author Umherirrender
  */
 $messages['qqq'] = array(
+	'deletebatch' => '{{doc-special|DeleteBatch}}',
 	'deletebatch-desc' => '{{desc|name=Delete Batch|url=http://www.mediawiki.org/wiki/Extension:DeleteBatch}}',
 	'deletebatch-or' => '{{Identical|Or}}',
 	'deletebatch-delete' => '{{Identical|Delete}}',
