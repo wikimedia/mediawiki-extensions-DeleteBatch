@@ -1427,6 +1427,15 @@ En opplastet fil må inneholde navnet på siden, og kan også ha en valgfri slet
 	'right-deletebatch' => 'Masseslett sider',
 );
 
+/** Low German (Plattdüütsch)
+ * @author Joachim Mos
+ */
+$messages['nds'] = array(
+	'deletebatch-caption' => 'Siedenlist:',
+	'deletebatch-delete' => 'Wegdoon',
+	'deletebatch-select-yourself' => 'Du',
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  * @author Tvdm
