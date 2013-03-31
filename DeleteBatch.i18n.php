@@ -52,16 +52,53 @@ This action will not be logged.',
  * @author Umherirrender
  */
 $messages['qqq'] = array(
-	'deletebatch' => '{{doc-special|DeleteBatch}}',
+	'deletebatch' => '{{doc-special|DeleteBatch}}
+{{Identical|Delete batch of pages}}',
 	'deletebatch-desc' => '{{desc|name=Delete Batch|url=http://www.mediawiki.org/wiki/Extension:DeleteBatch}}',
+	'deletebatch-help' => 'This message is help message for the "Delete batch" form.
+
+The message indicates "(This form enables to) delete a batch of pages".',
+	'deletebatch-caption' => 'Used as label for "Select a file" button.',
+	'deletebatch-title' => 'Used as page title in [[Special:DeleteBatch]].',
+	'deletebatch-link-back' => 'Used as link text in "Result of delete batch" page.
+
+The link points to the special page [[Special:DeleteBatch]].',
+	'deletebatch-as' => 'Used as label for the "Mode" select box.
+
+The select box has the following performers:
+* {{msg-mw|Deletebatch-select-script}}
+* {{msg-mw|Deletebatch-select-yourself}}',
+	'deletebatch-both-modes' => 'Used as error message shown in red.
+
+The error occurs when both a file and a given page are specified or not too much.',
 	'deletebatch-or' => '{{Identical|Or}}',
 	'deletebatch-delete' => '{{Identical|Delete}}',
+	'deletebatch-page' => 'Used as label for the "Pages" textarea in the "Delete batch" form.',
+	'deletebatch-processing-from-file' => 'Used as subtitle to indicate the extension is deleting pages.
+
+The page title is {{msg-mw|Deletebatch-title}}.
+
+See also:
+* {{msg-mw|Deletebatch-processing-from-form}}',
+	'deletebatch-processing-from-form' => 'Used as subtitle to indicate the extension is deleting pages.
+
+The page title is {{msg-mw|Deletebatch-title}}.
+
+See also:
+* {{msg-mw|Deletebatch-processing-from-file}}',
 	'deletebatch-omitting-nonexistent' => 'Parameters:
 * $1 - page title',
 	'deletebatch-omitting-invalid' => 'Parameters:
 * $1 - page title',
-	'deletebatch-select-script' => 'User name. Entry in dropdown for user that should execute the deletions',
-	'deletebatch-select-yourself' => 'Entry in dropdown for user that should execute the deletions',
+	'deletebatch-file-bad-format' => 'Used as error message shown in red.',
+	'deletebatch-file-missing' => 'Used as error message shown in red.',
+	'deletebatch-select-script' => 'Username. Entry in dropdown for user that should execute the deletions.
+
+The label for the dropdown is {{msg-mw|Deletebatch-as}}.',
+	'deletebatch-select-yourself' => 'Entry in dropdown for user that should execute the deletions.
+
+The label for the dropdown is {{msg-mw|Deletebatch-as}}.',
+	'deletebatch-no-page' => 'Used as error message shown in red.',
 	'right-deletebatch' => '{{doc-right|deletebatch}}',
 	'deletebatch-deleting-file-only' => 'Message the user gets when the file description page he entered does not exist, but the actual file does.
 In this case, the file will be deleted, but this action will not be logged because a log entry was presumably already created when the description page was deleted by some other script.',
@@ -1084,14 +1121,17 @@ I file caricati dovrebbero contenere il nome della pagina e un motivo opzionale 
  * @author Shirayuki
  */
 $messages['ja'] = array(
-	'deletebatch' => 'ページを一括削除',
+	'deletebatch' => 'ページの一括削除',
 	'deletebatch-desc' => '[[Special:DeleteBatch|ページを一括削除する]]',
-	'deletebatch-help' => 'ページを一括削除することができます。ページ毎の削除の他に、ファイルに列挙したページ群を削除することができます。削除記録に表示される利用者を選択してください。アップロードされたファイルについては、各行にページ名とパイプ記号 (|) で区切った理由の追加説明を記す必要があります。',
+	'deletebatch-help' => 'ページを一括削除できます。
+ページ毎に削除できる他、ファイル内に列挙したページ群を削除することもできます。
+削除記録に表示される利用者を選択してください。
+アップロードするファイルでは、各行にページ名と削除理由 (省略可能) をパイプ記号 (|) で区切って記す必要があります。',
 	'deletebatch-caption' => 'ページ一覧:',
 	'deletebatch-title' => '一括削除',
 	'deletebatch-link-back' => '特別ページに戻る',
 	'deletebatch-as' => 'スクリプトを実行する名義:',
-	'deletebatch-both-modes' => '特定の1ページか、または与えられたページ一覧のどちらかを選んでください。',
+	'deletebatch-both-modes' => '1つのページ名か、ページ一覧ファイルか、どちらかで指定してください。',
 	'deletebatch-or' => '<strong>または</strong>',
 	'deletebatch-delete' => '削除',
 	'deletebatch-page' => '削除するページ:',
