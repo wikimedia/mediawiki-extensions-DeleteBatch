@@ -1766,9 +1766,14 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'deletebatch-caption' => 'Elenghe de le pàggene:',
+	'deletebatch-title' => "'Nfornate de scangellazione",
+	'deletebatch-link-back' => 'Tuèrne rrete a le pàggene speciale',
+	'deletebatch-as' => "Lange 'u script cumme:",
 	'deletebatch-or' => '<strong>o</strong>',
 	'deletebatch-delete' => 'Scangille',
 	'deletebatch-select-yourself' => 'tu',
+	'right-deletebatch' => "'Nfornate pa scangellazione de le pàggene",
 );
 
 /** Russian (русский)
