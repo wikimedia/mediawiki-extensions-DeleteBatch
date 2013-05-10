@@ -74,13 +74,13 @@ The error occurs when both a file and a given page are specified or not too much
 	'deletebatch-or' => '{{Identical|Or}}',
 	'deletebatch-delete' => '{{Identical|Delete}}',
 	'deletebatch-page' => 'Used as label for the "Pages" textarea in the "Delete batch" form.',
-	'deletebatch-processing-from-file' => 'Used as subtitle to indicate the extension is deleting pages.
+	'deletebatch-processing-from-file' => 'Used as subtitle to indicate the extension is deleting pages which are listed in the file.
 
 The page title is {{msg-mw|Deletebatch-title}}.
 
 See also:
 * {{msg-mw|Deletebatch-processing-from-form}}',
-	'deletebatch-processing-from-form' => 'Used as subtitle to indicate the extension is deleting pages.
+	'deletebatch-processing-from-form' => 'Used as subtitle to indicate the extension is deleting pages which are listed in the textarea.
 
 The page title is {{msg-mw|Deletebatch-title}}.
 
@@ -421,9 +421,10 @@ El fitxer indicat només pot contenir el títol de la pàgina i el motiu per a e
 
 /** Chechen (нохчийн)
  * @author Sasan700
+ * @author Умар
  */
 $messages['ce'] = array(
-	'deletebatch-delete' => 'Дlадайá',
+	'deletebatch-delete' => 'ДӀаяккха',
 );
 
 /** Sorani Kurdish (کوردی)
@@ -751,8 +752,8 @@ Un fichier importé pourra contenir un nom de la page et un motif facultatif sé
 	'deletebatch-or' => '<strong>OU</strong>',
 	'deletebatch-delete' => 'Supprimer',
 	'deletebatch-page' => 'Pages à supprimer :',
-	'deletebatch-processing-from-file' => 'suppression des pages depuis un fichier de liste',
-	'deletebatch-processing-from-form' => 'suppression des pages depuis le formulaire',
+	'deletebatch-processing-from-file' => 'suppression des pages listées dans le fichier',
+	'deletebatch-processing-from-form' => 'suppression des pages listées dans le formulaire',
 	'deletebatch-omitting-nonexistent' => 'Omission de la page « $1 » inexistante.',
 	'deletebatch-omitting-invalid' => 'Omission de la page « $1 » incorrecte.',
 	'deletebatch-file-bad-format' => 'Le fichier doit être en texte simple',
@@ -814,8 +815,8 @@ Os ficheiros cargados deberían conter o nome da páxina e un motivo opcional, s
 	'deletebatch-or' => '<strong>ou</strong>',
 	'deletebatch-delete' => 'Borrar',
 	'deletebatch-page' => 'Páxinas a borrar:',
-	'deletebatch-processing-from-file' => 'borrando as páxinas da lista de ficheiros',
-	'deletebatch-processing-from-form' => 'borrando as páxinas do formulario',
+	'deletebatch-processing-from-file' => 'borrando as páxinas listadas no ficheiro',
+	'deletebatch-processing-from-form' => 'borrando as páxinas listadas no formulario',
 	'deletebatch-omitting-nonexistent' => 'Omitindo a páxina inexistente "$1".',
 	'deletebatch-omitting-invalid' => 'Omitindo a páxina inválida "$1".',
 	'deletebatch-file-bad-format' => 'O ficheiro debería ser de texto',
@@ -1135,8 +1136,8 @@ $messages['ja'] = array(
 	'deletebatch-or' => '<strong>または</strong>',
 	'deletebatch-delete' => '削除',
 	'deletebatch-page' => '削除するページ:',
-	'deletebatch-processing-from-file' => 'ファイル一覧からページを削除',
-	'deletebatch-processing-from-form' => 'フォームからページを削除',
+	'deletebatch-processing-from-file' => 'ファイル内で列挙されたページを削除中',
+	'deletebatch-processing-from-form' => 'フォーム内に列挙されたページを削除中',
 	'deletebatch-omitting-nonexistent' => '存在しないページ $1 を省略しました。',
 	'deletebatch-omitting-invalid' => '無効なページ $1 を省略しました。',
 	'deletebatch-file-bad-format' => 'ファイルは、プレーンテキストであるべきです。',
@@ -1328,8 +1329,8 @@ $messages['mk'] = array(
 	'deletebatch-or' => '<strong>или</strong>',
 	'deletebatch-delete' => 'Избриши',
 	'deletebatch-page' => 'Страници за бришење:',
-	'deletebatch-processing-from-file' => 'бришење страници од список од податотека',
-	'deletebatch-processing-from-form' => 'бришење страници од образец',
+	'deletebatch-processing-from-file' => 'бришење страници наведени во податотеката',
+	'deletebatch-processing-from-form' => 'бришење страници наведени во образецот',
 	'deletebatch-omitting-nonexistent' => 'За испуштање на непостоечката страница $1.',
 	'deletebatch-omitting-invalid' => 'За испуштање на неважечката страница $1.',
 	'deletebatch-file-bad-format' => 'Податотеката мора да содржи само прост текст',
