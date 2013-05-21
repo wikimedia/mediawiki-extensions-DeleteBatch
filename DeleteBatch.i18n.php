@@ -317,6 +317,7 @@ $messages['bg'] = array(
 );
 
 /** Bengali (বাংলা)
+ * @author Aftab1995
  * @author Wikitanvir
  */
 $messages['bn'] = array(
@@ -328,8 +329,8 @@ $messages['bn'] = array(
 	'deletebatch-or' => '<strong>অথবা</strong>',
 	'deletebatch-delete' => 'অপসারণ',
 	'deletebatch-page' => 'অপসারিত হবে এমন পাতাসমূহ:',
-	'deletebatch-processing-from-file' => 'ফাইলের তালিকা থেকে পাতা অপসারিত হচ্ছে',
-	'deletebatch-processing-from-form' => 'ফর্ম থেকে পাতা অপসারিত হচ্ছে',
+	'deletebatch-processing-from-file' => 'ফাইলের তালিকাভুক্ত হওয়া পাতা অপসারিত হচ্ছে',
+	'deletebatch-processing-from-form' => 'ফর্মের তালিকাভুক্ত হওয়া পাতা অপসারিত হচ্ছে',
 	'deletebatch-omitting-nonexistent' => 'না থাকা পাতা $1 উপেক্ষা করা হচ্ছে।',
 	'deletebatch-omitting-invalid' => 'অগ্রহণযোগ্য পাতা $1 উপেক্ষা করা হচ্ছে',
 	'deletebatch-file-bad-format' => 'এই ফাইলটি সরল টেক্সট হওয়া উচিত',
@@ -893,8 +894,8 @@ $messages['he'] = array(
 	'deletebatch-or' => '<strong>או</strong>',
 	'deletebatch-delete' => 'מחיקה',
 	'deletebatch-page' => 'דפים למחיקה:',
-	'deletebatch-processing-from-file' => 'מחיקת דפים מרשימת הקבצים',
-	'deletebatch-processing-from-form' => 'מחיקת דפים מטופס',
+	'deletebatch-processing-from-file' => 'מתבצעת מחיקת דפים מהרשימה בקובץ',
+	'deletebatch-processing-from-form' => 'מחיקת דפים שרשומים בטופס הזה',
 	'deletebatch-omitting-nonexistent' => 'השמטת דף שאינו קיים $1.',
 	'deletebatch-omitting-invalid' => 'השמטת דף בלתי תקין $1.',
 	'deletebatch-file-bad-format' => 'הקובץ אמור להיות קובץ טקסט פשוט.',
