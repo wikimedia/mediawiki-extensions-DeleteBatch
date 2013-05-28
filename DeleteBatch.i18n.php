@@ -318,6 +318,7 @@ $messages['bg'] = array(
 
 /** Bengali (বাংলা)
  * @author Aftab1995
+ * @author Bellayet
  * @author Wikitanvir
  */
 $messages['bn'] = array(
@@ -330,7 +331,7 @@ $messages['bn'] = array(
 	'deletebatch-delete' => 'অপসারণ',
 	'deletebatch-page' => 'অপসারিত হবে এমন পাতাসমূহ:',
 	'deletebatch-processing-from-file' => 'ফাইলের তালিকাভুক্ত হওয়া পাতা অপসারিত হচ্ছে',
-	'deletebatch-processing-from-form' => 'ফর্মের তালিকাভুক্ত হওয়া পাতা অপসারিত হচ্ছে',
+	'deletebatch-processing-from-form' => 'ফরমের তালিকাভুক্ত হওয়া পাতা অপসারণ হচ্ছে',
 	'deletebatch-omitting-nonexistent' => 'না থাকা পাতা $1 উপেক্ষা করা হচ্ছে।',
 	'deletebatch-omitting-invalid' => 'অগ্রহণযোগ্য পাতা $1 উপেক্ষা করা হচ্ছে',
 	'deletebatch-file-bad-format' => 'এই ফাইলটি সরল টেক্সট হওয়া উচিত',
