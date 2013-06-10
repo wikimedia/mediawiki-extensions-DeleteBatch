@@ -1614,6 +1614,7 @@ $messages['pfl'] = array(
  * @author Maikking
  * @author Matma Rex
  * @author Sp5uhe
+ * @author Woytecr
  */
 $messages['pl'] = array(
 	'deletebatch' => 'Usuń grupę stron',
@@ -1629,8 +1630,8 @@ Przesyłany plik powinien zawierać nazwę strony i powód usunięcia w jednej l
 	'deletebatch-or' => '<strong>lub</strong>',
 	'deletebatch-delete' => 'Usuń',
 	'deletebatch-page' => 'Lista stron do usunięcia:',
-	'deletebatch-processing-from-file' => 'usuwanie stron z użyciem listy plików', # Fuzzy
-	'deletebatch-processing-from-form' => 'usuwanie stron z wykorzystaniem formularza', # Fuzzy
+	'deletebatch-processing-from-file' => 'usuwanie stron wymienionych w pliku',
+	'deletebatch-processing-from-form' => 'usuwanie stron wymienionych w formularzu',
 	'deletebatch-omitting-nonexistent' => 'Pominięto nieistniejącą stronę $1.',
 	'deletebatch-omitting-invalid' => 'Pominięto niewłaściwą stronę $1.',
 	'deletebatch-file-bad-format' => 'Plik powinien zawierać wyłącznie tekst',
@@ -1639,6 +1640,7 @@ Przesyłany plik powinien zawierać nazwę strony i powód usunięcia w jednej l
 	'deletebatch-select-yourself' => 'Ty',
 	'deletebatch-no-page' => 'Wybierz jedną stronę LUB plik z listą stron do usunięcia.',
 	'right-deletebatch' => 'Usuwanie grupy stron',
+	'deletebatch-deleting-file-only' => 'Strona opisu pliku $1 nie istnieje; zostanie usunięty tylko bieżący plik. Ta akcja nie zostanie dopisana do logu.',
 );
 
 /** Piedmontese (Piemontèis)
@@ -2185,6 +2187,7 @@ $messages['yi'] = array(
 /** Simplified Chinese (中文（简体）‎)
  * @author Gzdavidwong
  * @author Hydra
+ * @author Shizhao
  * @author Wilsonmess
  * @author Yfdyh000
  */
@@ -2203,7 +2206,7 @@ $messages['zh-hans'] = array(
 	'deletebatch-or' => '<strong>或</strong>',
 	'deletebatch-delete' => '删除',
 	'deletebatch-page' => '欲删除的页面：',
-	'deletebatch-processing-from-file' => '正在依照列表文件删除页面', # Fuzzy
+	'deletebatch-processing-from-file' => '正在删除列于文件中的页面',
 	'deletebatch-processing-from-form' => '正在依照表单删除页面', # Fuzzy
 	'deletebatch-omitting-nonexistent' => '忽略不存在的页面 $1。',
 	'deletebatch-omitting-invalid' => '忽略无效的页面 $1。',
