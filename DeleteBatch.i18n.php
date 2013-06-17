@@ -1916,6 +1916,7 @@ $messages['sr-el'] = array(
 );
 
 /** Swedish (svenska)
+ * @author Jopparn
  * @author M.M.S.
  * @author Najami
  * @author Per
@@ -1935,8 +1936,8 @@ En uppladdad fil ska innehålla sidnamn och en valfri anledning separerade med e
 	'deletebatch-or' => '<strong>ELLER</strong>',
 	'deletebatch-delete' => 'Radera',
 	'deletebatch-page' => 'Sidor som ska raderas:',
-	'deletebatch-processing-from-file' => 'raderar sidor från listan över filer', # Fuzzy
-	'deletebatch-processing-from-form' => 'raderar sidor från formuläret', # Fuzzy
+	'deletebatch-processing-from-file' => 'raderar sidor listade i filen',
+	'deletebatch-processing-from-form' => 'raderar sidor listade i formuläret',
 	'deletebatch-omitting-nonexistent' => 'Utelämna ej existerande sida $1.',
 	'deletebatch-omitting-invalid' => 'Utelämna ogiltig sida $1.',
 	'deletebatch-file-bad-format' => 'Filen ska innehålla ren text',
