@@ -203,6 +203,38 @@ $messages['arz'] = array(
 	'right-deletebatch' => 'حذف باتش الصفحات',
 );
 
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'deletebatch' => 'Desaniciar un piñu de páxines',
+	'deletebatch-desc' => '[[Special:DeleteBatch|Desaniciar un piñu de páxines]]',
+	'deletebatch-help' => "Desaniciar un piñu de páxines.
+Pue facer un desaniciu únicu, o desaniciar les páxines qu'apaecen nun ficheru.
+Escueya l'usuariu qu'apaecerá nos rexistros de desanicios.
+Los ficheros cargaos tienen de contener el nome de la páxina y un motivu opcional, separaos por una barra vertical (\"|\") en cada llinia.",
+	'deletebatch-caption' => 'Llista de páxines:',
+	'deletebatch-title' => 'Desaniciar un conxuntu',
+	'deletebatch-link-back' => 'Volver a la páxina especial',
+	'deletebatch-as' => 'Executar el script como:',
+	'deletebatch-both-modes' => 'Por favor, escueya una páxina determinada o una llista de páxines daes.',
+	'deletebatch-or' => '<strong>o</strong>',
+	'deletebatch-delete' => 'Desaniciar',
+	'deletebatch-page' => 'Páxines a desaniciar:',
+	'deletebatch-processing-from-file' => "desaniciando les páxines qu'apaecen nel ficheru",
+	'deletebatch-processing-from-form' => "desaniciando les páxines qu'apaecen nel formulariu",
+	'deletebatch-omitting-nonexistent' => 'Omitiendo la páxina inesistente "$1".',
+	'deletebatch-omitting-invalid' => 'Omitiendo la páxina inválida "$1".',
+	'deletebatch-file-bad-format' => 'El ficheru tien de ser de testu planu.',
+	'deletebatch-file-missing' => "Nun pudo lleese'l ficheru dau",
+	'deletebatch-select-script' => 'Script de desaniciu de páxines',
+	'deletebatch-select-yourself' => 'Vusté',
+	'deletebatch-no-page' => 'Por favor, especifique polo menos una páxina pa desaniciar o escueya un ficheru que contenga una llista de páxines.',
+	'right-deletebatch' => 'Desaniciar conxuntos de páxines',
+	'deletebatch-deleting-file-only' => 'Nun esiste la páxina de descripción del ficheru $1; desaniciando namái el propiu ficheru.
+Esta aición nun quedará rexistrada.',
+);
+
 /** Azerbaijani (azərbaycanca)
  * @author Cekli829
  * @author Vago
