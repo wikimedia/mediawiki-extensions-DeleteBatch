@@ -1414,8 +1414,8 @@ Fail-fail yang dimuat naik harus mengandungi nama halaman dan sebab (tidak wajib
 	'deletebatch-or' => '<strong>atau</strong>',
 	'deletebatch-delete' => 'Hapuskan',
 	'deletebatch-page' => 'Halaman yang hendak dihapuskan:',
-	'deletebatch-processing-from-file' => 'menghapuskan halaman-halaman dari senarai fail', # Fuzzy
-	'deletebatch-processing-from-form' => 'menghapuskan halaman-halaman dari borang', # Fuzzy
+	'deletebatch-processing-from-file' => 'menghapuskan halaman-halaman yang tersenarai dalam fail',
+	'deletebatch-processing-from-form' => 'menghapuskan halaman-halaman yang tersenarai dalam borang',
 	'deletebatch-omitting-nonexistent' => 'Halaman tak wujud $1 tidak diambil kira.',
 	'deletebatch-omitting-invalid' => 'Halaman tak sah $1 tidak diambil kira.',
 	'deletebatch-file-bad-format' => 'Fail harus berbentuk teks biasa',
