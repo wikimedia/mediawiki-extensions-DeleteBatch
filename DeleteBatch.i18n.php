@@ -2223,6 +2223,7 @@ $messages['yi'] = array(
  * @author Shizhao
  * @author Wilsonmess
  * @author Yfdyh000
+ * @author Zhangjintao
  */
 $messages['zh-hans'] = array(
 	'deletebatch' => '删除一批页面',
@@ -2240,7 +2241,7 @@ $messages['zh-hans'] = array(
 	'deletebatch-delete' => '删除',
 	'deletebatch-page' => '欲删除的页面：',
 	'deletebatch-processing-from-file' => '正在删除列于文件中的页面',
-	'deletebatch-processing-from-form' => '正在依照表单删除页面', # Fuzzy
+	'deletebatch-processing-from-form' => '正在删除列在表单中的页面',
 	'deletebatch-omitting-nonexistent' => '忽略不存在的页面 $1。',
 	'deletebatch-omitting-invalid' => '忽略无效的页面 $1。',
 	'deletebatch-file-bad-format' => '该文件应该为纯文本',
