@@ -160,7 +160,7 @@ $specialPageAliases['nb'] = array(
 
 /** Low Saxon (Netherlands) (Nedersaksies) */
 $specialPageAliases['nds-nl'] = array(
-	'DeleteBatch' => array( 'Paginareeks_vortdoon' ),
+	'DeleteBatch' => array( 'Ziedreeks_vortdoon' ),
 );
 
 /** Dutch (Nederlands) */
