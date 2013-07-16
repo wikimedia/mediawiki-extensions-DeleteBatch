@@ -664,6 +664,7 @@ Alŝutita dosiero enhavu paĝan nomon kaj nedevigan kialon apartigita de signo "
  * @author Armando-Martin
  * @author Crazymadlover
  * @author Imre
+ * @author Luis Felipe Schenone
  * @author Od1n
  * @author Sanbec
  * @author Translationista
@@ -683,8 +684,8 @@ Los archivos subidos deben contener el nombre de la página y el motivo opcional
 	'deletebatch-or' => '<strong>o</strong>',
 	'deletebatch-delete' => 'Borrar',
 	'deletebatch-page' => 'Páginas a ser borradas:',
-	'deletebatch-processing-from-file' => 'borrando páginas de la lista de archivos', # Fuzzy
-	'deletebatch-processing-from-form' => 'borrando páginas del formulario', # Fuzzy
+	'deletebatch-processing-from-file' => 'borrando páginas listadas en el archivo',
+	'deletebatch-processing-from-form' => 'borrando páginas listadas en el formulario',
 	'deletebatch-omitting-nonexistent' => 'Omitiendo página no existente $1.',
 	'deletebatch-omitting-invalid' => 'Omitiendo página inválida $1.',
 	'deletebatch-file-bad-format' => 'El archivo debería ser texto simple',
