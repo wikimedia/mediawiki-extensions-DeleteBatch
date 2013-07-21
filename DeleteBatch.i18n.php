@@ -1979,6 +1979,8 @@ En uppladdad fil ska innehålla sidnamn och en valfri anledning separerade med e
 	'deletebatch-select-yourself' => 'du',
 	'deletebatch-no-page' => 'Var god specificera minst en sida för att radera ELLER välj en fil som innehåller en sidlista.',
 	'right-deletebatch' => 'Massradera sidor',
+	'deletebatch-deleting-file-only' => 'Filbeskrivningsidan $1 finns inte, tar endast bort själva filen.
+Denna åtgärd kommer inte att loggas.',
 );
 
 /** Tamil (தமிழ்)
