@@ -1059,8 +1059,8 @@ Le file incargate debe continer in cata linea un nomine de pagina e un motivo fa
 	'deletebatch-or' => '<strong>o</strong>',
 	'deletebatch-delete' => 'Deler',
 	'deletebatch-page' => 'Paginas a deler:',
-	'deletebatch-processing-from-file' => 'deletion de paginas ex un lista de files', # Fuzzy
-	'deletebatch-processing-from-form' => 'deletion de paginas ex formulario', # Fuzzy
+	'deletebatch-processing-from-file' => 'deletion de paginas listate in le file',
+	'deletebatch-processing-from-form' => 'deletion de paginas listate in le formulario',
 	'deletebatch-omitting-nonexistent' => 'Omission del pagina non existente "$1".',
 	'deletebatch-omitting-invalid' => 'Omission del pagina invalide "$1".',
 	'deletebatch-file-bad-format' => 'Le file debe esser in texto simple',
