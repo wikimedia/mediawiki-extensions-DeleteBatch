@@ -1069,6 +1069,7 @@ Le file incargate debe continer in cata linea un nomine de pagina e un motivo fa
 	'deletebatch-select-yourself' => 'tu',
 	'deletebatch-no-page' => 'Per favor, o specifica al minus un pagina a deler, o selige un file continente un lista de paginas.',
 	'right-deletebatch' => 'Deler paginas in lot',
+	'deletebatch-deleting-file-only' => 'Le pagina de description de file $1 non existe; solmente le file mesme es delite. Iste action non essera includite in le registro.',
 );
 
 /** Indonesian (Bahasa Indonesia)

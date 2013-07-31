@@ -138,6 +138,11 @@ $specialPageAliases['lb'] = array(
 	'DeleteBatch' => array( 'Läsch-Batch' ),
 );
 
+/** Minangkabau (Baso Minangkabau) */
+$specialPageAliases['min'] = array(
+	'DeleteBatch' => array( 'HapuihSakaliguih' ),
+);
+
 /** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'DeleteBatch' => array( 'ИзбришиГрупиранаПодатотека' ),
