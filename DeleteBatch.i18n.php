@@ -1805,6 +1805,8 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'deletebatch' => 'Batch pa scangellazione de le pàggene',
+	'deletebatch-desc' => "[[Special:DeleteBatch|'Nu batch pa scangellazione de le pàggene]]",
 	'deletebatch-caption' => 'Elenghe de le pàggene:',
 	'deletebatch-title' => "'Nfornate de scangellazione",
 	'deletebatch-link-back' => 'Tuèrne rrete a le pàggene speciale',

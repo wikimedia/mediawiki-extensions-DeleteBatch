@@ -33,6 +33,11 @@ $specialPageAliases['bs'] = array(
 	'DeleteBatch' => array( 'BrisanjeBatch' ),
 );
 
+/** Min Dong Chinese (Mìng-dĕ̤ng-ngṳ̄) */
+$specialPageAliases['cdo'] = array(
+	'DeleteBatch' => array( '批量刪除' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'DeleteBatch' => array( 'Stapel_löschen' ),
