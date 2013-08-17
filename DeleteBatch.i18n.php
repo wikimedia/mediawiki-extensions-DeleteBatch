@@ -1234,8 +1234,8 @@ $messages['kn'] = array(
  * @author 아라
  */
 $messages['ko'] = array(
-	'deletebatch' => '문서 일괄 삭제',
-	'deletebatch-desc' => '[[Special:DeleteBatch|문서 일괄 삭제]]',
+	'deletebatch' => '문서를 일괄 삭제',
+	'deletebatch-desc' => '[[Special:DeleteBatch|문서를 일괄 삭제]]',
 	'deletebatch-help' => '문서를 일괄 삭제합니다.
 하나를 삭제를 수행하거나 파일에 나열한 문서를 삭제할 수 있습니다.
 삭제 기록에 보여줄 사용자를 선택하세요.
@@ -1248,8 +1248,8 @@ $messages['ko'] = array(
 	'deletebatch-or' => '<strong>또는</strong>',
 	'deletebatch-delete' => '삭제',
 	'deletebatch-page' => '문서가 삭제될 수 있음:',
-	'deletebatch-processing-from-file' => '파일 목록에서 문서를 삭제함', # Fuzzy
-	'deletebatch-processing-from-form' => '양식에서 문서를 삭제함', # Fuzzy
+	'deletebatch-processing-from-file' => '파일에 나열된 문서를 삭제함',
+	'deletebatch-processing-from-form' => '양식에 나열된 문서를 삭제함',
 	'deletebatch-omitting-nonexistent' => '존재하지 않는 $1 생략.',
 	'deletebatch-omitting-invalid' => '잘못된 $1 페이지를 생략함.',
 	'deletebatch-file-bad-format' => '파일은 일반 텍스트이여야 합니다',
@@ -1606,8 +1606,8 @@ Un fichièr importat poirà conténer un nom de la pagina e un motiu facultatiu 
 	'deletebatch-or' => '<strong>o</strong>',
 	'deletebatch-delete' => 'Suprimir',
 	'deletebatch-page' => 'Paginas de suprimir :',
-	'deletebatch-processing-from-file' => 'supression de las paginas dempuèi un fichièr de lista', # Fuzzy
-	'deletebatch-processing-from-form' => 'supression de las paginas dempuèi lo formulari', # Fuzzy
+	'deletebatch-processing-from-file' => 'supression de las paginas listadas dins lo fichièr',
+	'deletebatch-processing-from-form' => 'supression de las paginas listadas dins lo formulari',
 	'deletebatch-omitting-nonexistent' => 'Omission de la pagina « $1 » inexistenta.',
 	'deletebatch-omitting-invalid' => 'Omission de la pagina « $1 » incorrècta.',
 	'deletebatch-file-bad-format' => 'Lo fichièr deu èsser en tèxte simple',
@@ -1813,6 +1813,14 @@ $messages['roa-tara'] = array(
 	'deletebatch-as' => "Lange 'u script cumme:",
 	'deletebatch-or' => '<strong>o</strong>',
 	'deletebatch-delete' => 'Scangille',
+	'deletebatch-page' => 'Pàggene da scangellà:',
+	'deletebatch-processing-from-file' => "pàggene in scangellazzione elengate jndr'à 'u file",
+	'deletebatch-processing-from-form' => "pàggene in scangellazzione elengate jndr'à 'u module",
+	'deletebatch-omitting-nonexistent' => "Scartate 'a pàgene $1 ca non g'esiste.",
+	'deletebatch-omitting-invalid' => "Scartate 'a pàgene invalide $1.",
+	'deletebatch-file-bad-format' => "'U file avessa essere 'nu teste semblice.",
+	'deletebatch-file-missing' => "Non ge riesche a leggere 'u file.",
+	'deletebatch-select-script' => "Script de scangellazione d'a pàgene",
 	'deletebatch-select-yourself' => 'tu',
 	'right-deletebatch' => "'Nfornate pa scangellazione de le pàggene",
 );
