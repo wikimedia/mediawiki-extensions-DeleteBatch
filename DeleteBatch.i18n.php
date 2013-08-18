@@ -1235,7 +1235,7 @@ $messages['kn'] = array(
  */
 $messages['ko'] = array(
 	'deletebatch' => '문서를 일괄 삭제',
-	'deletebatch-desc' => '[[Special:DeleteBatch|문서를 일괄 삭제]]',
+	'deletebatch-desc' => '[[Special:DeleteBatch|문서를 일괄 삭제합니다]]',
 	'deletebatch-help' => '문서를 일괄 삭제합니다.
 하나를 삭제를 수행하거나 파일에 나열한 문서를 삭제할 수 있습니다.
 삭제 기록에 보여줄 사용자를 선택하세요.
@@ -1319,8 +1319,8 @@ $messages['lb'] = array(
 	'deletebatch-or' => '<strong>oder</strong>',
 	'deletebatch-delete' => 'Läschen',
 	'deletebatch-page' => 'Säite fir ze läschen:',
-	'deletebatch-processing-from-file' => 'Säite vun der Fichierslëscht läschen', # Fuzzy
-	'deletebatch-processing-from-form' => 'Säiten vum Formulaire aus läschen', # Fuzzy
+	'deletebatch-processing-from-file' => 'Säite läschen déi am Fichier drastinn',
+	'deletebatch-processing-from-form' => 'Säite läschen déi am Formulaire drastinn',
 	'deletebatch-omitting-nonexistent' => "D'Säit $1 déi et net gëtt iwwersprangen.",
 	'deletebatch-omitting-invalid' => 'Déi ongëlteg Säit $1 iwwersprangen.',
 	'deletebatch-file-bad-format' => 'De Fichier sollt als textfile virleien',
@@ -1328,6 +1328,7 @@ $messages['lb'] = array(
 	'deletebatch-select-script' => 'de Script vun der Säit läschen',
 	'deletebatch-select-yourself' => 'Dir',
 	'right-deletebatch' => 'Méi Säiten zesumme läschen',
+	'deletebatch-deleting-file-only' => "D'Beschreiwungssäit vum Fichier $1 gëtt et net, dowéinst gëtt just de Fichier geläscht. Dës Aktioun gëtt net geloggt.",
 );
 
 /** Lithuanian (lietuvių)
@@ -1807,10 +1808,15 @@ $messages['ro'] = array(
 $messages['roa-tara'] = array(
 	'deletebatch' => 'Batch pa scangellazione de le pàggene',
 	'deletebatch-desc' => "[[Special:DeleteBatch|'Nu batch pa scangellazione de le pàggene]]",
+	'deletebatch-help' => "Scangille 'n batch de pàggene.
+Tu puè eseguì 'na scangellazione singole, o scangellà pàggene elengate jndr'à 'nu file.
+Scacchie 'n'utende ca adda 'ndrucà l'archivije de le scangellaziune.
+Le file carecate avessera tenè 'u nome de le pàggene e facoltativamende 'u mutive, separate da 'nu carattere \"|\" pe ogne linèe.",
 	'deletebatch-caption' => 'Elenghe de le pàggene:',
 	'deletebatch-title' => "'Nfornate de scangellazione",
 	'deletebatch-link-back' => 'Tuèrne rrete a le pàggene speciale',
 	'deletebatch-as' => "Lange 'u script cumme:",
+	'deletebatch-both-modes' => "Pe piacere scacchie 'na pàgene specifiche o 'n'elenghe de pàggene.",
 	'deletebatch-or' => '<strong>o</strong>',
 	'deletebatch-delete' => 'Scangille',
 	'deletebatch-page' => 'Pàggene da scangellà:',
@@ -1822,7 +1828,10 @@ $messages['roa-tara'] = array(
 	'deletebatch-file-missing' => "Non ge riesche a leggere 'u file.",
 	'deletebatch-select-script' => "Script de scangellazione d'a pàgene",
 	'deletebatch-select-yourself' => 'tu',
+	'deletebatch-no-page' => "Pe piacere specifiche almene 'na pàgene da scangellà o scacchie 'nu file ca tènen 'n'elenghe de pàggene.",
 	'right-deletebatch' => "'Nfornate pa scangellazione de le pàggene",
+	'deletebatch-deleting-file-only' => "'U file de descrizione d'a pàgene $1 non g'esiste, avène scangellate sulamende 'u file.
+Sta azione non g'avène reggistrate.",
 );
 
 /** Russian (русский)
