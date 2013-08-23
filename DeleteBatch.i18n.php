@@ -101,7 +101,11 @@ The label for the dropdown is {{msg-mw|Deletebatch-as}}.',
 	'deletebatch-no-page' => 'Used as error message shown in red.',
 	'right-deletebatch' => '{{doc-right|deletebatch}}',
 	'deletebatch-deleting-file-only' => 'Message the user gets when the file description page he entered does not exist, but the actual file does.
-In this case, the file will be deleted, but this action will not be logged because a log entry was presumably already created when the description page was deleted by some other script.',
+
+In this case, the file will be deleted, but this action will not be logged because a log entry was presumably already created when the description page was deleted by some other script.
+
+Parameters:
+* $1 - page title',
 );
 
 /** Afrikaans (Afrikaans)
