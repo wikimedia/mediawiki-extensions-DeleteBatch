@@ -1759,6 +1759,7 @@ O ficheiro carregado deverá conter o nome da página e um motivo opcional, sepa
 
 /** Brazilian Portuguese (português do Brasil)
  * @author Eduardo.mps
+ * @author Luckas
  */
 $messages['pt-br'] = array(
 	'deletebatch' => 'Apagar páginas em bloco',
@@ -1774,8 +1775,8 @@ O arquivo carregado deverá conter o nome da página e um motivo opcional, separ
 	'deletebatch-or' => '<strong>ou</strong>',
 	'deletebatch-delete' => 'Remover',
 	'deletebatch-page' => 'Páginas a eliminar:',
-	'deletebatch-processing-from-file' => 'Removendo páginas da lista de arquivos', # Fuzzy
-	'deletebatch-processing-from-form' => 'deletando páginas do formulário', # Fuzzy
+	'deletebatch-processing-from-file' => 'eliminando as páginas listadas no arquivo',
+	'deletebatch-processing-from-form' => 'eliminando as páginas listadas no formulário',
 	'deletebatch-omitting-nonexistent' => 'Omitindo página não existente $1.',
 	'deletebatch-omitting-invalid' => 'Omitindo página inválida $1.',
 	'deletebatch-file-bad-format' => 'O arquivo deve conter texto pleno',
