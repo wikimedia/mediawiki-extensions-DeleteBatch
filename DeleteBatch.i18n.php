@@ -1519,6 +1519,7 @@ $messages['nds'] = array(
 );
 
 /** Dutch (Nederlands)
+ * @author HanV
  * @author Siebrand
  * @author Tvdm
  */
@@ -1527,7 +1528,7 @@ $messages['nl'] = array(
 	'deletebatch-desc' => '[[Special:DeleteBatch|Paginareeks verwijderen]]',
 	'deletebatch-help' => 'Een lijst pagina\'s verwijderen.
 U kunt een enkele pagina verwijderen of een lijst van pagina\'s in een bestand.
-Kies een gebruiker die in het verwijderlogboek wordt genoemd.
+Kies een gebruiker die in het verwijderingslogboek wordt genoemd.
 Het bestand dat u uploadt moet op iedere regel een paginanaam en een reden bevatten (optioneel), gescheiden door het karakter "|".',
 	'deletebatch-caption' => 'Paginalijst:',
 	'deletebatch-title' => 'Reeks verwijderen',
@@ -1553,12 +1554,13 @@ Deze handeling wordt niet opgenomen in het logboek.',
 );
 
 /** Nederlands (informeel)‎ (Nederlands (informeel)‎)
+ * @author HanV
  * @author Siebrand
  */
 $messages['nl-informal'] = array(
 	'deletebatch-help' => 'Een lijst pagina\'s verwijderen.
 Je kunt een enkele pagina verwijderen of een lijst van pagina\'s in een bestand.
-Kies een gebruiker die in het verwijderlogboek wordt genoemd.
+Kies een gebruiker die in het verwijderingslogboek wordt genoemd.
 Het bestand dat je uploadt moet op iedere regel een paginanaam en een reden bevatten (optioneel), gescheiden door het karakter "|".',
 	'deletebatch-select-yourself' => 'jij',
 );
@@ -1603,11 +1605,11 @@ $messages['oc'] = array(
 	'deletebatch-help' => 'Suprimís un lòt de paginas. Podètz siá aviar una supression simpla, siá suprimir de paginas listadas dins un fichièr.
 Causissètz un utilizaire que serà afichat dins lo jornal de las supressions.
 Un fichièr importat poirà conténer un nom de la pagina e un motiu facultatiu separat per un « | » dins cada linha.',
-	'deletebatch-caption' => 'Tièra de paginas :',
+	'deletebatch-caption' => 'Lista de paginas :',
 	'deletebatch-title' => 'Suprimir en lòt',
 	'deletebatch-link-back' => 'Tornar a la pagina especiala',
 	'deletebatch-as' => "Aviar l'escript coma :",
-	'deletebatch-both-modes' => 'Causissètz, siá una de las paginas indicadas, siá una tièra donada de paginas.',
+	'deletebatch-both-modes' => 'Causissètz, siá una de las paginas indicadas, siá una lista donada de paginas.',
 	'deletebatch-or' => '<strong>o</strong>',
 	'deletebatch-delete' => 'Suprimir',
 	'deletebatch-page' => 'Paginas de suprimir :',
@@ -1619,7 +1621,7 @@ Un fichièr importat poirà conténer un nom de la pagina e un motiu facultatiu 
 	'deletebatch-file-missing' => 'Impossible de legir lo fichièr donat',
 	'deletebatch-select-script' => "suprimir l'escript de la pagina",
 	'deletebatch-select-yourself' => 'vos',
-	'deletebatch-no-page' => 'Indicatz al mens una pagina de suprimir O un fichièr donat que conten una tièra de paginas.',
+	'deletebatch-no-page' => 'Indicatz al mens una pagina de suprimir O un fichièr donat que conten una lista de paginas.',
 	'right-deletebatch' => 'Suprimir de paginas en lòt',
 );
 
@@ -1758,6 +1760,7 @@ O ficheiro carregado deverá conter o nome da página e um motivo opcional, sepa
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
  * @author Eduardo.mps
  * @author Luckas
  */
@@ -1785,6 +1788,7 @@ O arquivo carregado deverá conter o nome da página e um motivo opcional, separ
 	'deletebatch-select-yourself' => 'você',
 	'deletebatch-no-page' => 'Por favor, especifique pelo menos uma página para eliminar OU escolha um arquivo contendo uma lista de páginas.',
 	'right-deletebatch' => 'Apagar páginas em bloco',
+	'deletebatch-deleting-file-only' => 'A página de descrição de arquivo $1 não existe; eliminando apenas o arquivo. Esta ação não será registrada.',
 );
 
 /** Romanian (română)
