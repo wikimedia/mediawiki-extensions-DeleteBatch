@@ -1848,6 +1848,7 @@ Sta azione non g'avène reggistrate.",
  * @author Innv
  * @author KPu3uC B Poccuu
  * @author Lockal
+ * @author Okras
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
@@ -1864,8 +1865,8 @@ $messages['ru'] = array(
 	'deletebatch-or' => '<strong>или</strong>',
 	'deletebatch-delete' => 'Удалить',
 	'deletebatch-page' => 'Страницы к удалению:',
-	'deletebatch-processing-from-file' => 'удаление страниц из списка в файле', # Fuzzy
-	'deletebatch-processing-from-form' => 'удаление страниц из веб-формы', # Fuzzy
+	'deletebatch-processing-from-file' => 'удаление страниц, перечисленных в файле',
+	'deletebatch-processing-from-form' => 'удаление страниц, перечисленных в форме',
 	'deletebatch-omitting-nonexistent' => 'За исключением несуществующей страницы $1.',
 	'deletebatch-omitting-invalid' => 'За исключением ошибочной страницы $1.',
 	'deletebatch-file-bad-format' => 'Файл должен содержать простой текст',
