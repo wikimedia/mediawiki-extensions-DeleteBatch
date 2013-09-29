@@ -1722,7 +1722,7 @@ J'archivi carià a dovrìo conten-e ël nòm dla pàgina e na rason opsional, se
 $messages['ps'] = array(
 	'deletebatch-caption' => 'د مخ لړليک:',
 	'deletebatch-or' => '<strong>يا</strong>',
-	'deletebatch-delete' => 'ړنګول',
+	'deletebatch-delete' => 'ړنگول',
 	'deletebatch-page' => 'د ړنګېدو مخونه:',
 	'deletebatch-select-yourself' => 'تاسې',
 );
