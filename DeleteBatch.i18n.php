@@ -1723,7 +1723,7 @@ $messages['ps'] = array(
 	'deletebatch-caption' => 'د مخ لړليک:',
 	'deletebatch-or' => '<strong>يا</strong>',
 	'deletebatch-delete' => 'ړنگول',
-	'deletebatch-page' => 'د ړنګېدو مخونه:',
+	'deletebatch-page' => 'د ړنگېدو مخونه:',
 	'deletebatch-select-yourself' => 'تاسې',
 );
 
