@@ -469,10 +469,13 @@ $messages['ce'] = array(
  * @author Calak
  */
 $messages['ckb'] = array(
+	'deletebatch' => 'سڕینەوەی دەستەیەک پەڕە',
+	'deletebatch-desc' => '[[Special:DeleteBatch|سڕینەوەی دەستەیەک لە پەڕەکان]]',
 	'deletebatch-caption' => 'پێرستی پەڕە:',
 	'deletebatch-or' => '<strong>یان</strong>',
 	'deletebatch-delete' => 'سڕینەوە',
 	'deletebatch-select-yourself' => 'تۆ',
+	'right-deletebatch' => 'سڕینەوەی دەستەیەک پەڕە',
 );
 
 /** Czech (česky)
