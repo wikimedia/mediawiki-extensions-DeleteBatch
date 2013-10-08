@@ -397,8 +397,8 @@ Ur restr enporzhiet a c\'hello bezañ ennañ : anv ur bajenn hag un abeg (diret)
 	'deletebatch-or' => '<strong>pe</strong>',
 	'deletebatch-delete' => 'Dilemel',
 	'deletebatch-page' => 'Pajennoù da zilemel :',
-	'deletebatch-processing-from-file' => 'o tilemel pajennoù adalek ur restr gant ur roll', # Fuzzy
-	'deletebatch-processing-from-form' => 'o tilemel pajennoù adalek ar furmskrid', # Fuzzy
+	'deletebatch-processing-from-file' => 'o tilemel pajennoù adalek ur restr gant ur roll',
+	'deletebatch-processing-from-form' => 'o tilemel pajennoù adalek ar furmskrid',
 	'deletebatch-omitting-nonexistent' => "Mank ar bajenn $1 ha n'eus ket diouti.",
 	'deletebatch-omitting-invalid' => 'Mank ar bajenn fall $1.',
 	'deletebatch-file-bad-format' => 'Ar restr a zle bezañ testenn blaen',
