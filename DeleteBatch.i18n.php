@@ -462,7 +462,11 @@ El fitxer indicat només pot contenir el títol de la pàgina i el motiu per a e
  * @author Умар
  */
 $messages['ce'] = array(
+	'deletebatch' => 'АгӀонийн гулам дӀабаккхар',
+	'deletebatch-desc' => '[[Special:DeleteBatch|АгӀонийн гулам дӀабаккхар]]',
+	'deletebatch-title' => 'Гулам дӀабаккхар',
 	'deletebatch-delete' => 'ДӀаяккха',
+	'right-deletebatch' => 'агӀонийн гулам дӀабаккхар',
 );
 
 /** Sorani Kurdish (کوردی)
