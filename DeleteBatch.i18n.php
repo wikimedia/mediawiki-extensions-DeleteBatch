@@ -1213,6 +1213,7 @@ $messages['ka'] = array(
 /** Khmer (ភាសាខ្មែរ)
  * @author Lovekhmer
  * @author Thearith
+ * @author គីមស៊្រុន
  * @author វ័ណថារិទ្ធ
  */
 $messages['km'] = array(
@@ -1225,7 +1226,7 @@ $messages['km'] = array(
 	'deletebatch-or' => '<strong>ឬ</strong>',
 	'deletebatch-delete' => 'លុបចោល',
 	'deletebatch-page' => 'ទំព័រ​ដែល​ត្រូវ​លុប៖',
-	'deletebatch-processing-from-file' => 'កំពុង​លុប​ទំព័រ​ចេញ​ពី​បញ្ជី​ឯកសារ​', # Fuzzy
+	'deletebatch-processing-from-file' => 'កំពុង​លុប​ទំព័រ​ក្នុង​បញ្ជី​ឯកសារ​',
 	'deletebatch-omitting-invalid' => 'លុប​ទំព័រ​មិនត្រឹមត្រូវ $1 ។',
 	'deletebatch-file-bad-format' => 'ឯកសារ​គួរតែ​ជា​អត្ថបទធម្មតា',
 	'deletebatch-file-missing' => 'មិន​អាច​អាន​ឯកសារ​ដែល​បាន​ផ្ដល់​ឱ្យ',
