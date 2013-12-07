@@ -482,7 +482,7 @@ $messages['ckb'] = array(
 	'right-deletebatch' => 'سڕینەوەی دەستەیەک پەڕە',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Jkjk
  */
 $messages['cs'] = array(
