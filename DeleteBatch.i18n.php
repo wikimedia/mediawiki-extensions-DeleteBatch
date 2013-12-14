@@ -722,9 +722,10 @@ $messages['et'] = array(
 
 /** Basque (euskara)
  * @author Kobazulo
+ * @author Xabier Armendaritz
  */
 $messages['eu'] = array(
-	'deletebatch-caption' => 'Orrialde zerrenda:',
+	'deletebatch-caption' => 'Orrien zerrenda:',
 	'deletebatch-or' => '<strong>edo</strong>',
 	'deletebatch-delete' => 'Ezabatu',
 	'deletebatch-page' => 'Ezabatu beharreko orrialdeak:',
