@@ -484,10 +484,15 @@ $messages['ckb'] = array(
 
 /** Czech (čeština)
  * @author Jkjk
+ * @author Matěj Grabovský
  */
 $messages['cs'] = array(
 	'deletebatch' => 'Hromadné mazání stránek',
 	'deletebatch-desc' => '[[Special:DeleteBatch|Hromadné mazání stránek]]',
+	'deletebatch-help' => 'Hromadné mazání stránek.
+Můžete buď smazat jednu stránku, nebo stránky podle seznamu.
+Vyberte uživatele, který se objeví v záznamech.
+Nahrávané soubory by měly na každé řádce obsahovat název stránky a volitelně důvod oddělený „|“.',
 	'deletebatch-caption' => 'Seznam stránek:',
 	'deletebatch-title' => 'Smazat požadavek',
 	'deletebatch-link-back' => 'Vrátit se na speciální stránku',
@@ -496,8 +501,8 @@ $messages['cs'] = array(
 	'deletebatch-or' => '<strong>nebo</strong>',
 	'deletebatch-delete' => 'Smazat',
 	'deletebatch-page' => 'Stránky, které budou smazané:',
-	'deletebatch-processing-from-file' => 'mažou se stránky se seznamu souborů', # Fuzzy
-	'deletebatch-processing-from-form' => 'mažou se stránk z formuláře', # Fuzzy
+	'deletebatch-processing-from-file' => 'mazání stránek ze seznamu v souboru',
+	'deletebatch-processing-from-form' => 'mazání stránek z formuláře',
 	'deletebatch-omitting-nonexistent' => 'Vynechává se neexistující stránka $1.',
 	'deletebatch-omitting-invalid' => 'Vynechává se neplatná stránka $1.',
 	'deletebatch-file-bad-format' => 'Soubor by měl být v čistě textovém formátu',
@@ -506,6 +511,8 @@ $messages['cs'] = array(
 	'deletebatch-select-yourself' => 'Vy',
 	'deletebatch-no-page' => 'Prosím zadejte alespoň jednu stránku nebo vyberte soubor obsahující seznam stránek.',
 	'right-deletebatch' => 'Hromadné (dávkové) mazání stránek',
+	'deletebatch-deleting-file-only' => 'Stránka s popisem souboru $1 neexistuje, bude smazán pouze soubor.
+Tato akce nebude zaznamenána.',
 );
 
 /** Danish (dansk)
@@ -604,8 +611,8 @@ Nagrata dataja by měła mě boka a opcionelnu pśicynu wopśimjeś, kótarejž 
 	'deletebatch-or' => '<strong>abo</strong>',
 	'deletebatch-delete' => 'Wulašowaś',
 	'deletebatch-page' => 'Boki, kótarež maju se wulašowaś:',
-	'deletebatch-processing-from-file' => 'boki lašuju se z datajoweje lisćiny', # Fuzzy
-	'deletebatch-processing-from-form' => 'boki lašuju so z formulara', # Fuzzy
+	'deletebatch-processing-from-file' => 'boki z dataje lašowaś',
+	'deletebatch-processing-from-form' => 'boki z formulara lašowaś',
 	'deletebatch-omitting-nonexistent' => 'Njeeksistujucy bok $1 se wuwóstaja.',
 	'deletebatch-omitting-invalid' => 'Njepłaśiwy bok $1 se wuwóstaja.',
 	'deletebatch-file-bad-format' => 'Dataja by měła lutny tekst wopśimjeś',
@@ -1007,8 +1014,8 @@ Nahrata dataja měła mjeno strony a opcionalnu přičinu wobsahować, kotrejž 
 	'deletebatch-or' => '<strong>abo</strong>',
 	'deletebatch-delete' => 'Wušmórnyć',
 	'deletebatch-page' => 'Strony, kotrež maja so wušmórnyć:',
-	'deletebatch-processing-from-file' => 'strony wušmóruja so z datajoweje lisćiny', # Fuzzy
-	'deletebatch-processing-from-form' => 'Strony wušmóruja so z formulara', # Fuzzy
+	'deletebatch-processing-from-file' => 'strony z dataje zhašeć',
+	'deletebatch-processing-from-form' => 'Strony z formulara zhašeć',
 	'deletebatch-omitting-nonexistent' => 'Njeeksistowaca strona $1 so wuwostaja.',
 	'deletebatch-omitting-invalid' => 'Njepłaćiwa strona $1 so wuwostaja.',
 	'deletebatch-file-bad-format' => 'Dataja měła z luteho teksta wobstać.',
