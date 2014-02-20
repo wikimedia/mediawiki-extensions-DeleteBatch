@@ -1323,8 +1323,8 @@ dohenger kann ene „|“ stonn, un dann dohenger ene Jrond för et Fottschmiiß
 	'deletebatch-or' => '<strong>udder</strong>',
 	'deletebatch-delete' => 'Maach fott!',
 	'deletebatch-page' => 'Sigge zom Fottschmiiße:',
-	'deletebatch-processing-from-file' => 'Sigge per Datei-Leß fott am schmiiße', # Fuzzy
-	'deletebatch-processing-from-form' => 'Sigge per Fommulaa fott am schmiiße', # Fuzzy
+	'deletebatch-processing-from-file' => 'Ben Sigge per Dateije-Leß fott am schmiiße.',
+	'deletebatch-processing-from-form' => 'Ben Sigge per Fommulaa fott am schmiiße.',
 	'deletebatch-omitting-nonexistent' => 'Donn de Sigg $1 övverjonn, weil et se nit jit.',
 	'deletebatch-omitting-invalid' => 'Donn dä Tittel $1 övverjonn, weil hä onjöltesh eß.',
 	'deletebatch-file-bad-format' => 'En dä Datei sullt nommaale Täx stonn.',
