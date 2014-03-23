@@ -2292,6 +2292,7 @@ $messages['yi'] = array(
  * @author Hydra
  * @author Shizhao
  * @author Wilsonmess
+ * @author Xiaomingyan
  * @author Yfdyh000
  * @author Zhangjintao
  */
@@ -2320,8 +2321,7 @@ $messages['zh-hans'] = array(
 	'deletebatch-select-yourself' => '阁下',
 	'deletebatch-no-page' => '请指定至少一个要删除的页面或选择一个包含页面列表的文件。',
 	'right-deletebatch' => '批量删除页面',
-	'deletebatch-deleting-file-only' => '文件描述页 $1 不存在；只删除了实际存在的文件。
-此操作不会被记录。',
+	'deletebatch-deleting-file-only' => '文件说明页面$1不存在，仅删除实际文件。该操作不会被记录。',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
