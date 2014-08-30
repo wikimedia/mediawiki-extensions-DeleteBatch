@@ -236,5 +236,5 @@ $specialPageAliases['zh-hans'] = array(
 
 /** Traditional Chinese (中文（繁體）‎) */
 $specialPageAliases['zh-hant'] = array(
-	'DeleteBatch' => array( '批量刪除' ),
+	'DeleteBatch' => array( '批次刪除' ),
 );
