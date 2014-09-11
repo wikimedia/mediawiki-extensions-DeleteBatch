@@ -3,7 +3,8 @@
 		"authors": [
 			"EugeneZelenko",
 			"Jim-by",
-			"Wizardist"
+			"Wizardist",
+			"Red Winged Duck"
 		]
 	},
 	"deletebatch": "Выдаленьне групы старонак",
@@ -17,7 +18,7 @@
 	"deletebatch-or": "<strong>ці</strong>",
 	"deletebatch-delete": "Выдаліць",
 	"deletebatch-page": "Старонкі да выдаленьня:",
-	"deletebatch-processing-from-file": "выдаленьне старонак са сьпісу ў файле",
+	"deletebatch-processing-from-file": "выдаленьне старонак, пералічаных у файле",
 	"deletebatch-processing-from-form": "выдаленьне старонак з формы",
 	"deletebatch-omitting-nonexistent": "Прапушчаная неіснуючая старонка $1.",
 	"deletebatch-omitting-invalid": "Прапушчаная няслушная старонка $1.",
