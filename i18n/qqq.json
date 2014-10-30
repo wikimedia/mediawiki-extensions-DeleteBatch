@@ -9,7 +9,8 @@
 			"Purodha",
 			"Shirayuki",
 			"The Evil IP address",
-			"Umherirrender"
+			"Umherirrender",
+			"Liuxinyu970226"
 		]
 	},
 	"deletebatch": "{{doc-special|DeleteBatch}}\n{{Identical|Delete batch of pages}}",
@@ -30,7 +31,7 @@
 	"deletebatch-file-bad-format": "Used as error message shown in red.",
 	"deletebatch-file-missing": "Used as error message shown in red.",
 	"deletebatch-select-script": "Username. Entry in dropdown for user that should execute the deletions.\n\nThe label for the dropdown is {{msg-mw|Deletebatch-as}}.",
-	"deletebatch-select-yourself": "Entry in dropdown for user that should execute the deletions.\n\nThe label for the dropdown is {{msg-mw|Deletebatch-as}}.",
+	"deletebatch-select-yourself": "Entry in dropdown for user that should execute the deletions.\n\nThe label for the dropdown is {{msg-mw|Deletebatch-as}}.\n{{Identical|You}}",
 	"deletebatch-no-page": "Used as error message shown in red.",
 	"right-deletebatch": "{{doc-right|deletebatch}}",
 	"deletebatch-deleting-file-only": "Message the user gets when the file description page he entered does not exist, but the actual file does.\n\nIn this case, the file will be deleted, but this action will not be logged because a log entry was presumably already created when the description page was deleted by some other script.\n\nParameters:\n* $1 - page title"
