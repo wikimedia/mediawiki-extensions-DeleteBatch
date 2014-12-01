@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Omnipaedista",
-			"ZaDiak"
+			"ZaDiak",
+			"Glavkos"
 		]
 	},
 	"deletebatch-caption": "Λίστα σελίδων:",
@@ -12,7 +13,7 @@
 	"deletebatch-or": "<strong>ή</strong>",
 	"deletebatch-delete": "Διαγραφή",
 	"deletebatch-page": "Σελίδες που θα διαγραφούν:",
-	"deletebatch-processing-from-file": "Διαγραφή σελίδων από τη λίστα αρχείων",
+	"deletebatch-processing-from-file": "διαγραφή σελίδων που αναφέρονται στο αρχείο",
 	"deletebatch-file-missing": "Δεν είναι δυνατή η ανάγνωση του αρχείου",
 	"deletebatch-select-yourself": "Εσείς"
 }
