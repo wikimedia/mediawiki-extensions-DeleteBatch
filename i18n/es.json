@@ -7,7 +7,8 @@
 			"Luis Felipe Schenone",
 			"Od1n",
 			"Sanbec",
-			"Translationista"
+			"Translationista",
+			"Fitoschido"
 		]
 	},
 	"deletebatch": "Eliminar lote de páginas",
@@ -20,7 +21,7 @@
 	"deletebatch-both-modes": "Por favor escoger ya sea una página específica o una lista dada de páginas.",
 	"deletebatch-or": "<strong>o</strong>",
 	"deletebatch-delete": "Borrar",
-	"deletebatch-page": "Páginas a ser borradas:",
+	"deletebatch-page": "Páginas que se borrarán:",
 	"deletebatch-processing-from-file": "borrando páginas listadas en el archivo",
 	"deletebatch-processing-from-form": "borrando páginas listadas en el formulario",
 	"deletebatch-omitting-nonexistent": "Omitiendo página no existente $1.",
