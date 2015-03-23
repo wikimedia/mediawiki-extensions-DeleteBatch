@@ -14,7 +14,7 @@
 		]
 	},
 	"deletebatch": "{{doc-special|DeleteBatch}}\n{{Identical|Delete batch of pages}}",
-	"deletebatch-desc": "{{desc|name=Delete Batch|url=http://www.mediawiki.org/wiki/Extension:DeleteBatch}}",
+	"deletebatch-desc": "{{desc|name=Delete Batch|url=https://www.mediawiki.org/wiki/Extension:DeleteBatch}}",
 	"deletebatch-help": "This message is help message for the \"Delete batch\" form.\n\nThe message indicates \"(This form enables to) delete a batch of pages\".",
 	"deletebatch-caption": "Used as label for \"Select a file\" button.",
 	"deletebatch-title": "Used as page title in [[Special:DeleteBatch]].",
