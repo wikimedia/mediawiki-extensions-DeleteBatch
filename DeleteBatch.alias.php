@@ -149,6 +149,11 @@ $specialPageAliases['lb'] = array(
 	'DeleteBatch' => array( 'Läsch-Batch' ),
 );
 
+/** لوری (لوری) */
+$specialPageAliases['lrc'] = array(
+	'DeleteBatch' => array( 'پاکسا_کاری_دسه_جمی' ),
+);
+
 /** Minangkabau (Baso Minangkabau) */
 $specialPageAliases['min'] = array(
 	'DeleteBatch' => array( 'HapuihSakaliguih' ),
