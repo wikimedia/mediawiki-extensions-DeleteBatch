@@ -19,7 +19,7 @@ $specialPageAliases['ar'] = array(
 	'DeleteBatch' => array( 'حذف_الباتش' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Arabic (مصرى) */
 $specialPageAliases['arz'] = array(
 	'DeleteBatch' => array( 'مشح_الباتش' ),
 );
@@ -69,7 +69,7 @@ $specialPageAliases['fr'] = array(
 	'DeleteBatch' => array( 'Supression_en_série', 'SuppressionEnSérie', 'SuppressionEnSerie' ),
 );
 
-/** Franco-Provençal (arpetan) */
+/** Arpitan (arpetan) */
 $specialPageAliases['frp'] = array(
 	'DeleteBatch' => array( 'Suprèssion_en_sèria', 'SuprèssionEnSèria' ),
 );
@@ -149,7 +149,7 @@ $specialPageAliases['lb'] = array(
 	'DeleteBatch' => array( 'Läsch-Batch' ),
 );
 
-/** لوری (لوری) */
+/** لوری مینجایی (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
 	'DeleteBatch' => array( 'پاکسا_کاری_دسه_جمی' ),
 );
