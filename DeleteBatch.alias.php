@@ -149,7 +149,7 @@ $specialPageAliases['lb'] = array(
 	'DeleteBatch' => array( 'Läsch-Batch' ),
 );
 
-/** لوری مینجایی (لوری مینجایی) */
+/** Northern Luri (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
 	'DeleteBatch' => array( 'پاکسا_کاری_دسه_جمی' ),
 );
