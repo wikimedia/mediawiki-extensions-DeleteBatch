@@ -151,7 +151,7 @@ $specialPageAliases['lb'] = array(
 
 /** Northern Luri (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
-	'DeleteBatch' => array( 'پاکسا_کاری_دسه_جمی' ),
+	'DeleteBatch' => array( 'پاکسا_کاری_دأسە_جأمی' ),
 );
 
 /** Minangkabau (Baso Minangkabau) */
