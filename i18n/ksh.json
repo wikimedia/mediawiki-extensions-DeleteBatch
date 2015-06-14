@@ -18,7 +18,7 @@
 	"deletebatch-processing-from-file": "Ben Sigge per Dateije-Leß fott am schmiiße.",
 	"deletebatch-processing-from-form": "Ben Sigge per Fommulaa fott am schmiiße.",
 	"deletebatch-omitting-nonexistent": "Donn de Sigg $1 övverjonn, weil et se nit jit.",
-	"deletebatch-omitting-invalid": "Donn dä Tittel $1 övverjonn, weil hä onjöltesh eß.",
+	"deletebatch-omitting-invalid": "Donn de Övverschreff $1 övverjonn, weil hä onjöltesh eß.",
 	"deletebatch-file-bad-format": "En dä Dattei sullt nommahle Täx schtonn.",
 	"deletebatch-file-missing": "Di aanjejovve Dattei kunnte mer nit lässe.",
 	"deletebatch-select-script": "Projramm zom Sigge Fottschmiiße",
