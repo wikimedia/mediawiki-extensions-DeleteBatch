@@ -63,6 +63,10 @@ class SpecialDeleteBatch extends SpecialPage {
 		$extensions_row->addItem( ALItem::newFromSpecialPage( 'DeleteBatch' ) );
 		return true;
 	}
+
+	protected function getGroupName() {
+		return 'pagetools';
+	}
 }
 
 /* the form for deleting pages */

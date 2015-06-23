@@ -34,7 +34,6 @@ $wgExtensionMessagesFiles['DeleteBatchAlias'] = $dir . 'DeleteBatch.alias.php';
 $wgAutoloadClasses['SpecialDeleteBatch'] = $dir . 'DeleteBatch.body.php';
 $wgAutoloadClasses['DeleteBatchForm'] = $dir . 'DeleteBatch.body.php';
 $wgSpecialPages['DeleteBatch'] = 'SpecialDeleteBatch';
-$wgSpecialPageGroups['DeleteBatch'] = 'pagetools';
 
 // Hooks
 $wgHooks['AdminLinks'][] = 'SpecialDeleteBatch::addToAdminLinks'; // Admin Links extension
