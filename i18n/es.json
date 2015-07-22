@@ -8,7 +8,8 @@
 			"Od1n",
 			"Sanbec",
 			"Translationista",
-			"Fitoschido"
+			"Fitoschido",
+			"Macofe"
 		]
 	},
 	"deletebatch": "Eliminar lote de páginas",
@@ -29,7 +30,7 @@
 	"deletebatch-file-bad-format": "El archivo debería ser texto simple",
 	"deletebatch-file-missing": "Incapaz de leer archivo dado",
 	"deletebatch-select-script": "Borrar el script de la página",
-	"deletebatch-select-yourself": "Usted",
+	"deletebatch-select-yourself": "Tú",
 	"deletebatch-no-page": "Por favor especifique al menos una página a borrar O escoja un archivo conteniendo una lista de páginas.",
 	"right-deletebatch": "Borrar páginas en lote",
 	"deletebatch-deleting-file-only": "La página de descripción del archivo $1 no existe; eliminando sólo el archivo real.\nEsta acción no se registrará."
