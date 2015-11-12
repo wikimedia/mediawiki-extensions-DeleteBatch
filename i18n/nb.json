@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Harald Khan",
-			"Nghtwlkr"
+			"Nghtwlkr",
+			"Danmichaelo"
 		]
 	},
 	"deletebatch": "Slett mange sider",
@@ -21,7 +22,7 @@
 	"deletebatch-omitting-nonexistent": "Utelater den ikke-eksisterende siden $1.",
 	"deletebatch-omitting-invalid": "Utelater den ugyldige siden $1.",
 	"deletebatch-file-bad-format": "Filen bør inneholde ren tekst",
-	"deletebatch-file-missing": "Kunne ikke lese filen",
+	"deletebatch-file-missing": "Klarte ikke lese filen",
 	"deletebatch-select-script": "slett sideskript",
 	"deletebatch-select-yourself": "Du",
 	"deletebatch-no-page": "Vennligst oppgi minst én side å slette eller velg en fil med en liste av sider.",
