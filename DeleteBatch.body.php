@@ -8,6 +8,10 @@ class SpecialDeleteBatch extends SpecialPage {
 		parent::__construct( 'DeleteBatch'/*class*/, 'deletebatch'/*restriction*/ );
 	}
 
+	public function doesWrites() {
+		return true;
+	}
+
 	/**
 	 * Show the special page
 	 *
