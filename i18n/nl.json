@@ -21,7 +21,7 @@
 	"deletebatch-processing-from-form": "bezig met het verwijderen van pagina's uit het formulier",
 	"deletebatch-omitting-nonexistent": "Niet-bestaande pagina $1 is overgeslagen.",
 	"deletebatch-omitting-invalid": "Ongeldige paginanaam $1 is overgeslagen.",
-	"deletebatch-file-bad-format": "Het bestand moet platte tekst bevatten",
+	"deletebatch-file-bad-format": "Het bestand moet tekst zonder opmaak bevatten",
 	"deletebatch-file-missing": "Het bestand kan niet gelezen worden",
 	"deletebatch-select-script": "script pagina's verwijderen",
 	"deletebatch-select-yourself": "u",
