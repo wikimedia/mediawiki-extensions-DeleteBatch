@@ -5,9 +5,9 @@
  * @file
  * @ingroup Extensions
  * @author Bartek Łapiński <bartek@wikia-inc.com>
- * @version 1.1
- * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
- * @link http://www.mediawiki.org/wiki/Extension:DeleteBatch Documentation
+ * @version 1.5.0
+ * @license https://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
+ * @link https://www.mediawiki.org/wiki/Extension:DeleteBatch Documentation
  */
 if ( !defined( 'MEDIAWIKI' ) )
 	die();
@@ -20,6 +20,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'author' => 'Bartek Łapiński',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:DeleteBatch',
 	'descriptionmsg' => 'deletebatch-desc',
+	'license-name' => 'GPL-2.0+'
 );
 
 // New user right, required to use Special:DeleteBatch
@@ -27,12 +28,11 @@ $wgAvailableRights[] = 'deletebatch';
 $wgGroupPermissions['bureaucrat']['deletebatch'] = true;
 
 // Set up the new special page
-$dir = __DIR__ . '/';
 $wgMessagesDirs['DeleteBatch'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['DeleteBatch'] = $dir . 'DeleteBatch.i18n.php';
-$wgExtensionMessagesFiles['DeleteBatchAlias'] = $dir . 'DeleteBatch.alias.php';
-$wgAutoloadClasses['SpecialDeleteBatch'] = $dir . 'DeleteBatch.body.php';
-$wgAutoloadClasses['DeleteBatchForm'] = $dir . 'DeleteBatch.body.php';
+$wgExtensionMessagesFiles['DeleteBatch'] = __DIR__ . '/DeleteBatch.i18n.php';
+$wgExtensionMessagesFiles['DeleteBatchAlias'] = __DIR__ . '/DeleteBatch.alias.php';
+$wgAutoloadClasses['SpecialDeleteBatch'] = __DIR__ . '/DeleteBatch.body.php';
+$wgAutoloadClasses['DeleteBatchForm'] = __DIR__ . '/DeleteBatch.body.php';
 $wgSpecialPages['DeleteBatch'] = 'SpecialDeleteBatch';
 
 // Hooks
