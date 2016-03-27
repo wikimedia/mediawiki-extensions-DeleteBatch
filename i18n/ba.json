@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Assele"
+			"Assele",
+			"Мухамадеева"
 		]
 	},
 	"deletebatch": "Биттәр йыйынтығын юйыу.",
@@ -15,7 +16,7 @@
 	"deletebatch-or": "<strong>йәки</strong>",
 	"deletebatch-delete": "Юйырға",
 	"deletebatch-page": "Юйыла торған биттәр:",
-	"deletebatch-processing-from-file": "файлдағы исемлектән биттәрҙе юйыу",
+	"deletebatch-processing-from-file": "файлда һалған биттәрҙе юйыу",
 	"deletebatch-processing-from-form": "форманан биттәрҙе юйыу",
 	"deletebatch-omitting-nonexistent": "$1 булмаған битен ҡалдырыу.",
 	"deletebatch-omitting-invalid": "$1 дөрөҫ булмаған битен ҡалдырыу.",
