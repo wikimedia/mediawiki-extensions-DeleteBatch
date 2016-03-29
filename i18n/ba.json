@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Assele",
-			"Мухамадеева"
+			"Мухамадеева",
+			"Айбикә"
 		]
 	},
 	"deletebatch": "Биттәр йыйынтығын юйыу.",
@@ -25,5 +26,6 @@
 	"deletebatch-select-script": "Биттәрҙе юйыу скрипты",
 	"deletebatch-select-yourself": "Һеҙ",
 	"deletebatch-no-page": "Зинһар, юйыр өсөн кәмендә бер бит йәки биттәр исемлеге менән файл һайлағыҙ.",
-	"right-deletebatch": "Биттәр йыйынтығын юйыу"
+	"right-deletebatch": "Биттәр йыйынтығын юйыу",
+	"deletebatch-deleting-file-only": "$1 файлының һүрәтләү бите юҡ; файлдың үҙен юя алаһығыҙ. Был эшмәкәрлек журналда сағылмаясаҡ."
 }
