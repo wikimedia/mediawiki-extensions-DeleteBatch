@@ -5,7 +5,8 @@
 			"Jack Phoenix",
 			"Mobe",
 			"Nedergard",
-			"Nike"
+			"Nike",
+			"01miki10"
 		]
 	},
 	"deletebatch": "Poista useita sivuja",
@@ -19,8 +20,8 @@
 	"deletebatch-or": "<strong>tai</strong>",
 	"deletebatch-delete": "Poista",
 	"deletebatch-page": "Poistettavat sivut",
-	"deletebatch-processing-from-file": "poistetaan sivuja tiedostoluettelosta",
-	"deletebatch-processing-from-form": "poistetaan sivuja lomakkeesta",
+	"deletebatch-processing-from-file": "poistetaan tiedostossa lueteltuja sivuja",
+	"deletebatch-processing-from-form": "poistetaan lomakkeessa lueteltuja sivuja",
 	"deletebatch-omitting-nonexistent": "Ohitetaan olematon sivu $1.",
 	"deletebatch-omitting-invalid": "Ohitetaan kelpaamaton sivu $1.",
 	"deletebatch-file-bad-format": "Tiedoston tulisi olla raakatekstiä",
