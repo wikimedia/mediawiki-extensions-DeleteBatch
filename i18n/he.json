@@ -3,7 +3,8 @@
 		"authors": [
 			"Amire80",
 			"Rotemliss",
-			"YaronSh"
+			"YaronSh",
+			"Guycn2"
 		]
 	},
 	"deletebatch": "מחיקת מקבץ דפים",
@@ -26,6 +27,6 @@
 	"deletebatch-select-script": "סקריפט מחיקת דפים",
 	"deletebatch-select-yourself": "אתם",
 	"deletebatch-no-page": "אנא ציינו לפחות דף אחד למחיקה או בחרו קובץ המכיל רשימת דפים.",
-	"right-deletebatch": "מחיקה של דפים רבים ביחד",
+	"right-deletebatch": "מחיקת מספר דפים בו־זמנית",
 	"deletebatch-deleting-file-only": "דך תיאור הקובץ $1 אינו קיים; יימחק רק הקובץ.\nהפעולה הזאת לא תירשם ביומן."
 }
