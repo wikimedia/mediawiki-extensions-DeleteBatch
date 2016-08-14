@@ -346,7 +346,7 @@ class DeleteBatchForm {
 			}
 		}
 
-		$db->begin();
+		$db->startAtomic( __METHOD__ );
 		/* this stuff goes like articleFromTitle in Wiki.php */
 		// Delete the page; in the case of a file, this would be the File: description page
 		if ( $pageExists ) {
@@ -365,7 +365,12 @@ class DeleteBatchForm {
 			// that didn't finish the job by deleting the file too.
 			$localFile->delete( $reason );
 		}
-		$db->commit();
+		$db->endAtomic( __METHOD__ );
+		if ( $localFileExists ) {
+			// Flush DBs in case of fragile file operations
+			wfGetLBFactory()->commitMasterChanges( __METHOD__ );
+		}
+
 		return true;
 	}
 
