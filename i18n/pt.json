@@ -23,8 +23,9 @@
 	"deletebatch-omitting-invalid": "A omitir página inválida $1.",
 	"deletebatch-file-bad-format": "O ficheiro deve conter texto simples",
 	"deletebatch-file-missing": "Não foi possível ler o ficheiro fornecido",
-	"deletebatch-select-script": "Script de eliminação de páginas",
+	"deletebatch-select-script": "<i>Script</i> de eliminação de páginas",
 	"deletebatch-select-yourself": "Você",
-	"deletebatch-no-page": "Por favor, especifique pelo menos uma página para eliminar OU escolha um ficheiro contendo uma lista de páginas.",
-	"right-deletebatch": "Apagar páginas em bloco"
+	"deletebatch-no-page": "Especifique pelo menos uma página para eliminar ou escolha um ficheiro que contenha uma lista de páginas, por favor.",
+	"right-deletebatch": "Apagar páginas em bloco",
+	"deletebatch-deleting-file-only": "A página de descrição do ficheiro $1 não existe, a eliminar só o ficheiro atual.\nEsta operação não será registada."
 }
