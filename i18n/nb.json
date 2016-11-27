@@ -3,7 +3,8 @@
 		"authors": [
 			"Harald Khan",
 			"Nghtwlkr",
-			"Danmichaelo"
+			"Danmichaelo",
+			"Jon Harald Søby"
 		]
 	},
 	"deletebatch": "Slett mange sider",
@@ -17,8 +18,8 @@
 	"deletebatch-or": "<strong>eller</strong>",
 	"deletebatch-delete": "Slett",
 	"deletebatch-page": "Sider som skal slettes:",
-	"deletebatch-processing-from-file": "sletter sider fra listen over filer",
-	"deletebatch-processing-from-form": "sletter sider fra skjemaet",
+	"deletebatch-processing-from-file": "sletter sider som listes i filen",
+	"deletebatch-processing-from-form": "sletter sider som listes i skjemaet",
 	"deletebatch-omitting-nonexistent": "Utelater den ikke-eksisterende siden $1.",
 	"deletebatch-omitting-invalid": "Utelater den ugyldige siden $1.",
 	"deletebatch-file-bad-format": "Filen bør inneholde ren tekst",
@@ -26,5 +27,6 @@
 	"deletebatch-select-script": "slett sideskript",
 	"deletebatch-select-yourself": "Du",
 	"deletebatch-no-page": "Vennligst oppgi minst én side å slette eller velg en fil med en liste av sider.",
-	"right-deletebatch": "Masseslett sider"
+	"right-deletebatch": "Masseslett sider",
+	"deletebatch-deleting-file-only": "Filbeskrivelsessiden $1 finnes ikke; sletter bare filen."
 }
