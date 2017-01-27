@@ -26,5 +26,6 @@
 	"deletebatch-select-script": "Skript evit dilemel pajennoù",
 	"deletebatch-select-yourself": "C'hwi",
 	"deletebatch-no-page": "Mar plij roit ur bajenn da zilemel d'an nebeutañ PE dibabit ur restr ennañ ur roll pajennoù",
-	"right-deletebatch": "Dilemel pajennoù dre strolladoù"
+	"right-deletebatch": "Dilemel pajennoù dre strolladoù",
+	"deletebatch-deleting-file-only": "Pajenn deskrivañ $1 n'eus ket anezhi ; o tiverkañ hepken ar restr red. Ne vo ket diellaouet an ober-mañ."
 }
