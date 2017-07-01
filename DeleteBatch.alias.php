@@ -59,6 +59,11 @@ $specialPageAliases['dsb'] = array(
 	'DeleteBatch' => array( 'Skład_lašowaś' ),
 );
 
+/** Spanish (español) */
+$specialPageAliases['es'] = array(
+	'DeleteBatch' => array( 'Borrar_en_masa' ),
+);
+
 /** Persian (فارسی) */
 $specialPageAliases['fa'] = array(
 	'DeleteBatch' => array( 'پاک‌کردن_دسته' ),
