@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Toliño"
+			"Toliño",
+			"Elisardojm"
 		]
 	},
 	"deletebatch": "Borrar un conxunto de páxinas",
@@ -18,7 +19,7 @@
 	"deletebatch-processing-from-file": "borrando as páxinas listadas no ficheiro",
 	"deletebatch-processing-from-form": "borrando as páxinas listadas no formulario",
 	"deletebatch-omitting-nonexistent": "Omitindo a páxina inexistente \"$1\".",
-	"deletebatch-omitting-invalid": "Omitindo a páxina inválida \"$1\".",
+	"deletebatch-omitting-invalid": "Omitindo a páxina non válida \"$1\".",
 	"deletebatch-file-bad-format": "O ficheiro debería ser de texto",
 	"deletebatch-file-missing": "Non se puido ler o ficheiro dado",
 	"deletebatch-select-script": "Borrar a escritura dunha páxina",
