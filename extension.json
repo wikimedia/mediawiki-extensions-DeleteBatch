@@ -1,0 +1,39 @@
+{
+	"name": "DeleteBatch",
+	"version": "1.7.0",
+	"author": [
+		"Bartek Łapiński",
+		"..."
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:DeleteBatch",
+	"descriptionmsg": "deletebatch-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "specialpage",
+	"AvailableRights": [
+		"deletebatch"
+	],
+	"GroupPermissions": {
+		"bureaucrat": {
+			"deletebatch": true
+		}
+	},
+	"SpecialPages": {
+		"DeleteBatch": "SpecialDeleteBatch"
+	},
+	"MessagesDirs": {
+		"DeleteBatch": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"DeleteBatchAlias": "DeleteBatch.alias.php"
+	},
+	"AutoloadClasses": {
+		"SpecialDeleteBatch": "DeleteBatch.body.php",
+		"DeleteBatchForm": "DeleteBatch.body.php"
+	},
+	"Hooks": {
+		"AdminLinks": "SpecialDeleteBatch::addToAdminLinks"
+	},
+	"manifest_version": 2
+}
