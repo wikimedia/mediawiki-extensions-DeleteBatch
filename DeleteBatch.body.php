@@ -296,7 +296,7 @@ class DeleteBatchForm {
 	 * @$linennum Integer - mostly for informational reasons
 	 * @param $line
 	 * @param string $reason
-	 * @param DatabaseBase $db
+	 * @param \Wikimedia\Rdbms\IDatabase $db
 	 * @param bool $multi
 	 * @param int $linenum
 	 * @param null|User $user
