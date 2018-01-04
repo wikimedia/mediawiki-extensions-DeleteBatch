@@ -25,7 +25,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:DeleteBatch',
 	'descriptionmsg' => 'deletebatch-desc',
-	'license-name' => 'GPL-2.0+'
+	'license-name' => 'GPL-2.0-or-later'
 );
 
 // New user right, required to use Special:DeleteBatch
