@@ -10,13 +10,15 @@
 			"Shirayuki",
 			"The Evil IP address",
 			"Umherirrender",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"MarcoAurelio"
 		]
 	},
 	"deletebatch": "{{doc-special|DeleteBatch}}\n{{Identical|Delete batch of pages}}",
 	"deletebatch-desc": "{{desc|name=Delete Batch|url=https://www.mediawiki.org/wiki/Extension:DeleteBatch}}",
 	"deletebatch-help": "This message is help message for the \"Delete batch\" form.\n\nThe message indicates \"(This form enables to) delete a batch of pages\".",
 	"deletebatch-caption": "Used as label for \"Select a file\" button.",
+	"deletebatch-extensionname": "{{notranslate}}\nName of the extension as it should be displayed.",
 	"deletebatch-title": "Used as page title in [[Special:DeleteBatch]].",
 	"deletebatch-link-back": "Used as link text in \"Result of delete batch\" page.\n\nThe link points to the special page [[Special:DeleteBatch]].",
 	"deletebatch-as": "Used as label for the \"Mode\" select box.\n\nThe select box has the following performers:\n* {{msg-mw|Deletebatch-select-script}}\n* {{msg-mw|Deletebatch-select-yourself}}",

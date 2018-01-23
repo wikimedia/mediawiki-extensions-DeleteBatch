@@ -7,6 +7,7 @@
 	],
 	"url": "https://www.mediawiki.org/wiki/Extension:DeleteBatch",
 	"descriptionmsg": "deletebatch-desc",
+	"namemsg": "deletebatch-extensionname",
 	"license-name": "GPL-2.0-or-later",
 	"type": "specialpage",
 	"AvailableRights": [
@@ -35,5 +36,5 @@
 	"Hooks": {
 		"AdminLinks": "SpecialDeleteBatch::addToAdminLinks"
 	},
-	"manifest_version": 2
+	"manifest_version": 1
 }
