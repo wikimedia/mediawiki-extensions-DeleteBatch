@@ -255,25 +255,37 @@ class DeleteBatchForm {
 		if ( $filename ) { /* if from filename, delete from filename */
 			for ( $linenum = 1; !feof( $file ); $linenum++ ) {
 				$line = trim( fgets( $file ) );
-				if ( $line == false ) {
+				if ( !$line ) {
 					break;
 				}
 				/* explode and give me a reason
 				   the file should contain only "page title|reason"\n lines
 				   the rest is trash
 				*/
-				$arr = explode( "|", $line );
-				is_null( $arr[1] ) ? $reason = '' : $reason = $arr[1];
-				$this->deletePage( $arr[0], $reason, $dbw, true, $linenum );
+				if ( strpos( $line, '|' ) !== -1 ) {
+					$arr = explode( '|', $line );
+				} else {
+					$arr = [ $line ];
+				}
+				if ( count( $arr ) < 2 ) {
+					$arr[1] = '';
+				}
+				$this->deletePage( $arr[0], $arr[1], $dbw, true, $linenum );
 			}
 		} else {
 			/* run through text and do all like it should be */
 			$lines = explode( "\n", $line );
 			foreach ( $lines as $single_page ) {
+				$single_page =  trim( $single_page );
 				/* explode and give me a reason */
-				$page_data = explode( "|", trim( $single_page ) );
-				if ( count( $page_data ) < 2 )
+				if ( strpos( $single_page, '|' ) !== -1 ) {
+					$page_data = explode( '|', $single_page );
+				} else {
+					$page_data = [ $single_page ];
+				}
+				if ( count( $page_data ) < 2 ) {
 					$page_data[1] = '';
+				}
 				$this->deletePage( $page_data[0], $page_data[1], $dbw, false, 0, $OldUser );
 			}
 		}
