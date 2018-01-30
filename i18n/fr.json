@@ -6,12 +6,13 @@
 			"Grondin",
 			"IAlex",
 			"McDutchie",
-			"Od1n"
+			"Od1n",
+			"Wladek92"
 		]
 	},
 	"deletebatch": "Supprimer un lot de pages",
 	"deletebatch-desc": "[[Special:DeleteBatch|Supprime un lot de pages]]",
-	"deletebatch-help": "Supprime un lot de pages. Vous pouvez soit lancer une simple suppression, soit supprimer des pages listées dans un fichier.\nChoisissez un utilisateur qui sera affiché dans le journal des suppressions.\nUn fichier importé pourra contenir un nom de la page et un motif facultatif séparé par un « | » dans chaque ligne.",
+	"deletebatch-help": "Supprime un lot de pages. \nVous pouvez soit lancer une simple suppression, soit supprimer des pages listées dans un fichier.\nChoisissez un utilisateur qui sera affiché dans le journal des suppressions.\nLes fichiers téléversés doivent contenir un nom de page et un motif facultatif séparés par un « | ».",
 	"deletebatch-caption": "Liste des pages :",
 	"deletebatch-title": "Supprimer en lot",
 	"deletebatch-link-back": "Revenir à la page spéciale",

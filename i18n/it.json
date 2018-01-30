@@ -9,7 +9,7 @@
 	},
 	"deletebatch": "Elimina un gruppo di pagine",
 	"deletebatch-desc": "[[Special:DeleteBatch|Elimina un gruppo di pagine]]",
-	"deletebatch-help": "Eliminazione di un gruppo di pagine. Puoi eseguire una sola eliminazione, o eliminare le pagine elencate in un file.\nScegli un utente che sarà mostrato nel registro delle cancellazioni.\nI file caricati dovrebbero contenere il nome della pagina e un motivo opzionale separati da un carattere \"|\" in ciascuna linea.",
+	"deletebatch-help": "Eliminazione di un gruppo di pagine. Puoi eseguire una sola eliminazione, o eliminare le pagine elencate in un file.\nScegli un utente che sarà mostrato nel registro delle cancellazioni.\nI file caricati dovrebbero contenere il nome della pagina e un motivo opzionale separati da un carattere \"|\".",
 	"deletebatch-caption": "Elenco delle pagine:",
 	"deletebatch-title": "Elimina gruppo",
 	"deletebatch-link-back": "Torna alla pagina speciale",

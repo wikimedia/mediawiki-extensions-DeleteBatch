@@ -5,12 +5,13 @@
 			"Maikking",
 			"Matma Rex",
 			"Sp5uhe",
-			"Woytecr"
+			"Woytecr",
+			"Chrumps"
 		]
 	},
 	"deletebatch": "Usuń grupę stron",
 	"deletebatch-desc": "[[Special:DeleteBatch|Usuwanie grup stron]]",
-	"deletebatch-help": "Usuwanie grupy stron. Strony możesz usuwać pojedynczo lub poprzez usunięcie grupy stron, wymienionych w pliku.\nWybierz użytkownika, który będzie widoczny w logu stron usuniętych.\nPrzesyłany plik powinien zawierać nazwę strony i powód usunięcia w jednej linii tekstu, przedzielone symbolem „|”.",
+	"deletebatch-help": "Usuwanie grupy stron. Strony możesz usuwać pojedynczo lub poprzez usunięcie grupy stron, wymienionych w pliku.\nWybierz użytkownika, który będzie widoczny w logu stron usuniętych.\nPrzesyłane pliki powinny zawierać nazwę strony i opcjonalny powód usunięcia, oddzielony znakiem „|”.",
 	"deletebatch-caption": "Lista stron:",
 	"deletebatch-title": "Usuń grupę stron",
 	"deletebatch-link-back": "Cofnij do strony specjalnej",
