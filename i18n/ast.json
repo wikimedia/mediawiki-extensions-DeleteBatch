@@ -6,7 +6,7 @@
 	},
 	"deletebatch": "Desaniciar un piñu de páxines",
 	"deletebatch-desc": "[[Special:DeleteBatch|Desaniciar un piñu de páxines]]",
-	"deletebatch-help": "Desaniciar un piñu de páxines.\nPue facer un desaniciu únicu, o desaniciar les páxines qu'apaecen nun ficheru.\nEscueya l'usuariu qu'apaecerá nos rexistros de desanicios.\nLos ficheros cargaos tienen de contener el nome de la páxina y un motivu opcional, separaos por una barra vertical (\"|\") en cada llinia.",
+	"deletebatch-help": "Desaniciar un piñu de páxines.\nPue facer un desaniciu únicu, o desaniciar les páxines qu'apaecen nun ficheru.\nEscueya l'usuariu qu'apaecerá nos rexistros de desanicios.\nLos ficheros cargaos tienen de contener el nome de la páxina y un motivu opcional, separaos por una barra vertical (\"|\").",
 	"deletebatch-caption": "Llista de páxines:",
 	"deletebatch-title": "Desaniciar un conxuntu",
 	"deletebatch-link-back": "Volver a la páxina especial",

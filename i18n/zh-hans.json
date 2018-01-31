@@ -7,12 +7,13 @@
 			"Wilsonmess",
 			"Xiaomingyan",
 			"Yfdyh000",
-			"Zhangjintao"
+			"Zhangjintao",
+			"Liuxinyu970226"
 		]
 	},
 	"deletebatch": "删除一批页面",
 	"deletebatch-desc": "[[Special:DeleteBatch|删除一批页面]]",
-	"deletebatch-help": "删除一批页面。\n您可以执行单条删除，或删除在一个文件中列出的页面。\n选择一个将显示删除日志中的用户。\n上传的文件应该包含页面名称和可选的原因，每行用一个“|”符号分隔。",
+	"deletebatch-help": "删除一批页面。您可以执行单条删除，或删除在一个文件中列出的页面。选择一个将显示删除日志中的用户。上传的文件应该包含页面名称和可选的原因，以“|”分隔。",
 	"deletebatch-caption": "页面列表：",
 	"deletebatch-title": "批量删除",
 	"deletebatch-link-back": "返回特殊页面",
