@@ -3,12 +3,13 @@
 		"authors": [
 			"Cainamarques",
 			"Eduardo.mps",
-			"Luckas"
+			"Luckas",
+			"Eduardo Addad de Oliveira"
 		]
 	},
 	"deletebatch": "Apagar páginas em bloco",
 	"deletebatch-desc": "Permite [[Special:DeleteBatch|eliminar páginas em bloco]]",
-	"deletebatch-help": "Elimine um bloco de páginas. Você pode realizar uma única eliminação, ou eliminar páginas listadas num arquivo.\nEscolha um usuário que será mostrado nos registros de eliminação.\nO arquivo carregado deverá conter o nome da página e um motivo opcional, separados por um caractere \"|\" em cada linha.",
+	"deletebatch-help": "Eliminar um bloco de páginas.\nPode fazer a eliminação de uma página, ou de todas as páginas que listar num ficheiro.\nEscolha um utilizador que será mostrado nos registos de eliminação.\nOs ficheiros carregados devem conter o nome da página e um motivo opcional, separados por uma barra vertical \"|\".",
 	"deletebatch-caption": "Lista de páginas:",
 	"deletebatch-title": "Apagar bloco",
 	"deletebatch-link-back": "Voltar à página especial",
