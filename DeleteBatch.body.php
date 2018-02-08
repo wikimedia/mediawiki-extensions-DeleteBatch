@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
+
 class SpecialDeleteBatch extends SpecialPage {
 	/**
 	 * Constructor
@@ -379,7 +381,8 @@ class DeleteBatchForm {
 		$db->endAtomic( __METHOD__ );
 		if ( $localFileExists ) {
 			// Flush DBs in case of fragile file operations
-			wfGetLBFactory()->commitMasterChanges( __METHOD__ );
+			$lbFactory = MediaWikiServices::getInstance()->getDBLoadBalancerFactory();
+			$lbFactory->commitMasterChanges( __METHOD__ );
 		}
 
 		return true;
