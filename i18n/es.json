@@ -11,12 +11,13 @@
 			"Fitoschido",
 			"Macofe",
 			"Indiralena",
-			"Sophivorus"
+			"Sophivorus",
+			"MarcoAurelio"
 		]
 	},
 	"deletebatch": "Eliminar lote de páginas",
 	"deletebatch-desc": "[[Special:DeleteBatch|Eliminar un lote de páginas]]",
-	"deletebatch-help": "Eliminar un lote de páginas.\nPuedes realizar un solo borrado o eliminar páginas listadas en un archivo.\nElige el usuario que se mostrará en los registros de borrado.\nLos archivos subidos deben contener el nombre de la página y el motivo opcional, separados por un carácter \"|\" en cada línea.",
+	"deletebatch-help": "Eliminar un lote de páginas.\nPuedes realizar un solo borrado o eliminar páginas listadas en un archivo.\nElige el usuario que se mostrará en los registros de borrado.\nLos archivos subidos deben contener el nombre de la página y el motivo opcional, separados por un carácter \"|\".",
 	"deletebatch-caption": "Lista de páginas:",
 	"deletebatch-title": "Eliminar lote",
 	"deletebatch-link-back": "Regresar a la página especial",
