@@ -6,7 +6,7 @@
 	},
 	"deletebatch": "Batch pa scangellazione de le pàggene",
 	"deletebatch-desc": "[[Special:DeleteBatch|'Nu batch pa scangellazione de le pàggene]]",
-	"deletebatch-help": "Scangille 'n batch de pàggene.\nTu puè eseguì 'na scangellazione singole, o scangellà pàggene elengate jndr'à 'nu file.\nScacchie 'n'utende ca adda 'ndrucà l'archivije de le scangellaziune.\nLe file carecate avessera tenè 'u nome de le pàggene e facoltativamende 'u mutive, separate da 'nu carattere \"|\" pe ogne linèe.",
+	"deletebatch-help": "Scangille 'nu batch de pàggene.\nTu puè eseguì 'na scangellazione singole, o scangellà pàggene elengate jndr'à 'nu file.\nScacchie 'n'utende ca adda 'ndrucà l'archivije de le scangellaziune.\nLe file carecate avessera tenè 'u nome de le pàggene e facoltativamende 'u mutive, separate da 'nu carattere \"|\".",
 	"deletebatch-caption": "Elenghe de le pàggene:",
 	"deletebatch-title": "'Nfornate de scangellazione",
 	"deletebatch-link-back": "Tuèrne rrete a le pàggene speciale",
