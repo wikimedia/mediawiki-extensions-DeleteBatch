@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Les Meloures"
 		]
 	},
 	"deletebatch": "Rei vu Säite läschen",
@@ -19,7 +20,7 @@
 	"deletebatch-omitting-nonexistent": "D'Säit $1 déi et net gëtt iwwersprangen.",
 	"deletebatch-omitting-invalid": "Déi ongëlteg Säit $1 iwwersprangen.",
 	"deletebatch-file-bad-format": "De Fichier sollt als textfile virleien",
-	"deletebatch-file-missing": "De Fichier deen ukoum konnt net geliest ginn",
+	"deletebatch-file-missing": "De Fichier deen ukoum konnt net gelies ginn",
 	"deletebatch-select-script": "de Script vun der Säit läschen",
 	"deletebatch-select-yourself": "Dir",
 	"right-deletebatch": "Méi Säiten zesumme läschen",
