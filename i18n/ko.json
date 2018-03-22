@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Idh0854",
-			"아라"
+			"아라",
+			"Garam"
 		]
 	},
 	"deletebatch": "문서를 일괄 삭제",
@@ -23,7 +24,7 @@
 	"deletebatch-file-bad-format": "파일은 일반 텍스트이여야 합니다",
 	"deletebatch-file-missing": "주어진 파일을 읽을 수 없습니다.",
 	"deletebatch-select-script": "문서 스크립트 삭제",
-	"deletebatch-select-yourself": "당신",
+	"deletebatch-select-yourself": "나 자신",
 	"deletebatch-no-page": "문서 목록이 포함된 파일을 삭제하거나 선택할 수 있는 적어도 하나의 문서를 지정하세요.",
 	"right-deletebatch": "문서 일괄 삭제",
 	"deletebatch-deleting-file-only": "$1 파일 설명 문서가 존재하지 않아서 실제 파일만 삭제합니다.\n이 동작은 기록되지 않습니다."
