@@ -27,5 +27,6 @@
 	"deletebatch-select-script": "سكريبت حذف الصفحات",
 	"deletebatch-select-yourself": "أنت",
 	"deletebatch-no-page": "من فضلك اختر على الأقل صفحة واحدة للحذف أو اختر ملفا يحتوي على قائمة الصفحات.",
-	"right-deletebatch": "حذف باتش الصفحات"
+	"right-deletebatch": "حذف باتش الصفحات",
+	"deletebatch-deleting-file-only": "صفحة وصف الملف $1 غير موجودة؛ حذف الملف الفعلي فقط،\nلن يتم تسجيل هذا الإجراء."
 }
