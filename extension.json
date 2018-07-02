@@ -1,6 +1,6 @@
 {
 	"name": "DeleteBatch",
-	"version": "1.7.1",
+	"version": "1.8.0",
 	"author": [
 		"Bartek Łapiński",
 		"..."
@@ -11,11 +11,13 @@
 	"license-name": "GPL-2.0-or-later",
 	"type": "specialpage",
 	"AvailableRights": [
-		"deletebatch"
+		"deletebatch",
+		"deletebatch-spoof"
 	],
 	"GroupPermissions": {
 		"bureaucrat": {
-			"deletebatch": true
+			"deletebatch": true,
+			"deletebatch-spoof": true
 		}
 	},
 	"SpecialPages": {

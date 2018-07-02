@@ -169,10 +169,11 @@ class DeleteBatchForm {
 	}
 
 	function userSelect( $name, $tabindex ) {
-		$options = [
-			$this->context->msg( 'deletebatch-select-script' )->text() => 'script',
-			$this->context->msg( 'deletebatch-select-yourself' )->text() => 'you'
-		];
+		$options = [];
+		if ( $this->context->getUser()->isAllowed( 'deletebatch-spoof' ) ) {
+			$options[$this->context->msg( 'deletebatch-select-script' )->text()] = 'script';
+		}
+		$options[$this->context->msg( 'deletebatch-select-yourself' )->text()] = 'you';
 
 		$select = new XmlSelect( $name, $name );
 		$select->setDefault( $this->mMode );
@@ -236,13 +237,13 @@ class DeleteBatchForm {
 				return;
 			}
 		}
-		/* switch user if necessary */
+		/* switch user if necessary and if the user is allowed to do that */
 		$OldUser = $wgUser;
-		if ( $this->mMode == 'script' ) {
+		if ( $this->mMode == 'script' && $OldUser->isAllowed( 'deletebatch-spoof' ) ) {
 			$username = 'Delete page script';
 			$wgUser = User::newFromName( $username );
 			/* Create the user if necessary */
-			if ( !$wgUser->getID() ) {
+			if ( !$wgUser->getId() ) {
 				$wgUser->addToDatabase();
 			}
 		}
@@ -273,7 +274,7 @@ class DeleteBatchForm {
 			/* run through text and do all like it should be */
 			$lines = explode( "\n", $line );
 			foreach ( $lines as $single_page ) {
-				$single_page =  trim( $single_page );
+				$single_page = trim( $single_page );
 				/* explode and give me a reason */
 				if ( strpos( $single_page, '|' ) !== -1 ) {
 					$page_data = explode( '|', $single_page );
@@ -288,7 +289,7 @@ class DeleteBatchForm {
 		}
 
 		/* restore user back */
-		if ( $this->mMode == 'script' ) {
+		if ( $this->mMode == 'script' && $OldUser->isAllowed( 'deletebatch-spoof' ) ) {
 			$wgUser = $OldUser;
 		}
 
