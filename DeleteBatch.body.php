@@ -128,6 +128,10 @@ class DeleteBatchForm {
 				$this->userSelect( 'wpMode', ++$tabindex )->getHtml()
 			],
 			[
+				Xml::label( $this->context->msg( 'deletebatch-default-reason' )->text(), 'wpDefaultReason' ),
+				Html::input( 'wpDefaultReason', '', 'text', [ 'id' => 'wpDefaultReason' ] )
+			],
+			[
 				Xml::label( $this->context->msg( 'deletebatch-page' )->text(), 'wpPage' ),
 				$this->pagelistInput( 'wpPage', ++$tabindex )
 			],
@@ -265,8 +269,9 @@ class DeleteBatchForm {
 				} else {
 					$arr = [ $line ];
 				}
-				if ( count( $arr ) < 2 ) {
-					$arr[1] = '';
+				if ( !isset( $arr[1] ) ) {
+					// Use default deletion reason
+					$arr[1] = $this->context->getRequest()->getVal( 'wpDefaultReason', '' );
 				}
 				$this->deletePage( $arr[0], $arr[1], $dbw, true, $linenum );
 			}
@@ -281,8 +286,9 @@ class DeleteBatchForm {
 				} else {
 					$page_data = [ $single_page ];
 				}
-				if ( count( $page_data ) < 2 ) {
-					$page_data[1] = '';
+				if ( !isset( $page_data[1] ) ) {
+					// Use default deletion reason
+					$page_data[1] = $this->context->getRequest()->getVal( 'wpDefaultReason', '' );
 				}
 				$this->deletePage( $page_data[0], $page_data[1], $dbw, false, 0, $OldUser );
 			}
