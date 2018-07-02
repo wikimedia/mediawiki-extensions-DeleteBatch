@@ -26,6 +26,7 @@
 	"deletebatch-select-script": "Delete page script",
 	"deletebatch-select-yourself": "You",
 	"deletebatch-no-page": "Please specify at least one page to delete or choose a file containing page list.",
+	"action-deletebatch": "batch delete pages",
 	"right-deletebatch": "Batch delete pages",
 	"deletebatch-deleting-file-only": "File description page $1 does not exist; deleting the actual file only.\nThis action will not be logged."
 }
