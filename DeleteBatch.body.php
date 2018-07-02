@@ -7,7 +7,7 @@ class SpecialDeleteBatch extends SpecialPage {
 	 * Constructor
 	 */
 	public function __construct() {
-		parent::__construct( 'DeleteBatch'/*class*/, 'deletebatch'/*restriction*/ );
+		parent::__construct( 'DeleteBatch', 'deletebatch' );
 	}
 
 	public function doesWrites() {
@@ -17,7 +17,7 @@ class SpecialDeleteBatch extends SpecialPage {
 	/**
 	 * Show the special page
 	 *
-	 * @param $par Mixed: parameter passed to the page or null
+	 * @param string|null $par Parameter passed to the page, if any
 	 * @throws UserBlockedError
 	 * @return void
 	 */
@@ -122,43 +122,39 @@ class DeleteBatchForm {
 
 		$tabindex = 1;
 
-		$rows = array(
+		$rows = [
+			[
+				Xml::label( $this->context->msg( 'deletebatch-as' )->text(), 'wpMode' ),
+				$this->userSelect( 'wpMode', ++$tabindex )->getHtml()
+			],
+			[
+				Xml::label( $this->context->msg( 'deletebatch-page' )->text(), 'wpPage' ),
+				$this->pagelistInput( 'wpPage', ++$tabindex )
+			],
+			[
+				$this->context->msg( 'deletebatch-or' )->parse(),
+				'&#160;'
+			],
+			[
+				Xml::label( $this->context->msg( 'deletebatch-caption' )->text(), 'wpFile' ),
+				$this->fileInput( 'wpFile', ++$tabindex )
+			],
+			[
+				'&#160;',
+				$this->submitButton( 'wpdeletebatchSubmit', ++$tabindex )
+			]
+		];
 
-		array(
-			Xml::label( $this->context->msg( 'deletebatch-as' )->text(), 'wpMode' ),
-			$this->userSelect( 'wpMode', ++$tabindex )->getHtml()
-		),
-		array(
-			Xml::label( $this->context->msg( 'deletebatch-page' )->text(), 'wpPage' ),
-			$this->pagelistInput( 'wpPage', ++$tabindex )
-		),
-		array(
-			$this->context->msg( 'deletebatch-or' )->parse(),
-			'&#160;'
-		),
-		array(
-			Xml::label( $this->context->msg( 'deletebatch-caption' )->text(), 'wpFile' ),
-			$this->fileInput( 'wpFile', ++$tabindex )
-		),
-		array(
-			'&#160;',
-			$this->submitButton( 'wpdeletebatchSubmit', ++$tabindex )
-		)
-
-		);
-
-		$form =
-
-		Xml::openElement( 'form', array(
+		$form = Xml::openElement( 'form', [
 			'name' => 'deletebatch',
 			'enctype' => 'multipart/form-data',
 			'method' => 'post',
-			'action' => $this->title->getLocalUrl( array( 'action' => 'submit' ) ),
-		) );
+			'action' => $this->title->getLocalURL( [ 'action' => 'submit' ] ),
+		] );
 
 		$form .= '<table>';
 
-		foreach( $rows as $row ) {
+		foreach ( $rows as $row ) {
 			list( $label, $input ) = $row;
 			$form .= "<tr><td class='mw-label'>$label</td>";
 			$form .= "<td class='mw-input'>$input</td></tr>";
@@ -166,17 +162,17 @@ class DeleteBatchForm {
 
 		$form .= '</table>';
 
-		$form .= Html::Hidden( 'title', $this->title );
-		$form .= Html::Hidden( 'wpEditToken', $this->context->getUser()->getEditToken() );
+		$form .= Html::hidden( 'title', $this->title );
+		$form .= Html::hidden( 'wpEditToken', $this->context->getUser()->getEditToken() );
 		$form .= '</form>';
 		$out->addHTML( $form );
 	}
 
 	function userSelect( $name, $tabindex ) {
-		$options = array(
+		$options = [
 			$this->context->msg( 'deletebatch-select-script' )->text() => 'script',
 			$this->context->msg( 'deletebatch-select-yourself' )->text() => 'you'
-		);
+		];
 
 		$select = new XmlSelect( $name, $name );
 		$select->setDefault( $this->mMode );
@@ -187,34 +183,34 @@ class DeleteBatchForm {
 	}
 
 	function pagelistInput( $name, $tabindex ) {
-		$params = array(
+		$params = [
 			'tabindex' => $tabindex,
 			'name' => $name,
 			'id' => $name,
 			'cols' => 40,
 			'rows' => 10
-		);
+		];
 
 		return Xml::element( 'textarea', $params, $this->mPage, false );
 	}
 
 	function fileInput( $name, $tabindex ) {
-		$params = array(
+		$params = [
 			'type' => 'file',
 			'tabindex' => $tabindex,
 			'name' => $name,
 			'id' => $name,
 			'value' => $this->mFile
-		);
+		];
 
 		return Xml::element( 'input', $params );
 	}
 
 	function submitButton( $name, $tabindex ) {
-		$params = array(
+		$params = [
 			'tabindex' => $tabindex,
 			'name' => $name,
-		);
+		];
 
 		return Xml::submitButton( $this->context->msg( 'deletebatch-delete' )->text(), $params );
 	}
@@ -226,11 +222,11 @@ class DeleteBatchForm {
 		/* first, check the file if given */
 		if ( $filename ) {
 			/* both a file and a given page? not too much? */
-			if ( '' != $this->mPage ) {
+			if ( $this->mPage != '' ) {
 				$this->showForm( 'deletebatch-both-modes' );
 				return;
 			}
-			if ( "text/plain" != mime_content_type( $filename ) ) {
+			if ( mime_content_type( $filename ) != 'text/plain' ) {
 				$this->showForm( 'deletebatch-file-bad-format' );
 				return;
 			}
@@ -242,7 +238,7 @@ class DeleteBatchForm {
 		}
 		/* switch user if necessary */
 		$OldUser = $wgUser;
-		if ( 'script' == $this->mMode ) {
+		if ( $this->mMode == 'script' ) {
 			$username = 'Delete page script';
 			$wgUser = User::newFromName( $username );
 			/* Create the user if necessary */
@@ -292,7 +288,7 @@ class DeleteBatchForm {
 		}
 
 		/* restore user back */
-		if ( 'script' == $this->mMode ) {
+		if ( $this->mMode == 'script' ) {
 			$wgUser = $OldUser;
 		}
 
@@ -300,27 +296,27 @@ class DeleteBatchForm {
 			$this->title,
 			$this->context->msg( 'deletebatch-link-back' )->escaped()
 		);
-		$this->context->getOutput()->addHTML( "<br /><b>" . $link_back . "</b>" );
+		$this->context->getOutput()->addHTML( '<br /><b>' . $link_back . '</b>' );
 	}
 
 	/**
 	 * Performs a single delete
-	 * @$mode String - singular/multi
-	 * @$linennum Integer - mostly for informational reasons
-	 * @param $line
-	 * @param string $reason
+	 *
+	 * @param string $line Name of the page to be deleted
+	 * @param string $reason User-supplied deletion reason
 	 * @param \Wikimedia\Rdbms\IDatabase $db
 	 * @param bool $multi
-	 * @param int $linenum
-	 * @param null|User $user
+	 * @param int $linenum Mostly for informational reasons
+	 * @param null|User $user User performing the page deletions
 	 * @return bool
 	 */
 	function deletePage( $line, $reason = '', &$db, $multi = false, $linenum = 0, $user = null ) {
 		global $wgUser;
+
 		$page = Title::newFromText( $line );
-			if ( is_null( $page ) ) { /* invalid title? */
-				$this->context->getOutput()->addWikiMsg(
-					'deletebatch-omitting-invalid', $line );
+		if ( is_null( $page ) ) { /* invalid title? */
+			$this->context->getOutput()->addWikiMsg(
+				'deletebatch-omitting-invalid', $line );
 			if ( !$multi ) {
 				if ( !is_null( $user ) ) {
 					$wgUser = $user;
@@ -333,7 +329,7 @@ class DeleteBatchForm {
 		$pageExists = $page->exists();
 
 		// If it's a file, check file existence
-		if ( NS_MEDIA == $page->getNamespace() ) {
+		if ( $page->getNamespace() == NS_MEDIA ) {
 			$page = Title::makeTitle( NS_FILE, $page->getDBkey() );
 		}
 		$localFile = null;
