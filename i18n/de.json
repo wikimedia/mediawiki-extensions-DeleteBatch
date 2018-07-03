@@ -34,5 +34,6 @@
 	"deletebatch-select-yourself": "du",
 	"deletebatch-no-page": "Bitte gib entweder mindestens eine zu löschende Seite an oder wähle eine Datei, die eine Liste zu löschender Seiten enthält.",
 	"right-deletebatch": "Seiten gesammelt löschen",
+	"right-deletebatch-spoof": "Stapellöschung von Seiten als „Seite-löschen-Skript“",
 	"deletebatch-deleting-file-only": "Die Dateibeschreibungsseite $1 ist nicht vorhanden. Es wird nur die eigentliche Datei gelöscht. Diese Aktion wird nicht protokolliert."
 }
