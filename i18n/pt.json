@@ -10,6 +10,7 @@
 	"deletebatch-desc": "Permite [[Special:DeleteBatch|eliminar páginas em bloco]]",
 	"deletebatch-help": "Eliminar um bloco de páginas.\nPode fazer a eliminação de uma página, ou de todas as páginas que listar num ficheiro.\nEscolha um utilizador que será mostrado nos registos de eliminação.\nOs ficheiros carregados devem conter o nome da página e um motivo opcional, separados por uma barra vertical \"|\".",
 	"deletebatch-caption": "Lista de páginas:",
+	"deletebatch-default-reason": "Motivo padrão para eliminações:",
 	"deletebatch-title": "Apagar bloco",
 	"deletebatch-link-back": "Voltar à página especial",
 	"deletebatch-as": "Executar o script como:",
@@ -26,6 +27,8 @@
 	"deletebatch-select-script": "<i>Script</i> de eliminação de páginas",
 	"deletebatch-select-yourself": "Você",
 	"deletebatch-no-page": "Especifique pelo menos uma página para eliminar ou escolha um ficheiro que contenha uma lista de páginas, por favor.",
+	"action-deletebatch": "apagar páginas em bloco",
 	"right-deletebatch": "Apagar páginas em bloco",
+	"right-deletebatch-spoof": "Apagar páginas em bloco como \"''Script'' de eliminação de páginas\"",
 	"deletebatch-deleting-file-only": "A página de descrição do ficheiro $1 não existe, a eliminar só o ficheiro atual.\nEsta operação não será registada."
 }

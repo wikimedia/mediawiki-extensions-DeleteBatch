@@ -6,13 +6,15 @@
 			"Matma Rex",
 			"Sp5uhe",
 			"Woytecr",
-			"Chrumps"
+			"Chrumps",
+			"DeRudySoulStorm"
 		]
 	},
 	"deletebatch": "Usuń grupę stron",
 	"deletebatch-desc": "[[Special:DeleteBatch|Usuwanie grup stron]]",
 	"deletebatch-help": "Usuwanie grupy stron. Strony możesz usuwać pojedynczo lub poprzez usunięcie grupy stron, wymienionych w pliku.\nWybierz użytkownika, który będzie widoczny w logu stron usuniętych.\nPrzesyłane pliki powinny zawierać nazwę strony i opcjonalny powód usunięcia, oddzielony znakiem „|”.",
 	"deletebatch-caption": "Lista stron:",
+	"deletebatch-default-reason": "Domyślny powód usunięcia:",
 	"deletebatch-title": "Usuń grupę stron",
 	"deletebatch-link-back": "Cofnij do strony specjalnej",
 	"deletebatch-as": "Uruchom skrypt jako",
@@ -29,6 +31,8 @@
 	"deletebatch-select-script": "usuwanie stron skryptem",
 	"deletebatch-select-yourself": "Ty",
 	"deletebatch-no-page": "Wybierz jedną stronę LUB plik z listą stron do usunięcia.",
+	"action-deletebatch": "Usuwanie grupy stron",
 	"right-deletebatch": "Usuwanie grupy stron",
+	"right-deletebatch-spoof": "Grupuj usuwanie stron jako \"Usuń skrypt strony\"",
 	"deletebatch-deleting-file-only": "Strona opisu pliku $1 nie istnieje; zostanie usunięty tylko bieżący plik. Ta akcja nie zostanie dopisana do logu."
 }
