@@ -11,6 +11,7 @@
 	"deletebatch-desc": "[[Special:DeleteBatch|حذف باتش من الصفحات]]",
 	"deletebatch-help": "حذف مجموعة من الصفحات.\nيمكنك إما عمل عملية حذف واحدة، أو حذف الصفحات المدرجة في ملف.\nاختر مستخدما ليتم عرضه في سجلات الحذف.\nيجب أن تحتوي الملفات المحملة على اسم الصفحة والسبب الاختياري، مفصولة ب \"|\".",
 	"deletebatch-caption": "قائمة الصفحات:",
+	"deletebatch-default-reason": "سبب الحذف الافتراضي:",
 	"deletebatch-title": "حذف الباتش",
 	"deletebatch-link-back": "ارجع إلى الصفحة الخاصة",
 	"deletebatch-as": "تشغيل السكريبت ك:",
@@ -27,6 +28,8 @@
 	"deletebatch-select-script": "سكريبت حذف الصفحات",
 	"deletebatch-select-yourself": "أنت",
 	"deletebatch-no-page": "من فضلك اختر على الأقل صفحة واحدة للحذف أو اختر ملفا يحتوي على قائمة الصفحات.",
+	"action-deletebatch": "حذف الصفحات كميا",
 	"right-deletebatch": "حذف باتش الصفحات",
+	"right-deletebatch-spoof": "حذف الصفحات كميا كـ\"سكريبت حذف الصفحة\"",
 	"deletebatch-deleting-file-only": "صفحة وصف الملف $1 غير موجودة؛ حذف الملف الفعلي فقط،\nلن يتم تسجيل هذا الإجراء."
 }
