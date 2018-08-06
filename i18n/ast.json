@@ -8,6 +8,7 @@
 	"deletebatch-desc": "[[Special:DeleteBatch|Desaniciar un piñu de páxines]]",
 	"deletebatch-help": "Desaniciar un piñu de páxines.\nPue facer un desaniciu únicu, o desaniciar les páxines qu'apaecen nun ficheru.\nEscueya l'usuariu qu'apaecerá nos rexistros de desanicios.\nLos ficheros cargaos tienen de contener el nome de la páxina y un motivu opcional, separaos por una barra vertical (\"|\").",
 	"deletebatch-caption": "Llista de páxines:",
+	"deletebatch-default-reason": "Motivu de desaniciu predetermináu:",
 	"deletebatch-title": "Desaniciar un conxuntu",
 	"deletebatch-link-back": "Volver a la páxina especial",
 	"deletebatch-as": "Executar el script como:",
@@ -24,6 +25,8 @@
 	"deletebatch-select-script": "Script de desaniciu de páxines",
 	"deletebatch-select-yourself": "Vusté",
 	"deletebatch-no-page": "Por favor, especifique polo menos una páxina pa desaniciar o escueya un ficheru que contenga una llista de páxines.",
+	"action-deletebatch": "desaniciu de llotes de páxines",
 	"right-deletebatch": "Desaniciar conxuntos de páxines",
+	"right-deletebatch-spoof": "Desaniciu de llotes de páxines como «Script de desaniciu de páxines»",
 	"deletebatch-deleting-file-only": "Nun esiste la páxina de descripción del ficheru $1; desaniciando namái el propiu ficheru.\nEsta aición nun quedará rexistrada."
 }
