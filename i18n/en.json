@@ -27,6 +27,7 @@
 	"deletebatch-select-script": "Delete page script",
 	"deletebatch-select-yourself": "You",
 	"deletebatch-no-page": "Please specify at least one page to delete or choose a file containing page list.",
+	"deletebatch-system-username": "Delete page script",
 	"action-deletebatch": "batch delete pages",
 	"right-deletebatch": "Batch delete pages",
 	"right-deletebatch-spoof": "Batch delete pages as \"Delete page script\"",
