@@ -34,6 +34,7 @@
 	"deletebatch-select-script": "Seitenlöschskript",
 	"deletebatch-select-yourself": "du",
 	"deletebatch-no-page": "Bitte gib entweder mindestens eine zu löschende Seite an oder wähle eine Datei, die eine Liste zu löschender Seiten enthält.",
+	"deletebatch-system-username": "Seitenlöschskript",
 	"action-deletebatch": "Seiten im Stapel zu löschen",
 	"right-deletebatch": "Seiten gesammelt löschen",
 	"right-deletebatch-spoof": "Stapellöschung von Seiten als „Seite-löschen-Skript“",
