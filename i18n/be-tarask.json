@@ -28,6 +28,7 @@
 	"deletebatch-select-script": "скрыпт выдаленьня старонак",
 	"deletebatch-select-yourself": "Вы",
 	"deletebatch-no-page": "Калі ласка, пазначце хаця б адну старонку АЛЬБО файл, які ўтрымлівае сьпіс старонак да выдаленьня.",
+	"deletebatch-system-username": "Скрыпт выдаленьня старонак",
 	"action-deletebatch": "выдаленьне групы старонак",
 	"right-deletebatch": "выдаленьне групы старонак",
 	"right-deletebatch-spoof": "Выдаленьне групы старонак як «Выдаленьне скрыпту з старонкі»",

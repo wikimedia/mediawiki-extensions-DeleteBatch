@@ -32,6 +32,7 @@
 	"deletebatch-select-script": "скрипт удаления страниц",
 	"deletebatch-select-yourself": "вы",
 	"deletebatch-no-page": "Пожалуйста, выберите минимум одну страницу для удаления ИЛИ выберите файл, содержащий список страниц.",
+	"deletebatch-system-username": "Скрипт удаления страниц",
 	"action-deletebatch": "удаление набора страниц",
 	"right-deletebatch": "удаление набора страниц",
 	"right-deletebatch-spoof": "удаление набора страниц как \"Скрипт удаления страниц\"",

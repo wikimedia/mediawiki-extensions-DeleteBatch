@@ -4,7 +4,8 @@
 			"Rancher",
 			"Жељко Тодоровић",
 			"Михајло Анђелковић",
-			"Сербијана"
+			"Сербијана",
+			"BadDog"
 		]
 	},
 	"deletebatch-caption": "Списак страница:",
@@ -19,5 +20,6 @@
 	"deletebatch-omitting-invalid": "Изостављам неисправну страницу $1.",
 	"deletebatch-file-bad-format": "Датотека би требало да садржи само обичан текст",
 	"deletebatch-file-missing": "Читање датотеке није успело",
-	"deletebatch-select-yourself": "Ви"
+	"deletebatch-select-yourself": "Ви",
+	"deletebatch-system-username": "Избриши скрупту странице"
 }

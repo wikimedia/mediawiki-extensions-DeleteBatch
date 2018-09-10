@@ -26,6 +26,7 @@
 	"deletebatch-select-script": "Скрипта за бришење на страници",
 	"deletebatch-select-yourself": "Вие",
 	"deletebatch-no-page": "Назначете барем една страница за бришење или изберете податотека која содржи список на страници.",
+	"deletebatch-system-username": "Скрипта за бришење на страници",
 	"action-deletebatch": "збирно бришење страници",
 	"right-deletebatch": "Збирно бришење страници",
 	"right-deletebatch-spoof": "Збирно бришење на страници како „Скрипта за бришење страници“",
