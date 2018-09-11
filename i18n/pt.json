@@ -27,6 +27,7 @@
 	"deletebatch-select-script": "<i>Script</i> de eliminação de páginas",
 	"deletebatch-select-yourself": "Você",
 	"deletebatch-no-page": "Especifique pelo menos uma página para eliminar ou escolha um ficheiro que contenha uma lista de páginas, por favor.",
+	"deletebatch-system-username": "Script de eliminação de páginas",
 	"action-deletebatch": "apagar páginas em bloco",
 	"right-deletebatch": "Apagar páginas em bloco",
 	"right-deletebatch-spoof": "Apagar páginas em bloco como \"''Script'' de eliminação de páginas\"",
