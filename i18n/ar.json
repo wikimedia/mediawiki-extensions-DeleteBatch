@@ -28,6 +28,7 @@
 	"deletebatch-select-script": "سكريبت حذف الصفحات",
 	"deletebatch-select-yourself": "أنت",
 	"deletebatch-no-page": "من فضلك اختر على الأقل صفحة واحدة للحذف أو اختر ملفا يحتوي على قائمة الصفحات.",
+	"deletebatch-system-username": "سكريبت حذف الصفحة",
 	"action-deletebatch": "حذف الصفحات كميا",
 	"right-deletebatch": "حذف باتش الصفحات",
 	"right-deletebatch-spoof": "حذف الصفحات كميا كـ\"سكريبت حذف الصفحة\"",
