@@ -25,6 +25,7 @@
 	"deletebatch-select-script": "Script de scangellazione d'a pàgene",
 	"deletebatch-select-yourself": "tu",
 	"deletebatch-no-page": "Pe piacere specifiche almene 'na pàgene da scangellà o scacchie 'nu file ca tènen 'n'elenghe de pàggene.",
+	"deletebatch-system-username": "Script de scangellazione d'a pàgene",
 	"action-deletebatch": "robbot ca scangelle le pàggene",
 	"right-deletebatch": "'Nfornate pa scangellazione de le pàggene",
 	"right-deletebatch-spoof": "Robbot ca scangelle le pàggene cumme \"Delete page script\"",
