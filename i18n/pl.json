@@ -7,7 +7,8 @@
 			"Sp5uhe",
 			"Woytecr",
 			"Chrumps",
-			"DeRudySoulStorm"
+			"DeRudySoulStorm",
+			"Railfail536"
 		]
 	},
 	"deletebatch": "Usuń grupę stron",
@@ -31,6 +32,7 @@
 	"deletebatch-select-script": "usuwanie stron skryptem",
 	"deletebatch-select-yourself": "Ty",
 	"deletebatch-no-page": "Wybierz jedną stronę LUB plik z listą stron do usunięcia.",
+	"deletebatch-system-username": "Skrypt usuwania stron",
 	"action-deletebatch": "Usuwanie grupy stron",
 	"right-deletebatch": "Usuwanie grupy stron",
 	"right-deletebatch-spoof": "Grupuj usuwanie stron jako \"Usuń skrypt strony\"",
