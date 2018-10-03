@@ -33,7 +33,7 @@
 	"deletebatch-select-yourself": "Ty",
 	"deletebatch-no-page": "Wybierz jedną stronę LUB plik z listą stron do usunięcia.",
 	"deletebatch-system-username": "Skrypt usuwania stron",
-	"action-deletebatch": "Usuwanie grupy stron",
+	"action-deletebatch": "usuwania grup stron",
 	"right-deletebatch": "Usuwanie grupy stron",
 	"right-deletebatch-spoof": "Grupuj usuwanie stron jako \"Usuń skrypt strony\"",
 	"deletebatch-deleting-file-only": "Strona opisu pliku $1 nie istnieje; zostanie usunięty tylko bieżący plik. Ta akcja nie zostanie dopisana do logu."
