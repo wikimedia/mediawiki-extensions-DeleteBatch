@@ -27,6 +27,7 @@
 	"deletebatch-select-script": "Borrar a escritura dunha páxina",
 	"deletebatch-select-yourself": "Vostede",
 	"deletebatch-no-page": "Por favor, especifique, polo menos, unha páxina para borrar ou escolla un ficheiro que conteña unha lista de páxinas.",
+	"deletebatch-system-username": "Script de eliminación de páxinas",
 	"action-deletebatch": "Borrar conxuntos de páxinas",
 	"right-deletebatch": "Borrar conxuntos de páxinas",
 	"right-deletebatch-spoof": "Borrar conxuntos de páxinas como \"script de eliminación de páxinas\"",
