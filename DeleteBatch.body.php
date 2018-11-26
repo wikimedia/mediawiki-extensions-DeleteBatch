@@ -76,7 +76,7 @@ class SpecialDeleteBatch extends SpecialPage {
 
 /* the form for deleting pages */
 class DeleteBatchForm {
-	public $mUser, $mPage, $mFile, $mFileTemp;
+	public $mPage, $mFile, $mFileTemp;
 
 	/**
 	 * @var IContextSource|RequestContext
@@ -221,9 +221,7 @@ class DeleteBatchForm {
 	}
 
 	/* wraps up multi deletes */
-	function deleteBatch( $user = false, $line = '', $filename = null ) {
-		global $wgUser;
-
+	function deleteBatch( $line = '', $filename = null ) {
 		/* first, check the file if given */
 		if ( $filename ) {
 			/* both a file and a given page? not too much? */
@@ -241,14 +239,15 @@ class DeleteBatchForm {
 				return;
 			}
 		}
+
 		/* switch user if necessary and if the user is allowed to do that */
-		$OldUser = $wgUser;
-		if ( $this->mMode == 'script' && $OldUser->isAllowed( 'deletebatch-spoof' ) ) {
-			$username = 'Delete page script';
-			$wgUser = User::newFromName( $username );
+		$user = null;
+		if ( $this->mMode == 'script' && $this->context->getUser()->isAllowed( 'deletebatch-spoof' ) ) {
+			$username = wfMessage( 'deletebatch-system-username' )->text();
+			$user = User::newFromName( $username );
 			/* Create the user if necessary */
-			if ( !$wgUser->getId() ) {
-				$wgUser->addToDatabase();
+			if ( !$user->getId() ) {
+				$user->addToDatabase();
 			}
 		}
 
@@ -273,7 +272,7 @@ class DeleteBatchForm {
 					// Use default deletion reason
 					$arr[1] = $this->context->getRequest()->getVal( 'wpDefaultReason', '' );
 				}
-				$this->deletePage( $arr[0], $arr[1], $dbw, true, $linenum );
+				$this->deletePage( $arr[0], $arr[1], $dbw, true, $linenum, $user );
 			}
 		} else {
 			/* run through text and do all like it should be */
@@ -290,13 +289,8 @@ class DeleteBatchForm {
 					// Use default deletion reason
 					$page_data[1] = $this->context->getRequest()->getVal( 'wpDefaultReason', '' );
 				}
-				$this->deletePage( $page_data[0], $page_data[1], $dbw, false, 0, $OldUser );
+				$this->deletePage( $page_data[0], $page_data[1], $dbw, false, 0, $user );
 			}
-		}
-
-		/* restore user back */
-		if ( $this->mMode == 'script' && $OldUser->isAllowed( 'deletebatch-spoof' ) ) {
-			$wgUser = $OldUser;
 		}
 
 		$link_back = Linker::linkKnown(
@@ -318,17 +312,10 @@ class DeleteBatchForm {
 	 * @return bool
 	 */
 	function deletePage( $line, $reason = '', &$db, $multi = false, $linenum = 0, $user = null ) {
-		global $wgUser;
-
 		$page = Title::newFromText( $line );
 		if ( is_null( $page ) ) { /* invalid title? */
 			$this->context->getOutput()->addWikiMsg(
 				'deletebatch-omitting-invalid', $line );
-			if ( !$multi ) {
-				if ( !is_null( $user ) ) {
-					$wgUser = $user;
-				}
-			}
 			return false;
 		}
 
@@ -350,11 +337,6 @@ class DeleteBatchForm {
 			if ( !$localFileExists ) { /* no such file either? */
 				$this->context->getOutput()->addWikiMsg(
 					'deletebatch-omitting-nonexistent', $line );
-				if ( !$multi ) {
-					if ( !is_null( $user ) ) {
-						$wgUser = $user;
-					}
-				}
 				return false;
 			} else { /* no such page, but there is such a file? */
 				$this->context->getOutput()->addWikiMsg(
@@ -370,7 +352,8 @@ class DeleteBatchForm {
 			/* what is the generic reason for page deletion?
 			   something about the content, I guess...
 			*/
-			$art->doDeleteArticle( $reason );
+			$error = '';
+			$art->doDeleteArticle( $reason, false, null, null, $error, $user );
 		}
 		// Delete the actual file, if applicable
 		if ( $localFileExists ) {
@@ -407,6 +390,6 @@ class DeleteBatchForm {
 			$out->setSubTitle( $this->context->msg( 'deletebatch-processing-from-file' ) );
 		}
 
-		$this->deleteBatch( $this->mUser, $this->mPage, $this->mFileTemp );
+		$this->deleteBatch( $this->mPage, $this->mFileTemp );
 	}
 }
