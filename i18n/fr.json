@@ -7,14 +7,15 @@
 			"IAlex",
 			"McDutchie",
 			"Od1n",
-			"Wladek92"
+			"Wladek92",
+			"DSwissK"
 		]
 	},
 	"deletebatch": "Supprimer un lot de pages",
 	"deletebatch-desc": "[[Special:DeleteBatch|Supprime un lot de pages]]",
 	"deletebatch-help": "Supprime un lot de pages. \nVous pouvez soit lancer une simple suppression, soit supprimer des pages listées dans un fichier.\nChoisissez un utilisateur qui sera affiché dans le journal des suppressions.\nLes fichiers téléversés doivent contenir un nom de page et un motif facultatif séparés par un « | ».",
 	"deletebatch-caption": "Liste des pages :",
-	"deletebatch-default-reason": "Motif par défaut de la supression :",
+	"deletebatch-default-reason": "Motif par défaut de la suppression :",
 	"deletebatch-title": "Supprimer en lot",
 	"deletebatch-link-back": "Revenir à la page spéciale",
 	"deletebatch-as": "Lancer le script comme :",
@@ -31,7 +32,7 @@
 	"deletebatch-select-script": "script pour supprimer pages",
 	"deletebatch-select-yourself": "vous",
 	"deletebatch-no-page": "Veuillez indiquer au moins une page à supprimer OU un fichier donné contenant une liste de pages.",
-	"deletebatch-system-username": "Script de supression de page",
+	"deletebatch-system-username": "Script de suppression de page",
 	"action-deletebatch": "pages supprimées par lots",
 	"right-deletebatch": "Supprimer des pages en lot",
 	"right-deletebatch-spoof": "Pages supprimées par lots en tant que \"suppression de page par script\"",
