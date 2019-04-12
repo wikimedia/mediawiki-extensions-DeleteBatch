@@ -29,6 +29,7 @@
 	"deletebatch-select-script": "ページ削除スクリプト",
 	"deletebatch-select-yourself": "あなた",
 	"deletebatch-no-page": "削除するページを少なくとも1つ指定するか、ページ一覧を含むファイルを選択してください。",
+	"action-deletebatch": "ページの一括削除",
 	"right-deletebatch": "ページを一括削除",
 	"deletebatch-deleting-file-only": "ファイル解説ページ $1 は存在しません。本体ファイルのみを削除しています。この操作は記録されません。"
 }
