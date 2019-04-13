@@ -39,6 +39,7 @@
 	"deletebatch-system-username": "Name of the system user account which can be used by privileged users (those who have the <code>deletebatch-spoof</code> user right) to delete pages. See also {{msg-mw|right-deletebatch-spoof}}.",
 	"action-deletebatch": "{{doc-action|deletebatch}}",
 	"right-deletebatch": "{{doc-right|deletebatch}}",
+	"action-deletebatch-spoof": "{{doc-action|deletebatch-spoof}}",
 	"right-deletebatch-spoof": "{{doc-right|deletebatch-spoof}}",
 	"deletebatch-deleting-file-only": "Message the user gets when the file description page he entered does not exist, but the actual file does.\n\nIn this case, the file will be deleted, but this action will not be logged because a log entry was presumably already created when the description page was deleted by some other script.\n\nParameters:\n* $1 - page title"
 }
