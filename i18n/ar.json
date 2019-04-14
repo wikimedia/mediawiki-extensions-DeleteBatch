@@ -32,6 +32,7 @@
 	"deletebatch-system-username": "سكريبت حذف الصفحة",
 	"action-deletebatch": "حذف الصفحات كميا",
 	"right-deletebatch": "حذف باتش الصفحات",
+	"action-deletebatch-spoof": "حذف الصفحات كميا ك\"Delete page script\"",
 	"right-deletebatch-spoof": "حذف الصفحات كميا كـ\"سكريبت حذف الصفحة\"",
 	"deletebatch-deleting-file-only": "صفحة وصف الملف $1 غير موجودة؛ حذف الملف الفعلي فقط،\nلن يتم تسجيل هذا الإجراء."
 }

@@ -35,6 +35,7 @@
 	"deletebatch-system-username": "Skrypt usuwania stron",
 	"action-deletebatch": "usuwania grup stron",
 	"right-deletebatch": "Usuwanie grupy stron",
-	"right-deletebatch-spoof": "Grupuj usuwanie stron jako \"Usuń skrypt strony\"",
+	"action-deletebatch-spoof": "grupowego usuwania stron jako „Skrypt usuwania stron”",
+	"right-deletebatch-spoof": "Grupowe usuwanie stron jako „Skrypt usuwania stron”",
 	"deletebatch-deleting-file-only": "Strona opisu pliku $1 nie istnieje; zostanie usunięty tylko bieżący plik. Ta akcja nie zostanie dopisana do logu."
 }

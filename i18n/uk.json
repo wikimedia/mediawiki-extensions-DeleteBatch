@@ -8,7 +8,8 @@
 			"Vox",
 			"Ата",
 			"Movses",
-			"Piramidion"
+			"Piramidion",
+			"Vlad5250"
 		]
 	},
 	"deletebatch": "Вилучення сторінок групами",
@@ -35,6 +36,7 @@
 	"deletebatch-system-username": "Скрипт вилучення сторінок",
 	"action-deletebatch": "пакетне вилучення сторінок",
 	"right-deletebatch": "Видалення сторінок групами",
+	"action-deletebatch-spoof": "пакетне вилучення сторінок через «Скрипт вилучення сторінок»",
 	"right-deletebatch-spoof": "пакетне вилучення сторінок через «Скрипт вилучення сторінок»",
 	"deletebatch-deleting-file-only": "Сторінка опису файлу $1 не існує; видалення лише даного файлу.\nЦя дія не буде записана у журнал."
 }
