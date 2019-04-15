@@ -28,6 +28,7 @@
 	"deletebatch-system-username": "Script de scangellazione d'a pàgene",
 	"action-deletebatch": "robbot ca scangelle le pàggene",
 	"right-deletebatch": "'Nfornate pa scangellazione de le pàggene",
+	"action-deletebatch-spoof": "robbot ca scangelle le pàggene cumme \"Delete page script\"",
 	"right-deletebatch-spoof": "Robbot ca scangelle le pàggene cumme \"Delete page script\"",
 	"deletebatch-deleting-file-only": "'U file de descrizione d'a pàgene $1 non g'esiste, avène scangellate sulamende 'u file.\nSta azione non g'avène reggistrate."
 }

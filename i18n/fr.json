@@ -8,7 +8,8 @@
 			"McDutchie",
 			"Od1n",
 			"Wladek92",
-			"DSwissK"
+			"DSwissK",
+			"Pols12"
 		]
 	},
 	"deletebatch": "Supprimer un lot de pages",
@@ -35,6 +36,7 @@
 	"deletebatch-system-username": "Script de suppression de page",
 	"action-deletebatch": "pages supprimées par lots",
 	"right-deletebatch": "Supprimer des pages en lot",
+	"action-deletebatch-spoof": "supprimer par lots des pages en tant que « Script de suppression de pages »",
 	"right-deletebatch-spoof": "Pages supprimées par lots en tant que \"suppression de page par script\"",
 	"deletebatch-deleting-file-only": "La page de description du fichier $1 n'existe pas; supprime uniquement le fichier réel.\nCette action ne sera pas tracée."
 }
