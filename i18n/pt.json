@@ -30,6 +30,7 @@
 	"deletebatch-system-username": "Script de eliminação de páginas",
 	"action-deletebatch": "apagar páginas em bloco",
 	"right-deletebatch": "Apagar páginas em bloco",
+	"action-deletebatch-spoof": "apagar páginas em bloco como \"''Script'' de eliminação de páginas\"",
 	"right-deletebatch-spoof": "Apagar páginas em bloco como \"''Script'' de eliminação de páginas\"",
 	"deletebatch-deleting-file-only": "A página de descrição do ficheiro $1 não existe, a eliminar só o ficheiro atual.\nEsta operação não será registada."
 }

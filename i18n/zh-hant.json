@@ -9,7 +9,7 @@
 		]
 	},
 	"deletebatch": "刪除批處理的頁面",
-	"deletebatch-desc": "[[Special:DeleteBatch|刪除一批頁]]",
+	"deletebatch-desc": "[[Special:DeleteBatch|刪除一批頁面]]",
 	"deletebatch-help": "刪除一批頁。\n你可以處理單一頁的刪除，或刪除檔案包含的頁面清單上的頁面。\n選擇一位使用者顯示在刪除日誌。\n上傳檔案包含要刪除的頁面的清單和其原因，並請以\"|\"做分隔。",
 	"deletebatch-caption": "頁面清單：",
 	"deletebatch-default-reason": "預設的刪除原因：",
@@ -32,6 +32,7 @@
 	"deletebatch-system-username": "刪除頁面腳本",
 	"action-deletebatch": "批量刪除頁面",
 	"right-deletebatch": "批量刪除頁面",
+	"action-deletebatch-spoof": "以「刪除頁面腳本」批量刪除頁面",
 	"right-deletebatch-spoof": "以「刪除頁面腳本」批量刪除頁面",
 	"deletebatch-deleting-file-only": "不存在檔描述頁面$1；只刪去實際的檔案。\n此操作不會記錄。"
 }
