@@ -9,7 +9,8 @@
 			"Yfdyh000",
 			"Zhangjintao",
 			"Liuxinyu970226",
-			"A Chinese Wikipedian"
+			"A Chinese Wikipedian",
+			"佛壁灯"
 		]
 	},
 	"deletebatch": "删除一批页面",
@@ -36,6 +37,7 @@
 	"deletebatch-system-username": "删除页面脚本",
 	"action-deletebatch": "批量删除页面",
 	"right-deletebatch": "批量删除页面",
+	"action-deletebatch-spoof": "作为“页面删除脚本”批量删除页面",
 	"right-deletebatch-spoof": "作为“删除页面脚本”批量删除页面",
 	"deletebatch-deleting-file-only": "文件说明页面$1不存在，仅删除实际文件。该操作不会被记录。"
 }
