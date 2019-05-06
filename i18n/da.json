@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Christian List",
-			"Sarrus"
+			"Sarrus",
+			"Saederup92"
 		]
 	},
 	"deletebatch-caption": "Sideliste:",
@@ -11,5 +12,6 @@
 	"deletebatch-or": "<strong>eller</strong>",
 	"deletebatch-delete": "Slet",
 	"deletebatch-page": "Sider, der skal slettes:",
+	"deletebatch-file-missing": "Klarede ikke læse filen.",
 	"deletebatch-select-yourself": "Dig"
 }
