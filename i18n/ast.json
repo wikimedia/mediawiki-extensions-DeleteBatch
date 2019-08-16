@@ -28,6 +28,7 @@
 	"deletebatch-system-username": "Script de desaniciu de páxines",
 	"action-deletebatch": "desaniciu de llotes de páxines",
 	"right-deletebatch": "Desaniciar conxuntos de páxines",
+	"action-deletebatch-spoof": "desaniciar llotes de páxines como «Script de desaniciu de páxines»",
 	"right-deletebatch-spoof": "Desaniciu de llotes de páxines como «Script de desaniciu de páxines»",
 	"deletebatch-deleting-file-only": "Nun esiste la páxina de descripción del ficheru $1; desaniciando namái el propiu ficheru.\nEsta aición nun quedará rexistrada."
 }
