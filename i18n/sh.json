@@ -28,6 +28,7 @@
 	"deletebatch-system-username": "Skripta za brisanje",
 	"action-deletebatch": "skupno brisanje stranica",
 	"right-deletebatch": "Skupno brisanje stranica",
+	"action-deletebatch-spoof": "skupno brisanje stranica kao \"Skripta za brisanje\"",
 	"right-deletebatch-spoof": "Skupno brisanje stranica kao \"Skripta za brisanje\"",
 	"deletebatch-deleting-file-only": "Opisna stranica $1 ne postoji; izbrišem samo samu datoteku.\nOva radnja neće biti zabilježena u evidenciji."
 }
