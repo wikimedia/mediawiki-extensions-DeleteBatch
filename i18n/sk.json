@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Helix84"
+			"Helix84",
+			"Vlad5250"
 		]
 	},
 	"deletebatch": "Zmazanie viacerých stránok",
@@ -24,5 +25,7 @@
 	"deletebatch-select-script": "skript na zmazanie stránok",
 	"deletebatch-select-yourself": "vy",
 	"deletebatch-no-page": "Prosím, zadajte aspoň jednu stránku, ktorá sa má zmazať ALEBO súbor obsahujúci zoznam stránok.",
+	"deletebatch-system-username": "Skript na zmazanie stránok",
+	"action-deletebatch": "dávkové mazanie stránok",
 	"right-deletebatch": "Dávkové mazanie stránok"
 }
