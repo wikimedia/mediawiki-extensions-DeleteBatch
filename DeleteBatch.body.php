@@ -34,9 +34,9 @@ class SpecialDeleteBatch extends SpecialPage {
 			throw new ReadOnlyError;
 		}
 
-		# If user is blocked, s/he doesn't need to access this page
-		if ( $user->isBlocked() ) {
-			throw new UserBlockedError( $this->getUser()->mBlock );
+		# If user is blocked, they don't need to access this page
+		if ( $user->getBlock() ) {
+			throw new UserBlockedError( $user()->getBlock() );
 		}
 
 		$this->getOutput()->setPageTitle( $this->msg( 'deletebatch-title' ) );
