@@ -31,6 +31,7 @@
 	"deletebatch-system-username": "Sideslettingsskript",
 	"action-deletebatch": "masseslette sider",
 	"right-deletebatch": "Masseslett sider",
+	"action-deletebatch-spoof": "masseslette sider som «Delete page script»",
 	"right-deletebatch-spoof": "Massesletting av sider som «Sideslettingsskript»",
 	"deletebatch-deleting-file-only": "Filbeskrivelsessiden $1 finnes ikke; sletter bare filen."
 }
