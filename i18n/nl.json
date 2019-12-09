@@ -3,11 +3,12 @@
 		"authors": [
 			"HanV",
 			"Siebrand",
-			"Tvdm"
+			"Tvdm",
+			"Mainframe98"
 		]
 	},
 	"deletebatch": "Paginareeks verwijderen",
-	"deletebatch-desc": "[[Special:DeleteBatch|Paginareeks verwijderen]]",
+	"deletebatch-desc": "[[Special:DeleteBatch|Reeks pagina's verwijderen]]",
 	"deletebatch-help": "Een lijst pagina's verwijderen.\nU kunt een enkele pagina verwijderen of een lijst van pagina's in een bestand.\nKies een gebruiker die in het verwijderingslogboek wordt genoemd.\nHet bestand dat u uploadt moet op iedere regel een paginanaam en een reden bevatten (optioneel), gescheiden door het teken \"|\".",
 	"deletebatch-caption": "Paginalijst:",
 	"deletebatch-title": "Reeks verwijderen",
@@ -26,6 +27,8 @@
 	"deletebatch-select-script": "script pagina's verwijderen",
 	"deletebatch-select-yourself": "u",
 	"deletebatch-no-page": "Geef ten minste één te verwijderen pagina op of kies een bestand dat de lijst met pagina's bevat.",
+	"deletebatch-system-username": "Pagina verwijderingscript",
+	"action-deletebatch": "een reeks pagina's te verwijderen",
 	"right-deletebatch": "Pagina's in batch verwijderen",
 	"deletebatch-deleting-file-only": "De bestandsbeschrijvingspagina $1 bestaat niet.\nAlleen het bestand wordt verwijderd.\nDeze handeling wordt niet opgenomen in het logboek."
 }
