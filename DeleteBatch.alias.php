@@ -228,6 +228,16 @@ $specialPageAliases['sk'] = [
 	'DeleteBatch' => [ 'DávkovéMazanie' ],
 ];
 
+/** Serbian Cyrillic (српски (ћирилица)) */
+$specialPageAliases['sr-ec'] = [
+	'DeleteBatch' => [ 'Брисање_групе_страница', 'Вишеструко_брисање' ],
+];
+
+/** Serbian Latin (srpski (latinica)) */
+$specialPageAliases['sr-el'] = [
+	'DeleteBatch' => [ 'Brisanje_grupe_stranica', 'Višestruko_brisanje' ],
+];
+
 /** Swahili (Kiswahili) */
 $specialPageAliases['sw'] = [
 	'DeleteBatch' => [ 'FutaFungu' ],
