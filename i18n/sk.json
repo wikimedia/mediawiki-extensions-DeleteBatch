@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Helix84",
-			"Vlad5250"
+			"Vlad5250",
+			"Luky001"
 		]
 	},
 	"deletebatch": "Zmazanie viacerých stránok",
 	"deletebatch-desc": "[[Special:DeleteBatch|Zmazanie viacerých stránok]]",
-	"deletebatch-help": "Zmazanie viacerých stránok. Môžete buď vykonať jedno zmazanie alebo zmazať stránky uvedené v súbore.\nVyberte, ktorý používateľ sa zobrazí v záznamoch zmazania.\nNahraný súbor by mal na každom riadku obsahovať názov stránky a nepovinne aj dôvod zmazania oddelený znakom „|”.",
+	"deletebatch-help": "Hromadné zmazanie stránok.\nMôžete buď vykonať jedno zmazanie, alebo zmazať stránky uvedené v súbore.\nVyberte používateľa, ktorý sa zobrazí v záznamoch zmazania.\nNahraný súbor by mal na každom riadku obsahovať názov stránky a nepovinne aj dôvod zmazania oddelený znakom „|”.",
 	"deletebatch-caption": "Zoznam stránok:",
 	"deletebatch-title": "Zmazať dávku",
 	"deletebatch-link-back": "Môžete sa vrátiť späť na špeciálnu stránku",
