@@ -2,78 +2,6 @@
 
 use MediaWiki\MediaWikiServices;
 
-class SpecialDeleteBatch extends SpecialPage {
-	/**
-	 * Constructor
-	 */
-	public function __construct() {
-		parent::__construct( 'DeleteBatch', 'deletebatch' );
-	}
-
-	public function doesWrites() {
-		return true;
-	}
-
-	/**
-	 * Show the special page
-	 *
-	 * @param string|null $par Parameter passed to the page, if any
-	 * @throws UserBlockedError
-	 * @return void
-	 */
-	public function execute( $par ) {
-		# Check permissions
-		$user = $this->getUser();
-		if ( !$user->isAllowed( 'deletebatch' ) ) {
-			$this->displayRestrictionError();
-			return;
-		}
-
-		# Show a message if the database is in read-only mode
-		if ( wfReadOnly() ) {
-			throw new ReadOnlyError;
-		}
-
-		# If user is blocked, they don't need to access this page
-		if ( $user->getBlock() ) {
-			throw new UserBlockedError( $user()->getBlock() );
-		}
-
-		$this->getOutput()->setPageTitle( $this->msg( 'deletebatch-title' ) );
-		$cSF = new DeleteBatchForm( $par, $this->getPageTitle(), $this->getContext() );
-
-		$request = $this->getRequest();
-		$action = $request->getVal( 'action' );
-		if ( 'success' == $action ) {
-			/* do something */
-		} elseif ( $request->wasPosted() && 'submit' == $action &&
-			$user->matchEditToken( $request->getVal( 'wpEditToken' ) ) ) {
-			$cSF->doSubmit();
-		} else {
-			$cSF->showForm();
-		}
-	}
-
-	/**
-	 * Adds a link to Special:DeleteBatch within the page
-	 * Special:AdminLinks, if the 'AdminLinks' extension is defined
-	 */
-	static function addToAdminLinks( &$admin_links_tree ) {
-		$general_section = $admin_links_tree->getSection( wfMessage( 'adminlinks_general' )->text() );
-		$extensions_row = $general_section->getRow( 'extensions' );
-		if ( is_null( $extensions_row ) ) {
-			$extensions_row = new ALRow( 'extensions' );
-			$general_section->addRow( $extensions_row );
-		}
-		$extensions_row->addItem( ALItem::newFromSpecialPage( 'DeleteBatch' ) );
-		return true;
-	}
-
-	protected function getGroupName() {
-		return 'pagetools';
-	}
-}
-
 /* the form for deleting pages */
 class DeleteBatchForm {
 	public $mPage, $mFile, $mFileTemp;
@@ -220,7 +148,7 @@ class DeleteBatchForm {
 		return Xml::submitButton( $this->context->msg( 'deletebatch-delete' )->text(), $params );
 	}
 
-	/* wraps up multi deletes */
+	/** wraps up multi deletes */
 	function deleteBatch( $line = '', $filename = null ) {
 		/* first, check the file if given */
 		if ( $filename ) {
@@ -253,7 +181,8 @@ class DeleteBatchForm {
 
 		/* @todo run tests - run many tests */
 		$dbw = wfGetDB( DB_MASTER );
-		if ( $filename ) { /* if from filename, delete from filename */
+		if ( $filename ) {
+			/* if from filename, delete from filename */
 			for ( $linenum = 1; !feof( $file ); $linenum++ ) {
 				$line = trim( fgets( $file ) );
 				if ( !$line ) {
@@ -311,9 +240,10 @@ class DeleteBatchForm {
 	 * @param null|User $user User performing the page deletions
 	 * @return bool
 	 */
-	function deletePage( $line, $reason = '', &$db, $multi = false, $linenum = 0, $user = null ) {
+	function deletePage( $line, $reason = '', $db, $multi = false, $linenum = 0, $user = null ) {
 		$page = Title::newFromText( $line );
-		if ( is_null( $page ) ) { /* invalid title? */
+		if ( is_null( $page ) ) {
+			/* invalid title? */
 			$this->context->getOutput()->addWikiMsg(
 				'deletebatch-omitting-invalid', $line );
 			return false;
@@ -329,16 +259,19 @@ class DeleteBatchForm {
 		$localFile = null;
 		$localFileExists = null;
 		if ( $page->getNamespace() == NS_FILE ) {
-			$localFile = wfLocalFile ( $page );
+			$localFile = wfLocalFile( $page );
 			$localFileExists = $localFile->exists();
 		}
 
-		if ( !$pageExists ) { /* no such page? */
-			if ( !$localFileExists ) { /* no such file either? */
+		if ( !$pageExists ) {
+			/* no such page? */
+			if ( !$localFileExists ) {
+				/* no such file either? */
 				$this->context->getOutput()->addWikiMsg(
 					'deletebatch-omitting-nonexistent', $line );
 				return false;
-			} else { /* no such page, but there is such a file? */
+			} else {
+				/* no such page, but there is such a file? */
 				$this->context->getOutput()->addWikiMsg(
 					'deletebatch-deleting-file-only', $line );
 			}
@@ -374,7 +307,7 @@ class DeleteBatchForm {
 		return true;
 	}
 
-	/* on submit */
+	/** on submit */
 	function doSubmit() {
 		$out = $this->context->getOutput();
 

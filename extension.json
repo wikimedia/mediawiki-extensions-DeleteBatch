@@ -35,8 +35,8 @@
 		"DeleteBatchAlias": "DeleteBatch.alias.php"
 	},
 	"AutoloadClasses": {
-		"SpecialDeleteBatch": "DeleteBatch.body.php",
-		"DeleteBatchForm": "DeleteBatch.body.php"
+		"SpecialDeleteBatch": "includes/specials/SpecialDeleteBatch.php",
+		"DeleteBatchForm": "includes/DeleteBatchForm.php"
 	},
 	"Hooks": {
 		"AdminLinks": "SpecialDeleteBatch::addToAdminLinks"
