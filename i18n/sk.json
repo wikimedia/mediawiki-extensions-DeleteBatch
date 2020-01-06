@@ -3,7 +3,8 @@
 		"authors": [
 			"Helix84",
 			"Vlad5250",
-			"Luky001"
+			"Luky001",
+			"TomášPolonec"
 		]
 	},
 	"deletebatch": "Zmazanie viacerých stránok",
@@ -17,7 +18,7 @@
 	"deletebatch-or": "<strong>ALEBO</strong>",
 	"deletebatch-delete": "Zmazať",
 	"deletebatch-page": "Stránky, ktoré budú zmazané:",
-	"deletebatch-processing-from-file": "mažú sa stránky zo zoznamu súborov",
+	"deletebatch-processing-from-file": "mažú sa stránky uvedené v súbore",
 	"deletebatch-processing-from-form": "mažú sa stránky z formulára",
 	"deletebatch-omitting-nonexistent": "Vynecháva sa neexistujúca stránka $1.",
 	"deletebatch-omitting-invalid": "Vynecháva sa neplatná stránka $1.",
