@@ -242,7 +242,7 @@ class DeleteBatchForm {
 	 */
 	function deletePage( $line, $reason = '', $db, $multi = false, $linenum = 0, $user = null ) {
 		$page = Title::newFromText( $line );
-		if ( is_null( $page ) ) {
+		if ( $page === null ) {
 			/* invalid title? */
 			$this->context->getOutput()->addWikiMsg(
 				'deletebatch-omitting-invalid', $line );

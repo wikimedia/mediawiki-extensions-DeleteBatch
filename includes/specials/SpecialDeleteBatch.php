@@ -59,7 +59,7 @@ class SpecialDeleteBatch extends SpecialPage {
 	static function addToAdminLinks( &$admin_links_tree ) {
 		$general_section = $admin_links_tree->getSection( wfMessage( 'adminlinks_general' )->text() );
 		$extensions_row = $general_section->getRow( 'extensions' );
-		if ( is_null( $extensions_row ) ) {
+		if ( $extensions_row === null ) {
 			$extensions_row = new ALRow( 'extensions' );
 			$general_section->addRow( $extensions_row );
 		}
