@@ -169,7 +169,7 @@ class DeleteBatchForm {
 		}
 
 		/* switch user if necessary and if the user is allowed to do that */
-		$user = null;
+		$user = $this->context->getUser();
 		if ( $this->mMode == 'script' && $this->context->getUser()->isAllowed( 'deletebatch-spoof' ) ) {
 			$username = wfMessage( 'deletebatch-system-username' )->text();
 			$user = User::newFromName( $username );
@@ -201,7 +201,7 @@ class DeleteBatchForm {
 					// Use default deletion reason
 					$arr[1] = $this->context->getRequest()->getVal( 'wpDefaultReason', '' );
 				}
-				$this->deletePage( $arr[0], $arr[1], $dbw, true, $linenum, $user );
+				$this->deletePage( $arr[0], $user, $dbw, $arr[1], true, $linenum );
 			}
 		} else {
 			/* run through text and do all like it should be */
@@ -218,7 +218,7 @@ class DeleteBatchForm {
 					// Use default deletion reason
 					$page_data[1] = $this->context->getRequest()->getVal( 'wpDefaultReason', '' );
 				}
-				$this->deletePage( $page_data[0], $page_data[1], $dbw, false, 0, $user );
+				$this->deletePage( $page_data[0], $user, $dbw, $page_data[1] );
 			}
 		}
 
@@ -233,14 +233,14 @@ class DeleteBatchForm {
 	 * Performs a single delete
 	 *
 	 * @param string $line Name of the page to be deleted
-	 * @param string $reason User-supplied deletion reason
+	 * @param User $user User performing the page deletions
 	 * @param \Wikimedia\Rdbms\IDatabase $db
+	 * @param string $reason User-supplied deletion reason
 	 * @param bool $multi
 	 * @param int $linenum Mostly for informational reasons
-	 * @param null|User $user User performing the page deletions
 	 * @return bool
 	 */
-	function deletePage( $line, $reason = '', $db, $multi = false, $linenum = 0, $user = null ) {
+	private function deletePage( $line, $user, $db, $reason = '', $multi = false, $linenum = 0 ) {
 		$page = Title::newFromText( $line );
 		if ( $page === null ) {
 			/* invalid title? */
@@ -295,7 +295,12 @@ class DeleteBatchForm {
 			// entry was already created when the file's description page was
 			// deleted, and now we are just cleaning up after a deletion script
 			// that didn't finish the job by deleting the file too.
-			$localFile->delete( $reason );
+			if ( method_exists( $localFile, 'deleteFile' ) ) {
+				// MW 1.35+
+				$localFile->deleteFile( $reason, $user );
+			} else {
+				$localFile->delete( $reason );
+			}
 		}
 		$db->endAtomic( __METHOD__ );
 		if ( $localFileExists ) {
