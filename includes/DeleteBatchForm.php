@@ -281,12 +281,16 @@ class DeleteBatchForm {
 		/* this stuff goes like articleFromTitle in Wiki.php */
 		// Delete the page; in the case of a file, this would be the File: description page
 		if ( $pageExists ) {
-			$art = WikiPage::factory( $page );
+			$wikipage = WikiPage::factory( $page );
 			/* what is the generic reason for page deletion?
 			   something about the content, I guess...
 			*/
-			$error = '';
-			$art->doDeleteArticle( $reason, false, null, null, $error, $user );
+			if ( version_compare( MW_VERSION, '1.35', '<' ) ) {
+				$error = '';
+				$wikipage->doDeleteArticle( $reason, false, null, null, $error, $user );
+			} else {
+				$wikipage->doDeleteArticleReal( $reason, $user );
+			}
 		}
 		// Delete the actual file, if applicable
 		if ( $localFileExists ) {
