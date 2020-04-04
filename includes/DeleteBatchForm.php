@@ -259,7 +259,13 @@ class DeleteBatchForm {
 		$localFile = null;
 		$localFileExists = null;
 		if ( $page->getNamespace() == NS_FILE ) {
-			$localFile = wfLocalFile( $page );
+			if ( method_exists( MediaWikiServices::class, 'getRepoGroup' ) ) {
+				// MediaWiki 1.34+
+				$localFile = MediaWikiServices::getInstance()->getRepoGroup()->getLocalRepo()
+					->newFile( $page );
+			} else {
+				$localFile = wfLocalFile( $page );
+			}
 			$localFileExists = $localFile->exists();
 		}
 
