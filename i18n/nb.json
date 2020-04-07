@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Harald Khan",
-			"Nghtwlkr",
 			"Danmichaelo",
-			"Jon Harald Søby"
+			"Harald Khan",
+			"Jon Harald Søby",
+			"Nghtwlkr"
 		]
 	},
 	"deletebatch": "Slett mange sider",

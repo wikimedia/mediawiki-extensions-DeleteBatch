@@ -1,12 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"BadDog",
 			"Rancher",
+			"Zoranzoki21",
 			"Жељко Тодоровић",
 			"Михајло Анђелковић",
-			"Сербијана",
-			"BadDog",
-			"Zoranzoki21"
+			"Сербијана"
 		]
 	},
 	"deletebatch": "Брисање групе страница",

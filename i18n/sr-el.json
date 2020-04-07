@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"deletebatch-caption": "Spisak strana:",
 	"deletebatch-link-back": "Vrati se na specijalnu stranu",
 	"deletebatch-as": "Pokreni skript kao:",
