@@ -28,9 +28,7 @@ class SpecialDeleteBatch extends SpecialPage {
 		}
 
 		# Show a message if the database is in read-only mode
-		if ( wfReadOnly() ) {
-			throw new ReadOnlyError;
-		}
+		$this->checkReadOnly();
 
 		# If user is blocked, they don't need to access this page
 		if ( $user->getBlock() ) {
