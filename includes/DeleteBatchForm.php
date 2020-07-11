@@ -7,7 +7,7 @@ class DeleteBatchForm {
 	public $mPage, $mFile, $mFileTemp;
 
 	/**
-	 * @var IContextSource|RequestContext
+	 * @var IContextSource
 	 */
 	protected $context;
 
@@ -17,9 +17,9 @@ class DeleteBatchForm {
 	protected $title;
 
 	/**
-	 * @param $par
-	 * @param $title
-	 * @param $context IContextSource|RequestContext
+	 * @param string|null $par
+	 * @param Title $title
+	 * @param IContextSource $context
 	 */
 	function __construct( $par, $title, $context ) {
 		$this->context = $context;
@@ -36,7 +36,7 @@ class DeleteBatchForm {
 	/**
 	 * Show the form for deleting pages
 	 *
-	 * @param $errorMessage mixed: error message or null if there's no error
+	 * @param string|null|false $errorMessage error message or null if there's no error
 	 */
 	function showForm( $errorMessage = false ) {
 		$out = $this->context->getOutput();
@@ -148,7 +148,11 @@ class DeleteBatchForm {
 		return Xml::submitButton( $this->context->msg( 'deletebatch-delete' )->text(), $params );
 	}
 
-	/** wraps up multi deletes */
+	/**
+	 * wraps up multi deletes
+	 * @param string $line
+	 * @param string|null $filename
+	 */
 	function deleteBatch( $line = '', $filename = null ) {
 		/* first, check the file if given */
 		if ( $filename ) {

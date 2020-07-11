@@ -53,6 +53,8 @@ class SpecialDeleteBatch extends SpecialPage {
 	/**
 	 * Adds a link to Special:DeleteBatch within the page
 	 * Special:AdminLinks, if the 'AdminLinks' extension is defined
+	 * @param AdminLinks &$admin_links_tree
+	 * @return bool
 	 */
 	static function addToAdminLinks( &$admin_links_tree ) {
 		$general_section = $admin_links_tree->getSection( wfMessage( 'adminlinks_general' )->text() );
