@@ -30,7 +30,7 @@ class DeleteBatchForm {
 		$this->mPage = $request->getText( 'wpPage' );
 		$this->mReason = $request->getText( 'wpReason' );
 		$this->mFile = $request->getFileName( 'wpFile' );
-		$this->mFileTemp = $request->getFileTempName( 'wpFile' );
+		$this->mFileTemp = $request->getFileTempname( 'wpFile' );
 	}
 
 	/**
