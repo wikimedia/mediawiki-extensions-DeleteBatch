@@ -320,7 +320,7 @@ class DeleteBatchForm {
 		if ( $localFileExists ) {
 			// Flush DBs in case of fragile file operations
 			$lbFactory = MediaWikiServices::getInstance()->getDBLoadBalancerFactory();
-			$lbFactory->commitMasterChanges( __METHOD__ );
+			$lbFactory->commitPrimaryChanges( __METHOD__ );
 		}
 
 		return true;
