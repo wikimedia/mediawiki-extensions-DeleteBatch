@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Armin1392",
+			"Beginneruser",
 			"Jeeputer",
 			"Mjbmr"
 		]
@@ -12,7 +13,7 @@
 	"deletebatch-caption": "فهرست صفحه:",
 	"deletebatch-default-reason": "دلیل پیش‌فرض برای حذف:",
 	"deletebatch-title": "حذف انبوه",
-	"deletebatch-link-back": "بازگشت به صفحه ویژه",
+	"deletebatch-link-back": "بازگشت به صفحهٔ ویژه",
 	"deletebatch-as": "اجرای متن به عنوان:",
 	"deletebatch-both-modes": "لطفاً یا یک صفحهٔ تعیین شده یا فهرست صفحات داده شده را انتخاب کنید.",
 	"deletebatch-or": "<strong>یا</strong>",
