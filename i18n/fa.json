@@ -29,6 +29,6 @@
 	"deletebatch-select-yourself": "شما",
 	"deletebatch-no-page": "لطفاً حداقل یک صفحه برای حذف کردن تعیین کنید یا یک پوشه شامل فهرست صفحه انتخاب کنید.",
 	"action-deletebatch": "حذف دسته‌جمعی صفحه‌ها",
-	"right-deletebatch": "گروه صفحات حذفی",
+	"right-deletebatch": "صفحه‌های حذف گروهی",
 	"deletebatch-deleting-file-only": "صفحهٔ توصیف پوشهٔ $1 وجود ندارد؛ فقط حذف پوشهٔ حقیقی وجود دارد.\nاین عمل وارد نخواهد شد."
 }
