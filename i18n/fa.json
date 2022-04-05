@@ -7,7 +7,7 @@
 			"Mjbmr"
 		]
 	},
-	"deletebatch": "حذف گروهی از صفحات",
+	"deletebatch": "حذف گروهی از صفحه‌ها",
 	"deletebatch-desc": "[[Special:DeleteBatch|Delete a batch of pages]]",
 	"deletebatch-help": "حذف دسته‌جمعی صفحه‌ها.\nشما می توانید یا تنها یک حذف انجام دهید، یا صفحات فهرست شده در یک پرونده را حذف کنید.\nکاربری را برای نمایش در سیاهه‌های حذف انتخاب کنید.\nپرونده‌های بارگذاری‌شده باید حاوی نام صفحه و دلیل اختیاری باشند که توسط یک نویسهٔ \"|\" از یکدیگر جدا شده‌اند.",
 	"deletebatch-caption": "فهرست صفحه:",
@@ -19,8 +19,8 @@
 	"deletebatch-or": "<strong>یا</strong>",
 	"deletebatch-delete": "حذف",
 	"deletebatch-page": "صفحه‌هایی که باید حذف شوند:",
-	"deletebatch-processing-from-file": "حذف صفحات فهرست شده در پوشه",
-	"deletebatch-processing-from-form": "حذف صفحات فهرست شده در فرم",
+	"deletebatch-processing-from-file": "حذف صفحه‌های فهرست شده در پوشه",
+	"deletebatch-processing-from-form": "حذف صفحه‌های فهرست شده در فرم",
 	"deletebatch-omitting-nonexistent": "حذف صفحهٔ غیر‌موجود $1",
 	"deletebatch-omitting-invalid": "حذف صفحهٔ نامعتبر $1",
 	"deletebatch-file-bad-format": "پوشه باید متن واضح باشد.",
