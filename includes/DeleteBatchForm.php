@@ -291,7 +291,7 @@ class DeleteBatchForm {
 		/* this stuff goes like articleFromTitle in Wiki.php */
 		// Delete the page; in the case of a file, this would be the File: description page
 		if ( $pageExists ) {
-			$wikipage = WikiPage::factory( $page );
+			$wikipage = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromTitle( $page );
 			/* what is the generic reason for page deletion?
 			   something about the content, I guess...
 			*/
