@@ -225,10 +225,10 @@ class DeleteBatchForm {
 				$this->deletePage( $page_data[0], $user, $dbw, $page_data[1] );
 			}
 		}
-
-		$link_back = Linker::linkKnown(
+		$linkRenderer = MediaWikiServices::getInstance()->getLinkRenderer();
+		$link_back = $linkRenderer->makeKnownLink(
 			$this->title,
-			$this->context->msg( 'deletebatch-link-back' )->escaped()
+			$this->context->msg( 'deletebatch-link-back' )->text()
 		);
 		$this->context->getOutput()->addHTML( '<br /><b>' . $link_back . '</b>' );
 	}
