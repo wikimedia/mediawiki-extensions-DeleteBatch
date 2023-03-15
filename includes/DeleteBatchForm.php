@@ -133,7 +133,7 @@ class DeleteBatchForm {
 			'tabindex' => $tabindex,
 			'name' => $name,
 			'id' => $name,
-			'value' => $this->mFile
+			'value' => $this->mFile ?? '',
 		];
 
 		return Xml::element( 'input', $params );
