@@ -4,7 +4,21 @@ use MediaWiki\MediaWikiServices;
 
 /* the form for deleting pages */
 class DeleteBatchForm {
-	public $mPage, $mFile, $mFileTemp;
+
+	/** @var string|null */
+	private $mMode;
+
+	/** @var string|null */
+	public $mPage;
+
+	/** @var string|null */
+	private $mReason;
+
+	/** @var string|null */
+	public $mFile;
+
+	/** @var string|null */
+	public $mFileTemp;
 
 	/**
 	 * @var IContextSource
