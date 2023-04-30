@@ -73,7 +73,7 @@ class DeleteBatchForm {
 			],
 			[
 				Xml::label( $this->context->msg( 'deletebatch-default-reason' )->text(), 'wpDefaultReason' ),
-				Html::input( 'wpDefaultReason', '', 'text', [ 'id' => 'wpDefaultReason' ] )
+				Html::input( 'wpDefaultReason', '', 'text', [ 'id' => 'wpDefaultReason', 'tabindex' => ++$tabindex ] )
 			],
 			[
 				Xml::label( $this->context->msg( 'deletebatch-page' )->text(), 'wpPage' ),
