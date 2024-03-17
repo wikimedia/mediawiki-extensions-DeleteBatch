@@ -101,7 +101,7 @@ class DeleteBatchForm {
 		$form .= '<table>';
 
 		foreach ( $rows as $row ) {
-			list( $label, $input ) = $row;
+			[ $label, $input ] = $row;
 			$form .= "<tr><td class='mw-label'>$label</td>";
 			$form .= "<td class='mw-input'>$input</td></tr>";
 		}
