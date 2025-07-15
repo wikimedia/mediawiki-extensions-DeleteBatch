@@ -253,12 +253,17 @@ $specialPageAliases['tr'] = [
 	'DeleteBatch' => [ 'TopluSil' ],
 ];
 
-/** Simplified Chinese (中文（简体）‎) */
+/** Chinese (中文) */
+$specialPageAliases['zh'] = [
+	'DeleteBatch' => [ 'DeleteBatch' ],
+];
+
+/** Simplified Chinese (中文（简体）) */
 $specialPageAliases['zh-hans'] = [
 	'DeleteBatch' => [ '批量删除' ],
 ];
 
-/** Traditional Chinese (中文（繁體）‎) */
+/** Traditional Chinese (中文（繁體）) */
 $specialPageAliases['zh-hant'] = [
 	'DeleteBatch' => [ '批次刪除' ],
 ];
