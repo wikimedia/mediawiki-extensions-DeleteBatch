@@ -346,7 +346,7 @@ class DeleteBatchForm {
 	function doSubmit() {
 		$out = $this->context->getOutput();
 
-		$out->setPageTitle( $this->context->msg( 'deletebatch-title' ) );
+		$out->setPageTitle( $this->context->msg( 'deletebatch-title' )->escaped() );
 		if ( !$this->mPage && !$this->mFileTemp ) {
 			$this->showForm( 'deletebatch-no-page' );
 			return;

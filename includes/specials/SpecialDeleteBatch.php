@@ -35,7 +35,7 @@ class SpecialDeleteBatch extends SpecialPage {
 			throw new UserBlockedError( $user()->getBlock() );
 		}
 
-		$this->getOutput()->setPageTitle( $this->msg( 'deletebatch-title' ) );
+		$this->getOutput()->setPageTitle( $this->msg( 'deletebatch-title' )->escaped() );
 		$cSF = new DeleteBatchForm( $par, $this->getPageTitle(), $this->getContext() );
 
 		$request = $this->getRequest();
