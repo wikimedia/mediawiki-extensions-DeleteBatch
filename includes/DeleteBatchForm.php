@@ -161,7 +161,7 @@ class DeleteBatchForm {
 			'name' => $name,
 		];
 
-		return Xml::submitButton( $this->context->msg( 'deletebatch-delete' )->text(), $params );
+		return Html::submitButton( $this->context->msg( 'deletebatch-delete' )->text(), $params );
 	}
 
 	/**
