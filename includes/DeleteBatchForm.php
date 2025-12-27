@@ -68,15 +68,15 @@ class DeleteBatchForm {
 
 		$rows = [
 			[
-				Xml::label( $this->context->msg( 'deletebatch-as' )->text(), 'wpMode' ),
+				Html::label( $this->context->msg( 'deletebatch-as' )->text(), 'wpMode' ),
 				$this->userSelect( 'wpMode', ++$tabindex )->getHtml()
 			],
 			[
-				Xml::label( $this->context->msg( 'deletebatch-default-reason' )->text(), 'wpDefaultReason' ),
+				Html::label( $this->context->msg( 'deletebatch-default-reason' )->text(), 'wpDefaultReason' ),
 				Html::input( 'wpDefaultReason', '', 'text', [ 'id' => 'wpDefaultReason', 'tabindex' => ++$tabindex ] )
 			],
 			[
-				Xml::label( $this->context->msg( 'deletebatch-page' )->text(), 'wpPage' ),
+				Html::label( $this->context->msg( 'deletebatch-page' )->text(), 'wpPage' ),
 				$this->pagelistInput( 'wpPage', ++$tabindex )
 			],
 			[
@@ -84,7 +84,7 @@ class DeleteBatchForm {
 				'&#160;'
 			],
 			[
-				Xml::label( $this->context->msg( 'deletebatch-caption' )->text(), 'wpFile' ),
+				Html::label( $this->context->msg( 'deletebatch-caption' )->text(), 'wpFile' ),
 				$this->fileInput( 'wpFile', ++$tabindex )
 			],
 			[
@@ -93,7 +93,7 @@ class DeleteBatchForm {
 			]
 		];
 
-		$form = Xml::openElement( 'form', [
+		$form = Html::openElement( 'form', [
 			'name' => 'deletebatch',
 			'enctype' => 'multipart/form-data',
 			'method' => 'post',
@@ -140,7 +140,7 @@ class DeleteBatchForm {
 			'rows' => 10
 		];
 
-		return Xml::element( 'textarea', $params, $this->mPage, false );
+		return Html::element( 'textarea', $params, $this->mPage );
 	}
 
 	function fileInput( $name, $tabindex ) {
@@ -152,7 +152,7 @@ class DeleteBatchForm {
 			'value' => $this->mFile ?? '',
 		];
 
-		return Xml::element( 'input', $params );
+		return Html::element( 'input', $params );
 	}
 
 	function submitButton( $name, $tabindex ) {
