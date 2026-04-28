@@ -5,7 +5,12 @@ class SpecialDeleteBatch extends SpecialPage {
 	 * Constructor
 	 */
 	public function __construct() {
-		parent::__construct( 'DeleteBatch', 'deletebatch' );
+		parent::__construct( 'DeleteBatch' );
+	}
+
+	/** @inheritDoc */
+	public function getRestriction(): string {
+		return 'deletebatch';
 	}
 
 	public function doesWrites() {
