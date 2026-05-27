@@ -4,7 +4,8 @@
 			"EugeneZelenko",
 			"Jim-by",
 			"Red Winged Duck",
-			"Wizardist"
+			"Wizardist",
+			"Ucukor"
 		]
 	},
 	"deletebatch": "Выдаленьне групы старонак",
@@ -21,7 +22,7 @@
 	"deletebatch-page": "Старонкі да выдаленьня:",
 	"deletebatch-processing-from-file": "выдаленьне старонак, пералічаных у файле",
 	"deletebatch-processing-from-form": "выдаленьне старонак, якія пералічаныя ў форме",
-	"deletebatch-omitting-nonexistent": "Прапушчаная неіснуючая старонка $1.",
+	"deletebatch-omitting-nonexistent": "Прапусканьне няіснай старонкі $1.",
 	"deletebatch-omitting-invalid": "Прапушчаная няслушная старонка $1.",
 	"deletebatch-file-bad-format": "Файл павінен утрымліваць толькі тэкст",
 	"deletebatch-file-missing": "Немагчыма прачытаць пададзены файл",
