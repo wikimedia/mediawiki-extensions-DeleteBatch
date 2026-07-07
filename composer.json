@@ -1,4 +1,14 @@
 {
+	"name": "bartl/delete-batch",
+	"type": "mediawiki-extension",
+	"description": "Allows to delete a batch of pages",
+	"keywords": [
+		"wiki",
+		"MediaWiki",
+		"extension"
+	],
+	"homepage": "https://www.mediawiki.org/wiki/Extension:DeleteBatch",
+	"license": "GPL-2.0-or-later",
 	"require-dev": {
 		"mediawiki/mediawiki-codesniffer": "51.0.0",
 		"mediawiki/minus-x": "2.0.1",
