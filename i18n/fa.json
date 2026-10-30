@@ -6,7 +6,8 @@
 			"Ebrahim",
 			"Ebraminio",
 			"Jeeputer",
-			"Mjbmr"
+			"Mjbmr",
+			"LProfo"
 		]
 	},
 	"deletebatch": "حذف گروهی از صفحه‌ها",
@@ -16,7 +17,7 @@
 	"deletebatch-default-reason": "دلیل پیش‌فرض برای حذف:",
 	"deletebatch-title": "حذف انبوه",
 	"deletebatch-link-back": "بازگشت به صفحهٔ ویژه",
-	"deletebatch-as": "اجرای متن به عنوان:",
+	"deletebatch-as": "اجرای اسکریپت به‌عنوان:",
 	"deletebatch-both-modes": "لطفاً یا یک صفحهٔ تعیین شده یا فهرست صفحات داده شده را انتخاب کنید.",
 	"deletebatch-or": "<strong>یا</strong>",
 	"deletebatch-delete": "حذف",
