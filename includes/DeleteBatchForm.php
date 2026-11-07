@@ -1,8 +1,12 @@
 <?php
 
+use MediaWiki\Context\IContextSource;
 use MediaWiki\Html\Html;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Title\Title;
+use MediaWiki\User\User;
+use MediaWiki\Xml\XmlSelect;
+use Wikimedia\Rdbms\IDatabase;
 
 /**
  * The form for deleting pages
@@ -257,7 +261,7 @@ class DeleteBatchForm {
 	 *
 	 * @param string $line Name of the page to be deleted
 	 * @param User $user User performing the page deletions
-	 * @param \Wikimedia\Rdbms\IDatabase $db
+	 * @param IDatabase $db
 	 * @param string $reason User-supplied deletion reason
 	 * @return bool
 	 */

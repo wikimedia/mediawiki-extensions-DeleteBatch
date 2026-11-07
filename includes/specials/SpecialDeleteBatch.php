@@ -1,5 +1,8 @@
 <?php
 
+use MediaWiki\Exception\UserBlockedError;
+use MediaWiki\SpecialPage\SpecialPage;
+
 class SpecialDeleteBatch extends SpecialPage {
 	/**
 	 * Constructor
