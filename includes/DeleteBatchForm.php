@@ -4,7 +4,9 @@ use MediaWiki\Html\Html;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Title\Title;
 
-/* the form for deleting pages */
+/**
+ * The form for deleting pages
+ */
 class DeleteBatchForm {
 
 	/** @var string|null */
@@ -37,7 +39,7 @@ class DeleteBatchForm {
 	 * @param Title $title
 	 * @param IContextSource $context
 	 */
-	function __construct( $par, $title, $context ) {
+	public function __construct( $par, $title, $context ) {
 		$this->context = $context;
 		$request = $context->getRequest();
 
@@ -54,7 +56,7 @@ class DeleteBatchForm {
 	 *
 	 * @param string|null|false $errorMessage error message or null if there's no error
 	 */
-	function showForm( $errorMessage = false ) {
+	public function showForm( $errorMessage = false ) {
 		$out = $this->context->getOutput();
 
 		if ( $errorMessage ) {
@@ -116,7 +118,7 @@ class DeleteBatchForm {
 		$out->addHTML( $form );
 	}
 
-	function userSelect( $name, $tabindex ) {
+	private function userSelect( string $name, int $tabindex ): XmlSelect {
 		$options = [];
 		if ( $this->context->getUser()->isAllowed( 'deletebatch-spoof' ) ) {
 			$options[$this->context->msg( 'deletebatch-select-script' )->text()] = 'script';
@@ -131,7 +133,7 @@ class DeleteBatchForm {
 		return $select;
 	}
 
-	function pagelistInput( $name, $tabindex ) {
+	private function pagelistInput( string $name, int $tabindex ): string {
 		$params = [
 			'tabindex' => $tabindex,
 			'name' => $name,
@@ -143,7 +145,7 @@ class DeleteBatchForm {
 		return Html::element( 'textarea', $params, $this->mPage );
 	}
 
-	function fileInput( $name, $tabindex ) {
+	private function fileInput( string $name, int $tabindex ): string {
 		$params = [
 			'type' => 'file',
 			'tabindex' => $tabindex,
@@ -155,7 +157,7 @@ class DeleteBatchForm {
 		return Html::element( 'input', $params );
 	}
 
-	function submitButton( $name, $tabindex ) {
+	private function submitButton( string $name, int $tabindex ): string {
 		$params = [
 			'tabindex' => $tabindex,
 			'name' => $name,
@@ -169,7 +171,7 @@ class DeleteBatchForm {
 	 * @param string $line
 	 * @param string|null $filename
 	 */
-	function deleteBatch( $line = '', $filename = null ) {
+	private function deleteBatch( $line = '', $filename = null ) {
 		/* first, check the file if given */
 		if ( $filename ) {
 			/* both a file and a given page? not too much? */
@@ -328,7 +330,7 @@ class DeleteBatchForm {
 	}
 
 	/** on submit */
-	function doSubmit() {
+	public function doSubmit() {
 		$out = $this->context->getOutput();
 
 		$out->setPageTitle( $this->context->msg( 'deletebatch-title' )->escaped() );

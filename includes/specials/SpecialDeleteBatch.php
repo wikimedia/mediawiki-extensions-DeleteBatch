@@ -13,6 +13,7 @@ class SpecialDeleteBatch extends SpecialPage {
 		return 'deletebatch';
 	}
 
+	/** @inheritDoc */
 	public function doesWrites() {
 		return true;
 	}
@@ -61,7 +62,7 @@ class SpecialDeleteBatch extends SpecialPage {
 	 * @param AdminLinks &$admin_links_tree
 	 * @return bool
 	 */
-	static function addToAdminLinks( &$admin_links_tree ) {
+	public static function addToAdminLinks( &$admin_links_tree ) {
 		$general_section = $admin_links_tree->getSection( wfMessage( 'adminlinks_general' )->text() );
 		$extensions_row = $general_section->getRow( 'extensions' );
 		if ( $extensions_row === null ) {
