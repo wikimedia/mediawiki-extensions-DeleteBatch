@@ -12,42 +12,18 @@ use Wikimedia\Rdbms\IDatabase;
  * The form for deleting pages
  */
 class DeleteBatchForm {
+	private readonly string $mMode;
+	private readonly string $mPage;
+	private readonly string $mReason;
+	private readonly ?string $mFile;
+	private readonly ?string $mFileTemp;
 
-	/** @var string|null */
-	private $mMode;
-
-	/** @var string|null */
-	public $mPage;
-
-	/** @var string|null */
-	private $mReason;
-
-	/** @var string|null */
-	public $mFile;
-
-	/** @var string|null */
-	public $mFileTemp;
-
-	/**
-	 * @var IContextSource
-	 */
-	protected $context;
-
-	/**
-	 * @var Title
-	 */
-	protected $title;
-
-	/**
-	 * @param string|null $par
-	 * @param Title $title
-	 * @param IContextSource $context
-	 */
-	public function __construct( $par, $title, $context ) {
-		$this->context = $context;
+	public function __construct(
+		private readonly Title $title,
+		private readonly IContextSource $context,
+	) {
 		$request = $context->getRequest();
 
-		$this->title = $title;
 		$this->mMode = $request->getText( 'wpMode' );
 		$this->mPage = $request->getText( 'wpPage' );
 		$this->mReason = $request->getText( 'wpReason' );

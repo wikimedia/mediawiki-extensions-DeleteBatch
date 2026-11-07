@@ -4,9 +4,6 @@ use MediaWiki\Exception\UserBlockedError;
 use MediaWiki\SpecialPage\SpecialPage;
 
 class SpecialDeleteBatch extends SpecialPage {
-	/**
-	 * Constructor
-	 */
 	public function __construct() {
 		parent::__construct( 'DeleteBatch' );
 	}
@@ -45,7 +42,7 @@ class SpecialDeleteBatch extends SpecialPage {
 		}
 
 		$this->getOutput()->setPageTitle( $this->msg( 'deletebatch-title' )->escaped() );
-		$cSF = new DeleteBatchForm( $par, $this->getPageTitle(), $this->getContext() );
+		$cSF = new DeleteBatchForm( $this->getPageTitle(), $this->getContext() );
 
 		$request = $this->getRequest();
 		$action = $request->getVal( 'action' );
