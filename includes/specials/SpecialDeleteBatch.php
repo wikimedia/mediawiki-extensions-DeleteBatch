@@ -30,15 +30,15 @@ class SpecialDeleteBatch extends SpecialPage {
 		$user = $this->getUser();
 		if ( !$user->isAllowed( 'deletebatch' ) ) {
 			$this->displayRestrictionError();
-			return;
 		}
 
 		# Show a message if the database is in read-only mode
 		$this->checkReadOnly();
 
 		# If user is blocked, they don't need to access this page
-		if ( $user->getBlock() ) {
-			throw new UserBlockedError( $user()->getBlock() );
+		$block = $user->getBlock();
+		if ( $block ) {
+			throw new UserBlockedError( $block );
 		}
 
 		$this->getOutput()->setPageTitle( $this->msg( 'deletebatch-title' )->escaped() );
@@ -59,7 +59,7 @@ class SpecialDeleteBatch extends SpecialPage {
 	/**
 	 * Adds a link to Special:DeleteBatch within the page
 	 * Special:AdminLinks, if the 'AdminLinks' extension is defined
-	 * @param AdminLinks &$admin_links_tree
+	 * @param ALTree &$admin_links_tree
 	 * @return bool
 	 */
 	public static function addToAdminLinks( &$admin_links_tree ) {

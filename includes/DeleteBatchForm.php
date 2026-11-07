@@ -172,6 +172,7 @@ class DeleteBatchForm {
 	 * @param string|null $filename
 	 */
 	private function deleteBatch( $line = '', $filename = null ) {
+		$file = null;
 		/* first, check the file if given */
 		if ( $filename ) {
 			/* both a file and a given page? not too much? */
@@ -203,7 +204,7 @@ class DeleteBatchForm {
 
 		/* @todo run tests - run many tests */
 		$dbw = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_PRIMARY );
-		if ( $filename ) {
+		if ( $file ) {
 			/* if from filename, delete from filename */
 			for ( $linenum = 1; !feof( $file ); $linenum++ ) {
 				$line = trim( fgets( $file ) );
@@ -223,7 +224,7 @@ class DeleteBatchForm {
 					// Use default deletion reason
 					$arr[1] = $this->context->getRequest()->getVal( 'wpDefaultReason', '' );
 				}
-				$this->deletePage( $arr[0], $user, $dbw, $arr[1], true, $linenum );
+				$this->deletePage( $arr[0], $user, $dbw, $arr[1] );
 			}
 		} else {
 			/* run through text and do all like it should be */
@@ -258,11 +259,9 @@ class DeleteBatchForm {
 	 * @param User $user User performing the page deletions
 	 * @param \Wikimedia\Rdbms\IDatabase $db
 	 * @param string $reason User-supplied deletion reason
-	 * @param bool $multi
-	 * @param int $linenum Mostly for informational reasons
 	 * @return bool
 	 */
-	private function deletePage( $line, $user, $db, $reason = '', $multi = false, $linenum = 0 ) {
+	private function deletePage( $line, $user, $db, $reason = '' ) {
 		$page = Title::newFromText( $line );
 		if ( $page === null ) {
 			/* invalid title? */
