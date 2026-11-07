@@ -279,13 +279,8 @@ class DeleteBatchForm {
 		$localFile = null;
 		$localFileExists = null;
 		if ( $page->getNamespace() == NS_FILE ) {
-			if ( method_exists( MediaWikiServices::class, 'getRepoGroup' ) ) {
-				// MediaWiki 1.34+
-				$localFile = MediaWikiServices::getInstance()->getRepoGroup()->getLocalRepo()
-					->newFile( $page );
-			} else {
-				$localFile = wfLocalFile( $page );
-			}
+			$localFile = MediaWikiServices::getInstance()->getRepoGroup()->getLocalRepo()
+				->newFile( $page );
 			$localFileExists = $localFile->exists();
 		}
 
@@ -311,12 +306,7 @@ class DeleteBatchForm {
 			/* what is the generic reason for page deletion?
 			   something about the content, I guess...
 			*/
-			if ( version_compare( MW_VERSION, '1.35', '<' ) ) {
-				$error = '';
-				$wikipage->doDeleteArticle( $reason, false, null, null, $error, $user );
-			} else {
-				$wikipage->doDeleteArticleReal( $reason, $user );
-			}
+			$wikipage->doDeleteArticleReal( $reason, $user );
 		}
 		// Delete the actual file, if applicable
 		if ( $localFileExists ) {
@@ -325,12 +315,7 @@ class DeleteBatchForm {
 			// entry was already created when the file's description page was
 			// deleted, and now we are just cleaning up after a deletion script
 			// that didn't finish the job by deleting the file too.
-			if ( method_exists( $localFile, 'deleteFile' ) ) {
-				// MW 1.35+
-				$localFile->deleteFile( $reason, $user );
-			} else {
-				$localFile->delete( $reason );
-			}
+			$localFile->deleteFile( $reason, $user );
 		}
 		$db->endAtomic( __METHOD__ );
 		if ( $localFileExists ) {
