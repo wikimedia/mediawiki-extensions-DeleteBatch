@@ -157,11 +157,11 @@ class DeleteBatchForm {
 		/* first, check the file if given */
 		if ( $filename ) {
 			/* both a file and a given page? not too much? */
-			if ( $this->mPage != '' ) {
+			if ( $this->mPage !== '' ) {
 				$this->showForm( 'deletebatch-both-modes' );
 				return;
 			}
-			if ( mime_content_type( $filename ) != 'text/plain' ) {
+			if ( mime_content_type( $filename ) !== 'text/plain' ) {
 				$this->showForm( 'deletebatch-file-bad-format' );
 				return;
 			}
@@ -174,7 +174,7 @@ class DeleteBatchForm {
 
 		/* switch user if necessary and if the user is allowed to do that */
 		$user = $this->context->getUser();
-		if ( $this->mMode == 'script' && $this->context->getUser()->isAllowed( 'deletebatch-spoof' ) ) {
+		if ( $this->mMode === 'script' && $this->context->getUser()->isAllowed( 'deletebatch-spoof' ) ) {
 			$username = wfMessage( 'deletebatch-system-username' )->text();
 			$user = MediaWikiServices::getInstance()->getUserFactory()
 				->newFromName( $username, UserRigorOptions::RIGOR_NONE );
@@ -258,12 +258,12 @@ class DeleteBatchForm {
 		$pageExists = $page->exists();
 
 		// If it's a file, check file existence
-		if ( $page->getNamespace() == NS_MEDIA ) {
+		if ( $page->inNamespace( NS_MEDIA ) ) {
 			$page = Title::makeTitle( NS_FILE, $page->getDBkey() );
 		}
 		$localFile = null;
 		$localFileExists = null;
-		if ( $page->getNamespace() == NS_FILE ) {
+		if ( $page->inNamespace( NS_FILE ) ) {
 			$localFile = MediaWikiServices::getInstance()->getRepoGroup()->getLocalRepo()
 				->newFile( $page );
 			$localFileExists = $localFile->exists();
@@ -317,12 +317,12 @@ class DeleteBatchForm {
 		$out = $this->context->getOutput();
 
 		$out->setPageTitle( $this->context->msg( 'deletebatch-title' )->escaped() );
-		if ( !$this->mPage && !$this->mFileTemp ) {
+		if ( $this->mPage === '' && !$this->mFileTemp ) {
 			$this->showForm( 'deletebatch-no-page' );
 			return;
 		}
 
-		if ( $this->mPage ) {
+		if ( $this->mPage !== '' ) {
 			$out->setSubTitle( $this->context->msg( 'deletebatch-processing-from-form' ) );
 		} else {
 			$out->setSubTitle( $this->context->msg( 'deletebatch-processing-from-file' ) );

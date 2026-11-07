@@ -45,10 +45,10 @@ class SpecialDeleteBatch extends SpecialPage {
 		$cSF = new DeleteBatchForm( $this->getPageTitle(), $this->getContext() );
 
 		$request = $this->getRequest();
-		$action = $request->getVal( 'action' );
-		if ( $action == 'success' ) {
+		$action = $request->getRawVal( 'action' );
+		if ( $action === 'success' ) {
 			/* do something */
-		} elseif ( $request->wasPosted() && $action == 'submit' &&
+		} elseif ( $request->wasPosted() && $action === 'submit' &&
 			$user->matchEditToken( $request->getVal( 'wpEditToken' ) ) ) {
 			$cSF->doSubmit();
 		} else {
