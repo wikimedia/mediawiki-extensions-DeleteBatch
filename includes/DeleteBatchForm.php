@@ -5,6 +5,7 @@ use MediaWiki\Html\Html;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Title\Title;
 use MediaWiki\User\User;
+use MediaWiki\User\UserRigorOptions;
 use MediaWiki\Xml\XmlSelect;
 use Wikimedia\Rdbms\IDatabase;
 
@@ -175,7 +176,10 @@ class DeleteBatchForm {
 		$user = $this->context->getUser();
 		if ( $this->mMode == 'script' && $this->context->getUser()->isAllowed( 'deletebatch-spoof' ) ) {
 			$username = wfMessage( 'deletebatch-system-username' )->text();
-			$user = User::newFromName( $username );
+			$user = MediaWikiServices::getInstance()->getUserFactory()
+				->newFromName( $username, UserRigorOptions::RIGOR_NONE );
+			// RIGOR_NONE never returns null
+			'@phan-var User $user';
 			/* Create the user if necessary */
 			if ( !$user->getId() ) {
 				$user->addToDatabase();
