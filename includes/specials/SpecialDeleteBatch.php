@@ -57,23 +57,6 @@ class SpecialDeleteBatch extends SpecialPage {
 	}
 
 	/**
-	 * Adds a link to Special:DeleteBatch within the page
-	 * Special:AdminLinks, if the 'AdminLinks' extension is defined
-	 * @param ALTree &$admin_links_tree
-	 * @return bool
-	 */
-	public static function addToAdminLinks( &$admin_links_tree ) {
-		$general_section = $admin_links_tree->getSection( wfMessage( 'adminlinks_general' )->text() );
-		$extensions_row = $general_section->getRow( 'extensions' );
-		if ( $extensions_row === null ) {
-			$extensions_row = new ALRow( 'extensions' );
-			$general_section->addRow( $extensions_row );
-		}
-		$extensions_row->addItem( ALItem::newFromSpecialPage( 'DeleteBatch' ) );
-		return true;
-	}
-
-	/**
 	 * @inheritDoc
 	 */
 	protected function getGroupName() {

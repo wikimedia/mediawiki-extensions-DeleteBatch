@@ -37,12 +37,20 @@
 	"ExtensionMessagesFiles": {
 		"DeleteBatchAlias": "DeleteBatch.alias.php"
 	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\DeleteBatch\\": "includes/"
+	},
 	"AutoloadClasses": {
 		"SpecialDeleteBatch": "includes/specials/SpecialDeleteBatch.php",
 		"DeleteBatchForm": "includes/DeleteBatchForm.php"
 	},
+	"HookHandlers": {
+		"main": {
+			"class": "MediaWiki\\Extension\\DeleteBatch\\Hooks"
+		}
+	},
 	"Hooks": {
-		"AdminLinks": "SpecialDeleteBatch::addToAdminLinks"
+		"AdminLinks": "main"
 	},
 	"manifest_version": 1
 }
