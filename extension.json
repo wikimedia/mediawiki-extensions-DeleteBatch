@@ -27,7 +27,17 @@
 		}
 	},
 	"SpecialPages": {
-		"DeleteBatch": "SpecialDeleteBatch"
+		"DeleteBatch": {
+			"class": "SpecialDeleteBatch",
+			"services": [
+				"ConnectionProvider",
+				"DBLoadBalancerFactory",
+				"LinkRenderer",
+				"RepoGroup",
+				"UserFactory",
+				"WikiPageFactory"
+			]
+		}
 	},
 	"MessagesDirs": {
 		"DeleteBatch": [

@@ -1,13 +1,18 @@
 <?php
 
 use MediaWiki\Context\IContextSource;
+use MediaWiki\FileRepo\RepoGroup;
 use MediaWiki\Html\Html;
-use MediaWiki\MediaWikiServices;
+use MediaWiki\Linker\LinkRenderer;
+use MediaWiki\Page\WikiPageFactory;
 use MediaWiki\Title\Title;
 use MediaWiki\User\User;
+use MediaWiki\User\UserFactory;
 use MediaWiki\User\UserRigorOptions;
 use MediaWiki\Xml\XmlSelect;
+use Wikimedia\Rdbms\IConnectionProvider;
 use Wikimedia\Rdbms\IDatabase;
+use Wikimedia\Rdbms\ILBFactory;
 
 /**
  * The form for deleting pages
@@ -20,6 +25,12 @@ class DeleteBatchForm {
 	private readonly ?string $mFileTemp;
 
 	public function __construct(
+		private readonly IConnectionProvider $dbProvider,
+		private readonly ILBFactory $lbFactory,
+		private readonly LinkRenderer $linkRenderer,
+		private readonly RepoGroup $repoGroup,
+		private readonly UserFactory $userFactory,
+		private readonly WikiPageFactory $wikiPageFactory,
 		private readonly Title $title,
 		private readonly IContextSource $context,
 	) {
@@ -176,8 +187,7 @@ class DeleteBatchForm {
 		$user = $this->context->getUser();
 		if ( $this->mMode === 'script' && $this->context->getUser()->isAllowed( 'deletebatch-spoof' ) ) {
 			$username = wfMessage( 'deletebatch-system-username' )->text();
-			$user = MediaWikiServices::getInstance()->getUserFactory()
-				->newFromName( $username, UserRigorOptions::RIGOR_NONE );
+			$user = $this->userFactory->newFromName( $username, UserRigorOptions::RIGOR_NONE );
 			// RIGOR_NONE never returns null
 			'@phan-var User $user';
 			/* Create the user if necessary */
@@ -187,7 +197,7 @@ class DeleteBatchForm {
 		}
 
 		/* @todo run tests - run many tests */
-		$dbw = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_PRIMARY );
+		$dbw = $this->dbProvider->getPrimaryDatabase();
 		if ( $file ) {
 			/* if from filename, delete from filename */
 			for ( $linenum = 1; !feof( $file ); $linenum++ ) {
@@ -228,8 +238,7 @@ class DeleteBatchForm {
 				$this->deletePage( $page_data[0], $user, $dbw, $page_data[1] );
 			}
 		}
-		$linkRenderer = MediaWikiServices::getInstance()->getLinkRenderer();
-		$link_back = $linkRenderer->makeKnownLink(
+		$link_back = $this->linkRenderer->makeKnownLink(
 			$this->title,
 			$this->context->msg( 'deletebatch-link-back' )->text()
 		);
@@ -264,8 +273,7 @@ class DeleteBatchForm {
 		$localFile = null;
 		$localFileExists = null;
 		if ( $page->inNamespace( NS_FILE ) ) {
-			$localFile = MediaWikiServices::getInstance()->getRepoGroup()->getLocalRepo()
-				->newFile( $page );
+			$localFile = $this->repoGroup->getLocalRepo()->newFile( $page );
 			$localFileExists = $localFile->exists();
 		}
 
@@ -287,7 +295,7 @@ class DeleteBatchForm {
 		/* this stuff goes like articleFromTitle in Wiki.php */
 		// Delete the page; in the case of a file, this would be the File: description page
 		if ( $pageExists ) {
-			$wikipage = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromTitle( $page );
+			$wikipage = $this->wikiPageFactory->newFromTitle( $page );
 			/* what is the generic reason for page deletion?
 			   something about the content, I guess...
 			*/
@@ -305,8 +313,7 @@ class DeleteBatchForm {
 		$db->endAtomic( __METHOD__ );
 		if ( $localFileExists ) {
 			// Flush DBs in case of fragile file operations
-			$lbFactory = MediaWikiServices::getInstance()->getDBLoadBalancerFactory();
-			$lbFactory->commitPrimaryChanges( __METHOD__ );
+			$this->lbFactory->commitPrimaryChanges( __METHOD__ );
 		}
 
 		return true;

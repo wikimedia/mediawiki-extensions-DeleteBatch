@@ -1,10 +1,23 @@
 <?php
 
 use MediaWiki\Exception\UserBlockedError;
+use MediaWiki\FileRepo\RepoGroup;
+use MediaWiki\Linker\LinkRenderer;
+use MediaWiki\Page\WikiPageFactory;
 use MediaWiki\SpecialPage\SpecialPage;
+use MediaWiki\User\UserFactory;
+use Wikimedia\Rdbms\IConnectionProvider;
+use Wikimedia\Rdbms\ILBFactory;
 
 class SpecialDeleteBatch extends SpecialPage {
-	public function __construct() {
+	public function __construct(
+		private readonly IConnectionProvider $dbProvider,
+		private readonly ILBFactory $lbFactory,
+		private readonly LinkRenderer $linkRenderer,
+		private readonly RepoGroup $repoGroup,
+		private readonly UserFactory $userFactory,
+		private readonly WikiPageFactory $wikiPageFactory,
+	) {
 		parent::__construct( 'DeleteBatch' );
 	}
 
@@ -42,7 +55,16 @@ class SpecialDeleteBatch extends SpecialPage {
 		}
 
 		$this->getOutput()->setPageTitle( $this->msg( 'deletebatch-title' )->escaped() );
-		$cSF = new DeleteBatchForm( $this->getPageTitle(), $this->getContext() );
+		$cSF = new DeleteBatchForm(
+			$this->dbProvider,
+			$this->lbFactory,
+			$this->linkRenderer,
+			$this->repoGroup,
+			$this->userFactory,
+			$this->wikiPageFactory,
+			$this->getPageTitle(),
+			$this->getContext()
+		);
 
 		$request = $this->getRequest();
 		$action = $request->getRawVal( 'action' );
