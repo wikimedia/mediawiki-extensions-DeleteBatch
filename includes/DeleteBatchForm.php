@@ -1,5 +1,7 @@
 <?php
 
+namespace MediaWiki\Extension\DeleteBatch;
+
 use MediaWiki\Context\IContextSource;
 use MediaWiki\FileRepo\RepoGroup;
 use MediaWiki\Html\Html;

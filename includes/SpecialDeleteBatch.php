@@ -1,5 +1,7 @@
 <?php
 
+namespace MediaWiki\Extension\DeleteBatch;
+
 use MediaWiki\Exception\UserBlockedError;
 use MediaWiki\FileRepo\RepoGroup;
 use MediaWiki\Linker\LinkRenderer;

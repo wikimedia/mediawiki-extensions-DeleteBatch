@@ -28,7 +28,7 @@
 	},
 	"SpecialPages": {
 		"DeleteBatch": {
-			"class": "SpecialDeleteBatch",
+			"class": "MediaWiki\\Extension\\DeleteBatch\\SpecialDeleteBatch",
 			"services": [
 				"ConnectionProvider",
 				"DBLoadBalancerFactory",
@@ -49,10 +49,6 @@
 	},
 	"AutoloadNamespaces": {
 		"MediaWiki\\Extension\\DeleteBatch\\": "includes/"
-	},
-	"AutoloadClasses": {
-		"SpecialDeleteBatch": "includes/specials/SpecialDeleteBatch.php",
-		"DeleteBatchForm": "includes/DeleteBatchForm.php"
 	},
 	"HookHandlers": {
 		"main": {
